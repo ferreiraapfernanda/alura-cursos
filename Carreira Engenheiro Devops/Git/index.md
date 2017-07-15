@@ -2,7 +2,7 @@
 - [x] Aula 01: Introdução ao controle de versões com Git
 - [x] Aula 02: O ciclo básico do Git
 - [x] Aula 03: Sincronização dos dados com o repositório
-- [ ] Aula 04: Organização do trabalho com branches
+- [x] Aula 04: Organização do trabalho com branches
 - [ ] Aula 05: Resolução de conflitos
 - [ ] Aula 06: Boas práticas no uso do Git
 - [ ] Aula 07: Controle avançado de alterações
