@@ -1,10 +1,11 @@
 # Git: Controle e compartilhe seu código
-
-[x] Aula 01: Introdução ao controle de versões com Git
-[ ] Aula 02: Mais sobre o Git
-[ ] Aula 03: Mais sobre o Github
-[ ] Aula 04: Instalando o Git
-[ ] Aula 05: Clonando o projeto
-[ ] Aula 06: Versões de um projeto
-[ ] Aula 07: Trocando de versão
-[ ] Aula 08: Diferença entre versões
+- [x] Aula 01: Introdução ao controle de versões com Git
+- [x] Aula 02: O ciclo básico do Git
+- [ ] Aula 03: Sincronização dos dados com o repositório
+- [ ] Aula 04: Organização do trabalho com branches
+- [ ] Aula 05: Resolução de conflitos
+- [ ] Aula 06: Boas práticas no uso do Git
+- [ ] Aula 07: Controle avançado de alterações
+- [ ] Aula 08: Contribuição com opensource, técnicas avançadase produtividade com o Git
+- [ ] Aula 09: Fazendo merges avançados com Cherry Pick
+- [ ] Aula 10: Usando Git através de interfaces visuais
