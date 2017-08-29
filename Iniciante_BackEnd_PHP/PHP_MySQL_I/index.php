@@ -1,19 +1,3 @@
-<html>
-<head>
-    <title>Minha loja</title>
-    <meta charset="utf-8">
-    <link href="css/bootstrap.css" rel="stylesheet" />
-    <link href="css/loja.css" rel="stylesheet" />
-</head>
-
-<body>
-    <div class="container">
-
-        <div class="principal">
-            <h1>Bem vindo!</h1>
-        </div>
-
-    </div>
-
-</body>
-</html>
+<?php include("cabecalho.php"); ?>
+    <h1>Bem vindo!</h1>
+<?php include("rodape.php"); ?>
