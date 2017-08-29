@@ -1,15 +1,4 @@
-<html>
-<head>
-    <title>Minha loja</title>
-    <meta charset="utf-8">
-    <link href="css/bootstrap.css" rel="stylesheet" />
-    <link href="css/loja.css" rel="stylesheet" />
-</head>
-
-<body>
-    <div class="container">
-
-        <div class="principal">
+<?php include("cabecalho.php"); ?>
 
         <h1>Formulário de cadastro</h1>
         <form action="adiciona-produto.php">
@@ -19,9 +8,4 @@
             <input type="submit" value="Cadastrar" />
         </form>
 
-        </div>
-
-    </div>
-
-</body>
-</html>
+<?php include("rodape.php"); ?>
