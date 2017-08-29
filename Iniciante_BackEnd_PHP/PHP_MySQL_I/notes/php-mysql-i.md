@@ -17,3 +17,12 @@
 - Index @ ```/Applications/XAMPP/xamppfiles/htdocs```, criar um diretório para o projeto. Acessar em ```http://localhost/loja/```
 
 - Adiciona-produto possui a mensagem de sucesso no cadastro, que irá passar, pela URL, os parâmetros do cadastro ```http://localhost/loja/adiciona-produto.php?nome=carro&preco=5000```
+
+## Inserindo produtos no banco de dados
+- Acessar http://localhost/phpmyadmin/, ou através do painel do próprio XAMPP
+
+- Podemos usar o método de interpolação, para misturar strings e variáveis 
+```php 
+$query = "insert into produtos (nome, preco) values ('{$nome}', '{$preco}')";
+```
+- **mysqli_*** é o novo pacote de acesso ao MySql, onde eles melhoraram toda a parte de acesso ao banco de dados
