@@ -1,7 +1,7 @@
 # PHP e MySQL I
-- :ok: [Primeiros passos com PHP] (#)
-- Inserindo produtos no banco de dados
-- Criando Funções no PHP
+- :ok: [Primeiros passos com PHP] (#primeiros-passos-com-php)
+- :ok: [Inserindo produtos no banco de dados] (#inserindo-produtos-no-banco-de-dados)
+- [Criando Funções no PHP] (#)
 - Listando todos os produtos
 - Melhorando a listagem de produtos
 - Deletando produtos
@@ -26,3 +26,5 @@
 $query = "insert into produtos (nome, preco) values ('{$nome}', '{$preco}')";
 ```
 - **mysqli_*** é o novo pacote de acesso ao MySql, onde eles melhoraram toda a parte de acesso ao banco de dados
+
+## Criando funções no PHP
