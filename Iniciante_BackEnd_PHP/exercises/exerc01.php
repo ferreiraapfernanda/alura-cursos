@@ -3,6 +3,8 @@
 /**
  * função somaArray
  *
+ * @link https://cursos.alura.com.br/course/php-mysql-e-fundamentos-da-web/task/4019
+ * @author Fernanda Aparecida
  * @param [array] $array
  * @return [float] Somatória dos valores presentes no array
  */
