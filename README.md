@@ -23,7 +23,8 @@
 - [ ] Testes: TDD com PHP
 
 ## Outros Cursos
-- [x] Git: Controle e compartilhe seu código
-- [x] Windows: Introdução ao Prompt
+- [x] [Git]: Controle e compartilhe seu código <Concluído em @ Ago/2017>
+- [x] Windows: Introdução ao Prompt <Concluído em @ Ago/2017>
 
-[PHP e MySQL I]: https://github.com/fromnanda/alura-cursos/blob/master/Iniciante_BackEnd_PHP/PHP_MySQL_I.md
+[PHP e MySQL I]: https://github.com/fromnanda/alura-cursos/tree/master/iniciante-backend-php/php-mysql-i
+[Git]: https://github.com/fromnanda/alura-cursos/tree/master/engenheiro-devops/git
