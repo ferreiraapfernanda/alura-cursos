@@ -1,4 +1,6 @@
-# PHP e MySQL I
+# :white_check_mark: PHP e MySQL I
+
+Curso concluído em: 30-08-2017
 
 Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><br/>
 
@@ -12,7 +14,7 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 8. :white_check_mark: [Relacionando Produtos com Categorias](#)
 9. :white_check_mark: [Lidando com Selects e Checkboxes](#)
 10. :white_check_mark: [Alterando produtos](#)
-11. Subindo a aplicação para um Servidor
+11. :white_check_mark: [Subindo a aplicação para um Servidor](#)
 
 ## 1. Primeiros passos com PHP
 - Instalar XAMPP (utilitário que instala PHP, o Apache e o MySql).
@@ -85,3 +87,7 @@ foreach($categorias as $categoria) : ?>
 ## 9. Lidando com Selects e Checkboxes
 
 ## 10. Alterando produtos
+
+## 11. Subindo a aplicação para um Servidor
+- Servidor remoto: https://www.000webhost.com/members/website/loja-php
+- Site: https://loja-php.000webhostapp.com/produto-lista.php
