@@ -51,4 +51,4 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 
 [PHP e MySQL I]: https://github.com/fromnanda/alura-cursos/tree/master/iniciante-backend-php/php-mysql-i
 [Git]: https://github.com/fromnanda/alura-cursos/tree/master/engenheiro-devops/git
-[PHP e MySQL II]: 
+[PHP e MySQL II]: https://github.com/fromnanda/alura-cursos/blob/master/iniciante-backend-php/php-mysql-iI/notes.md
