@@ -1,6 +1,6 @@
-# :white_check_mark Git: Controle e compartilhe seu código
+# :white_check_mark: Git: Controle e compartilhe seu código
 
-Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><br/>
+Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/>
 
 - :white_check_mark:Aula 01: Introdução ao controle de versões com Git
 - :white_check_mark: Aula 02: O ciclo básico do Git
