@@ -1,14 +1,17 @@
-# :ok: Git: Controle e compartilhe seu código
-- [x] Aula 01: Introdução ao controle de versões com Git
-- [x] Aula 02: O ciclo básico do Git
-- [x] Aula 03: Sincronização dos dados com o repositório
-- [x] Aula 04: Organização do trabalho com branches
-- [x] Aula 05: Resolução de conflitos
-- [x] Aula 06: Boas práticas no uso do Git
-- [x] Aula 07: Controle avançado de alterações
-- [x] Aula 08: Contribuição com opensource, técnicas avançadase produtividade com o Git
-- [x] Aula 09: Fazendo merges avançados com Cherry Pick
-- [x] Aula 10: Usando Git através de interfaces visuais
+# :white_check_mark Git: Controle e compartilhe seu código
+
+Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><br/>
+
+- :white_check_mark:Aula 01: Introdução ao controle de versões com Git
+- :white_check_mark: Aula 02: O ciclo básico do Git
+- :white_check_mark: Aula 03: Sincronização dos dados com o repositório
+- :white_check_mark: Aula 04: Organização do trabalho com branches
+- :white_check_mark: Aula 05: Resolução de conflitos
+- :white_check_mark: Aula 06: Boas práticas no uso do Git
+- :white_check_mark: Aula 07: Controle avançado de alterações
+- :white_check_mark: Aula 08: Contribuição com opensource, técnicas avançadase produtividade com o Git
+- :white_check_mark: Aula 09: Fazendo merges avançados com Cherry Pick
+- :white_check_mark: Aula 10: Usando Git através de interfaces visuais
 
 
 # Aula 01
