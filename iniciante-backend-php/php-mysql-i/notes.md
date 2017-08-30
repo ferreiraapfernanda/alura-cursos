@@ -7,9 +7,9 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 3. :white_check_mark: [Criando funções no PHP](#)
 4. :white_check_mark: [Listando todos os produtos](#)
 5. :white_check_mark: [Melhorando a listagem de produtos](#)
-6. :arrow_right: Deletando produtos
-7. Entendendo a diferença entre GET e POST
-8. Relacionando Produtos com Categorias
+6. :white_check_mark: [Deletando produtos](#)
+7. :white_check_mark: [Entendendo a diferença entre GET e POST](#)
+8. :arrow_right: [Relacionando Produtos com Categorias](#)
 9. Lidando com Selects e Checkboxes
 10. Alterando produtos
 11. Subindo a aplicação para um Servidor
@@ -60,10 +60,13 @@ $id = $_GET['id'];
 removeProduto($conexao, $id);
 
 // Envia um header HTTP puro
-/ * No caso, estamos informando que a localização da página onde o usuário deve ir é produto-lista.php, enviando como parâmetro que a remoção foi efetuada com sucesso. Ou seja, definimos que a chave é Location e o seu valor é a página que queremos. O navegador irá então fazer esse redirecionamento para o usuário */
+/* No caso, estamos informando que a localização da página onde o usuário deve ir é produto-lista.php, enviando como parâmetro que a remoção foi efetuada com sucesso. Ou seja, definimos que a chave é Location e o seu valor é a página que queremos. O navegador irá então fazer esse redirecionamento para o usuário */
 header("Location: produto-lista.php?removido=true");
 
 // Para o processamento
 die();
 ```
+
+## Entendendo a diferença entre GET e POST
+Não utilizar GET quando for alterar algo no banco. Para isso, utilize POST. Ele será mais limpo na navegação do usuário (não será exibido na URL), além de ser mais "escondido", presente na requisição HTTP somente.
 
