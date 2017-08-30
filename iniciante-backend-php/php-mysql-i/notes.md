@@ -50,3 +50,15 @@ foreach($produtos as $produto) :
 endforeach
 ?>
 ```
+
+## Deletando produtos
+```php
+// Pega as informações enviadas pelo GET
+$id = $_GET['id'];
+removeProduto($conexao, $id);
+
+header("Location: produto-lista.php?removido=true");
+die();
+
+```
+
