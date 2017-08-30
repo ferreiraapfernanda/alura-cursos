@@ -5,7 +5,7 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 
 
 ## Carreira Iniciante Back-end PHP
-- :white_check_mark: HTTP: Entendendo a web por baixo dos panos *(Ago/2017)*
+- :white_check_mark: HTTP: Entendendo a web por baixo dos panos
 - :white_check_mark: [PHP e MySQL I]: Fundamentos para criar um sistema na Web 
 - :arrow_right: [PHP e MySQL II]: Cookies, sessões e mais recursos
 - MySQL I: Iniciando suas consultas
@@ -39,8 +39,8 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 <br/>
 
 ## Outros Cursos
-- :white_check_mark: [Git]: Controle e compartilhe seu código *(Ago/2017)*
-- :white_check_mark: Windows: Introdução ao Prompt *(Ago/2017)*
+- :white_check_mark: [Git]: Controle e compartilhe seu código
+- :white_check_mark: Windows: Introdução ao Prompt
 - CakePHP I: Acelere o desenvolvimento web
 - Performance Web I: otimizando o front-end
 - Linux I: Conhecendo e utilizando o terminal
