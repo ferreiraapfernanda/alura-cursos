@@ -4,17 +4,17 @@ Curso concluído em: 30-08-2017
 
 Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><br/>
 
-1. :white_check_mark: [Primeiros passos com PHP](#primeiros-passos-com-php)
-2. :white_check_mark: [Inserindo produtos no banco de dados](#inserindo-produtos-no-banco-de-dados)
-3. :white_check_mark: [Criando funções no PHP](#)
-4. :white_check_mark: [Listando todos os produtos](#)
-5. :white_check_mark: [Melhorando a listagem de produtos](#)
-6. :white_check_mark: [Deletando produtos](#)
-7. :white_check_mark: [Entendendo a diferença entre GET e POST](#)
-8. :white_check_mark: [Relacionando Produtos com Categorias](#)
-9. :white_check_mark: [Lidando com Selects e Checkboxes](#)
-10. :white_check_mark: [Alterando produtos](#)
-11. :white_check_mark: [Subindo a aplicação para um Servidor](#)
+1. :white_check_mark: [Primeiros passos com PHP](#1-primeiros-passos-com-php)
+2. :white_check_mark: [Inserindo produtos no banco de dados](#2-inserindo-produtos-no-banco-de-dados)
+3. :white_check_mark: [Criando funções no PHP](#3-criando-funções-no-php)
+4. :white_check_mark: [Listando todos os produtos](#4-listando-todos-os-produtos)
+5. :white_check_mark: [Melhorando a listagem de produtos](#5-melhorando-a-listagem-de-produtos)
+6. :white_check_mark: [Deletando produtos](#6-deletando-produtos)
+7. :white_check_mark: [Entendendo a diferença entre GET e POST](#7-entendendo-a-diferença-entre-get-e-post)
+8. :white_check_mark: [Relacionando Produtos com Categorias](#8-relacionando-produtos-com-categorias)
+9. :white_check_mark: [Lidando com Selects e Checkboxes](#9-lidando-com-selects-e-checkboxes)
+10. :white_check_mark: [Alterando produtos](#10-alterando-produtos)
+11. :white_check_mark: [Subindo a aplicação para um Servidor](#11-subindo-a-aplicação-para-um-servidor)
 
 ## 1. Primeiros passos com PHP
 - Instalar XAMPP (utilitário que instala PHP, o Apache e o MySql).
