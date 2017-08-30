@@ -1,5 +1,7 @@
 # PHP e MySQL II
 
+[Link para o curso](https://cursos.alura.com.br/course/php-mysql-e-fundamentos-da-web-parte-2)
+
 Curso iniciado em:
 
 Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><br/>
