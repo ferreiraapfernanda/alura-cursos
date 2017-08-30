@@ -6,8 +6,8 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 
 ## Carreira Iniciante Back-end PHP
 - :white_check_mark: HTTP: Entendendo a web por baixo dos panos *(Ago/2017)*
-- :arrow_right: [PHP e MySQL I]: Fundamentos para criar um sistema na Web 
-- PHP e MySQL II: Cookies, sessões e mais recursos
+- :white_check_mark: [PHP e MySQL I]: Fundamentos para criar um sistema na Web 
+- :arrow_right: [PHP e MySQL II]: Cookies, sessões e mais recursos
 - MySQL I: Iniciando suas consultas
 - PHP I: Orientação a objetos com sua linguagem preferida
 - PHP II: Avançando com Orientação a objetos
@@ -51,3 +51,4 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 
 [PHP e MySQL I]: https://github.com/fromnanda/alura-cursos/tree/master/iniciante-backend-php/php-mysql-i
 [Git]: https://github.com/fromnanda/alura-cursos/tree/master/engenheiro-devops/git
+[PHP e MySQL II]: 
