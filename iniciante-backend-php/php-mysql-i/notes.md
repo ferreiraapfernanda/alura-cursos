@@ -1,15 +1,15 @@
 # PHP e MySQL I
-- :ok: [Primeiros passos com PHP](#primeiros-passos-com-php)
-- :ok: [Inserindo produtos no banco de dados](#inserindo-produtos-no-banco-de-dados)
-- :ok: [Criando funções no PHP](#)
-- Listando todos os produtos
-- Melhorando a listagem de produtos
-- Deletando produtos
-- Entendendo a diferença entre GET e POST
-- Relacionando Produtos com Categorias
-- Lidando com Selects e Checkboxes
-- Alterando produtos
-- Subindo a aplicação para um Servidor
+- :ok: 1.[Primeiros passos com PHP](#primeiros-passos-com-php)
+- :ok: 2.[Inserindo produtos no banco de dados](#inserindo-produtos-no-banco-de-dados)
+- :ok: 3.[Criando funções no PHP](#)
+- :ok: 4.[Listando todos os produtos](#)
+- :ok: 5.[Melhorando a listagem de produtos](#)
+- 6. Deletando produtos
+- 7. Entendendo a diferença entre GET e POST
+- 8. Relacionando Produtos com Categorias
+- 9. Lidando com Selects e Checkboxes
+- 10. Alterando produtos
+- 11. Subindo a aplicação para um Servidor
 
 ## Primeiros passos com PHP
 - Instalar XAMPP (utilitário que instala PHP, o Apache e o MySql).
@@ -28,3 +28,22 @@ $query = "insert into produtos (nome, preco) values ('{$nome}', '{$preco}')";
 - **mysqli_*** é o novo pacote de acesso ao MySql, onde eles melhoraram toda a parte de acesso ao banco de dados
 
 ## Criando funções no PHP
+
+## Listando todos os produtos
+- ```mysqli_fetch_assoc()``` criará um array, com os dados da query
+
+## Melhorando a listagem de produtos
+- Quando precisar utilizar php e html no mesmo arquivo, e estiver utilizando uma estrutura de repetição, utilize o **endforeach** para que o código fique um pouco mais limpo
+```php
+<?php
+foreach($produtos as $produto) :
+?>
+    <tr>
+        <td><?= $produto['nome'] ?></td>
+        <td><?= $produto['preco'] ?></td>
+    </tr>
+
+<?php
+endforeach
+?>
+```
