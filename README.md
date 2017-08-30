@@ -1,7 +1,7 @@
 # Cursos Alura
 
 ## Carreira Iniciante Back-end PHP
-- [x] HTTP: Entendendo a web por baixo dos panos <Concluído em @ Ago/2017>
+- [x] HTTP: Entendendo a web por baixo dos panos *(Ago/2017)*
 - [ ] [PHP e MySQL I]: Fundamentos para criar um sistema na Web 
 - [ ] PHP e MySQL II: Cookies, sessões e mais recursos
 - [ ] MySQL I: Iniciando suas consultas
@@ -23,8 +23,8 @@
 - [ ] Testes: TDD com PHP
 
 ## Outros Cursos
-- [x] [Git]: Controle e compartilhe seu código <Concluído em @ Ago/2017>
-- [x] Windows: Introdução ao Prompt <Concluído em @ Ago/2017>
+- [x] [Git]: Controle e compartilhe seu código *(Ago/2017)*
+- [x] Windows: Introdução ao Prompt *(Ago/2017)*
 
 [PHP e MySQL I]: https://github.com/fromnanda/alura-cursos/tree/master/iniciante-backend-php/php-mysql-i
 [Git]: https://github.com/fromnanda/alura-cursos/tree/master/engenheiro-devops/git
