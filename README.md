@@ -22,9 +22,19 @@
 - [ ] SOLID com PHP: Orientação a Objetos com PHP
 - [ ] Testes: TDD com PHP
 
+## Carreira Desenvolvedor Javascript
+- [ ] Curso Expressões regulares: Capturando textos de forma mágica
+
 ## Outros Cursos
 - [x] [Git]: Controle e compartilhe seu código *(Ago/2017)*
 - [x] Windows: Introdução ao Prompt *(Ago/2017)*
+- [ ] CakePHP I: Acelere o desenvolvimento web
+- [ ] Performance Web I: otimizando o front-end
+- [ ] Linux I: Conhecendo e utilizando o terminal
+- [ ] Linux II: Programas, processos e pacotes
+- [ ] Docker: Criando containers sem dor de cabeça
+- [ ] Laravel: facilitando o desenvolvimento PHP
+- [ ] Vagrant: Automatização e implementação de entrega contínua
 
 [PHP e MySQL I]: https://github.com/fromnanda/alura-cursos/tree/master/iniciante-backend-php/php-mysql-i
 [Git]: https://github.com/fromnanda/alura-cursos/tree/master/engenheiro-devops/git
