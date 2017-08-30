@@ -1,10 +1,13 @@
 # PHP e MySQL I
-1. :ok: [Primeiros passos com PHP](#primeiros-passos-com-php)
-2. :ok: [Inserindo produtos no banco de dados](#inserindo-produtos-no-banco-de-dados)
-3. :ok: [Criando funções no PHP](#)
-4. :ok: [Listando todos os produtos](#)
-5. :ok: [Melhorando a listagem de produtos](#)
-6. Deletando produtos
+
+Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><br/>
+
+1. :white_check_mark: [Primeiros passos com PHP](#primeiros-passos-com-php)
+2. :white_check_mark: [Inserindo produtos no banco de dados](#inserindo-produtos-no-banco-de-dados)
+3. :white_check_mark: [Criando funções no PHP](#)
+4. :white_check_mark: [Listando todos os produtos](#)
+5. :white_check_mark: [Melhorando a listagem de produtos](#)
+6. :arrow_right: Deletando produtos
 7. Entendendo a diferença entre GET e POST
 8. Relacionando Produtos com Categorias
 9. Lidando com Selects e Checkboxes
