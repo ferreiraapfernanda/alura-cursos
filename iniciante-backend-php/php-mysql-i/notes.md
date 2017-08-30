@@ -1,15 +1,15 @@
 # PHP e MySQL I
-- :ok: 1.[Primeiros passos com PHP](#primeiros-passos-com-php)
-- :ok: 2.[Inserindo produtos no banco de dados](#inserindo-produtos-no-banco-de-dados)
-- :ok: 3.[Criando funções no PHP](#)
-- :ok: 4.[Listando todos os produtos](#)
-- :ok: 5.[Melhorando a listagem de produtos](#)
-- 6. Deletando produtos
-- 7. Entendendo a diferença entre GET e POST
-- 8. Relacionando Produtos com Categorias
-- 9. Lidando com Selects e Checkboxes
-- 10. Alterando produtos
-- 11. Subindo a aplicação para um Servidor
+1. :ok: [Primeiros passos com PHP](#primeiros-passos-com-php)
+2. :ok: [Inserindo produtos no banco de dados](#inserindo-produtos-no-banco-de-dados)
+3. :ok: [Criando funções no PHP](#)
+4. :ok: [Listando todos os produtos](#)
+5. :ok: [Melhorando a listagem de produtos](#)
+6. Deletando produtos
+7. Entendendo a diferença entre GET e POST
+8. Relacionando Produtos com Categorias
+9. Lidando com Selects e Checkboxes
+10. Alterando produtos
+11. Subindo a aplicação para um Servidor
 
 ## Primeiros passos com PHP
 - Instalar XAMPP (utilitário que instala PHP, o Apache e o MySql).
