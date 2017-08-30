@@ -11,7 +11,7 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 7. :white_check_mark: [Entendendo a diferença entre GET e POST](#)
 8. :white_check_mark: [Relacionando Produtos com Categorias](#)
 9. :white_check_mark: [Lidando com Selects e Checkboxes](#)
-10. Alterando produtos
+10. :white_check_mark: [Alterando produtos](#)
 11. Subindo a aplicação para um Servidor
 
 ## 1. Primeiros passos com PHP
@@ -84,3 +84,4 @@ foreach($categorias as $categoria) : ?>
 
 ## 9. Lidando com Selects e Checkboxes
 
+## 10. Alterando produtos
