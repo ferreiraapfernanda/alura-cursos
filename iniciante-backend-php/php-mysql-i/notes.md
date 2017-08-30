@@ -55,10 +55,15 @@ endforeach
 ```php
 // Pega as informações enviadas pelo GET
 $id = $_GET['id'];
+
+//Remove o produto
 removeProduto($conexao, $id);
 
+// Envia um header HTTP puro
+/ * No caso, estamos informando que a localização da página onde o usuário deve ir é produto-lista.php, enviando como parâmetro que a remoção foi efetuada com sucesso. Ou seja, definimos que a chave é Location e o seu valor é a página que queremos. O navegador irá então fazer esse redirecionamento para o usuário */
 header("Location: produto-lista.php?removido=true");
-die();
 
+// Para o processamento
+die();
 ```
 
