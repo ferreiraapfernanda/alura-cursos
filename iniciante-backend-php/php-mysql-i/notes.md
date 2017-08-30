@@ -10,7 +10,7 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 6. :white_check_mark: [Deletando produtos](#)
 7. :white_check_mark: [Entendendo a diferença entre GET e POST](#)
 8. :white_check_mark: [Relacionando Produtos com Categorias](#)
-9. Lidando com Selects e Checkboxes
+9. :white_check_mark: [Lidando com Selects e Checkboxes](#)
 10. Alterando produtos
 11. Subindo a aplicação para um Servidor
 
@@ -81,3 +81,6 @@ foreach($categorias as $categoria) : ?>
         <input type="radio" name="categoria_id" value="<?=$categoria['id']?>"><?=$categoria['nome']?></br>
         <?php endforeach ?>
 ```
+
+## 9. Lidando com Selects e Checkboxes
+
