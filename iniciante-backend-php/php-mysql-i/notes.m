@@ -1,7 +1,7 @@
 # PHP e MySQL I
-- :ok: [Primeiros passos com PHP] (#primeiros-passos-com-php)
-- :ok: [Inserindo produtos no banco de dados] (#inserindo-produtos-no-banco-de-dados)
-- :ok: [Criando Funções no PHP] (#)
+- :ok: [Primeiros passos com PHP](#primeiros-passos-com-php)
+- :ok: [Inserindo produtos no banco de dados](#inserindo-produtos-no-banco-de-dados)
+- :ok: [Criando funções no PHP](#)
 - Listando todos os produtos
 - Melhorando a listagem de produtos
 - Deletando produtos
