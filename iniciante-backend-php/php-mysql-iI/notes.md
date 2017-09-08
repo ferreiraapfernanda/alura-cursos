@@ -11,7 +11,7 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 :white_check_mark: 3. Protegendo o acesso as páginas, refatorando e extraindo a lógica
 :white_check_mark: 4. Insegurança com cookies, segurança com session e efetuando logout
 :white_check_mark: 5. Passando parâmetros para a próxima requisição
-6. Refatoração, escopo de flash e controle de erro
+:white_check_mark: 6. Refatoração, escopo de flash e controle de erro
 7. Um único formulário para adicionar e alterar
 8. SQL Injection
 9. Include, require, require_onde
@@ -36,3 +36,5 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 
 ## 5. Passando parâmetros para a próxima requisição
 - Passar parâmetros somente pela sessão, quando possível. Assim como fizemos com as mensagens de erro e sucesso
+
+## 6. Refatoração, escopo de flash e controle de erro
