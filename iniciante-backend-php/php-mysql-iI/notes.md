@@ -28,3 +28,8 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 ## 3. Protegendo o acesso as páginas, refatorando e extraindo a lógica
 - Proteger não só a página de exibição das informações, mas também as lógicas envolvidas com o banco de dados
 - Concentrar a lógica de manioulação de cookies em um só lugar
+
+## 4. Insegurança com cookies, segurança com session e efetuando logout
+- Podemos usar cookies mas não adicionar valores claramente de segurança em dados do cliente.
+- Sessão: gera um código aleatório para identificar o usuário logado, e no servidor, atrelar esse código ao email do usuário, por exemplo
+- **session_start()**, **session_destroy()** e $_SESSION["usuario_logado"]
