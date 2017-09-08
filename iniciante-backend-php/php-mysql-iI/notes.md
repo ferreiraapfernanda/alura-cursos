@@ -7,8 +7,8 @@ Curso iniciado em:
 Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><br/>
 
 :white_check_mark: 1. Uma ação de login
-2. Efetuando o login e cookies
-3. Protegendo o acesso as páginas, refatorando e extraindo a lógica
+:white_check_mark: 2. Efetuando o login e cookies
+:white_check_mark: 3. Protegendo o acesso as páginas, refatorando e extraindo a lógica
 4. Insegurança com cookies, segurança com session e efetuando logout
 5. Passando parâmetros para a próxima requisição
 6. Refatoração, escopo de flash e controle de erro
@@ -24,3 +24,7 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 
 ## 2. Efetuando o login e cookies
 - Usar ```time() + 60``` como terceiro parâmetro no **setcookie** para determinar o tempo de duração do cookie 
+
+## 3. Protegendo o acesso as páginas, refatorando e extraindo a lógica
+- Proteger não só a página de exibição das informações, mas também as lógicas envolvidas com o banco de dados
+- Concentrar a lógica de manioulação de cookies em um só lugar
