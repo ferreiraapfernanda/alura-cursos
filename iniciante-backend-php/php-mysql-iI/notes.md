@@ -17,4 +17,8 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 9. Include, require, require_onde
 10. Envio de email via SMTP
 
-## 
+## 1. Uma ação de login
+- Sempre criptografar a senha, nem que seja só por md5
+- var_dump() para imprimir valores do Array
+- header() novamente para redirecionar o usuário, no caso do login. Passando o parâmetro de sucesso index.php?login=1
+
