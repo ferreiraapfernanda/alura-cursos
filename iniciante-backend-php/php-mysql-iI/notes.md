@@ -9,8 +9,8 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 :white_check_mark: 1. Uma ação de login
 :white_check_mark: 2. Efetuando o login e cookies
 :white_check_mark: 3. Protegendo o acesso as páginas, refatorando e extraindo a lógica
-4. Insegurança com cookies, segurança com session e efetuando logout
-5. Passando parâmetros para a próxima requisição
+:white_check_mark: 4. Insegurança com cookies, segurança com session e efetuando logout
+:white_check_mark: 5. Passando parâmetros para a próxima requisição
 6. Refatoração, escopo de flash e controle de erro
 7. Um único formulário para adicionar e alterar
 8. SQL Injection
@@ -33,3 +33,6 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 - Podemos usar cookies mas não adicionar valores claramente de segurança em dados do cliente.
 - Sessão: gera um código aleatório para identificar o usuário logado, e no servidor, atrelar esse código ao email do usuário, por exemplo
 - **session_start()**, **session_destroy()** e $_SESSION["usuario_logado"]
+
+## 5. Passando parâmetros para a próxima requisição
+- Passar parâmetros somente pela sessão, quando possível. Assim como fizemos com as mensagens de erro e sucesso
