@@ -6,7 +6,7 @@ Curso iniciado em:
 
 Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><br/>
 
-1. Uma ação de login
+:white_check_mark: 1. Uma ação de login
 2. Efetuando o login e cookies
 3. Protegendo o acesso as páginas, refatorando e extraindo a lógica
 4. Insegurança com cookies, segurança com session e efetuando logout
@@ -22,3 +22,5 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 - var_dump() para imprimir valores do Array
 - header() novamente para redirecionar o usuário, no caso do login. Passando o parâmetro de sucesso index.php?login=1
 
+## 2. Efetuando o login e cookies
+- Usar ```time() + 60``` como terceiro parâmetro no **setcookie** para determinar o tempo de duração do cookie 
