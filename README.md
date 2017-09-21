@@ -8,7 +8,7 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 - :white_check_mark: HTTP: Entendendo a web por baixo dos panos
 - :white_check_mark: [PHP e MySQL I]: Fundamentos para criar um sistema na Web 
 - :arrow_right: [PHP e MySQL II]: Cookies, sessões e mais recursos
-- MySQL I: Iniciando suas consultas
+- :arrow_right: MySQL I: Iniciando suas consultas
 - PHP I: Orientação a objetos com sua linguagem preferida
 - PHP II: Avançando com Orientação a objetos
 
