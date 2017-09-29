@@ -14,7 +14,7 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 
 <br/>
 
-## Carreira Desenvolvedor Java
+## Carreira Desenvolvedor Java 
 - :arrow_right: Java I: Primeiros passos
 - Java II: Orientação a Objetos
 - Java III: Principais APIs e bibliotecas
@@ -24,6 +24,17 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 <br/>
 
 ## Carreira Desenvolvedor Java Web
+- HTTP: Entendendo a web por baixo dos panos
+- HTML5 e CSS3 I: Suas primeiras páginas da Web
+- Servlets: Fundamentos de Java na Web
+- Java e JSTL: Tags para facilitar o desenvolvimento JSP
+- MySQL I: Inicianco suas consultas
+- Java e JDBC: Trabalhando com um banco de dados
+- Git: Controle e compartilhe seu código
+
+<br/>
+
+## Carreira Desenvolvedor Java Web Enterprise
 - Java e JPA: Otimizações com JPA2 e Hibernate
 - EJB: O poder da Java EE
 - Java e JSF I: Sua aplicação web com JSF2
@@ -34,10 +45,19 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 - Java EE parte 2: Sua loja online com HTML, REST e Cache
 - Java EE parte 3: Finalizando sua loja com REST, JMS, JAAS e WebSockets
 
+<br/>
+
+## Carreira Desenvolvedor Java Web com Spring
+- Spring MVC I: Criando aplicações web
+- Spring MVC II: Integração, cache, segurança e templates
+- Maven: Build do zero a web
+- Spring Boot: Agilidade no desenvolvimento Java com Spring
+- Java e JPA: Persista seus objetos com a JPA2 e Hibernate
+- Java e JPA: Otimizações com JPA2 e Hibernate
 
 <br/>
 
-## Carreira Desenvolvedor Java Web Enterprise
+## Carreira Expert em Integrações de Aplicações com Java
 - JAX-RS e Jersey: Domine a criação de webservices REST
 - JAX-WS: Domine a criação de webservices SOAP
 - JMS e ActiveMQ: Mensageria com Java
@@ -46,19 +66,21 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 
 <br/>
 
-## Carreira Desenvolvedor Java Web com Spring
-
-<br/>
-
-## Carreira Expert em Integrações de Aplicações com Java
-
-<br/>
-
 ## Carreira Avançando na Plataforma Java
+- Java Reflection: mágica e meta programação
+- Java e XML: integração, parsing e validação
+- Threads 1: Programação paralela em Java
+- Threads 2: Programação concorrente avançada
+- Eclipse: Produtividade Extrema na IDE com Java
 
 <br/>
 
 ## Carreira Expert em Orientação a Objetos com Java
+- Design Patterns Java I: Boas práticas de programação
+- Design Patterns Java II: Boas práticas de programação
+- SOLID com Java: Oriantação a Objetos com Java
+- Testes: TDD com Java
+- Teste de Integração: Testes SQL e DAOs automatizados em Java
 
 <br/>
 
