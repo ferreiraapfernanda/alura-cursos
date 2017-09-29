@@ -21,6 +21,8 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 - Java: Dominando as Collections (20h)
 - Java 8: Tire proveito dos novos recursos da linguagem (12h)
 
+__Total:__ 68 horas
+
 <br/>
 
 ## Carreira Desenvolvedor Java Web
@@ -30,7 +32,9 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 - Java e JSTL: Tags para facilitar o desenvolvimento JSP (6h)
 - ~~MySQL I: Inicianco suas consultas (8h)~~
 - Java e JDBC: Trabalhando com um banco de dados (8h)
-- ~~Git: Controle e compartilhe seu código (16h)~~
+- ~~Git: Controle e compartilhe seu código (16h)~~ 
+
+__Total:__ 110 horas
 
 <br/>
 
@@ -45,6 +49,8 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 - Java EE parte 2: Sua loja online com HTML, REST e Cache (14h)
 - Java EE parte 3: Finalizando sua loja com REST, JMS, JAAS e WebSockets (14h)
 
+__Total:__ 123 horas
+
 <br/>
 
 ## Carreira Desenvolvedor Java Web com Spring
@@ -55,6 +61,8 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 - Java e JPA: Persista seus objetos com a JPA2 e Hibernate (17h)
 - Java e JPA: Otimizações com JPA2 e Hibernate (12h)
 
+__Total:__ 80 horas
+
 <br/>
 
 ## Carreira Expert em Integrações de Aplicações com Java
@@ -63,6 +71,8 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 - JMS e ActiveMQ: Mensageria com Java (16h)
 - Apache Camel: O framework de integração entre sistemas (16h)
 - Rest Assured: Testes automatizado de webservice (12h)
+
+__Total:__ 72 horas
 
 <br/>
 
@@ -73,6 +83,8 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 - Threads 2: Programação concorrente avançada (16h)
 - Eclipse: Produtividade Extrema na IDE com Java (12h)
 
+__Total:__ 60 horas
+
 <br/>
 
 ## Carreira Expert em Orientação a Objetos com Java
@@ -82,6 +94,8 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 - Testes: TDD com Java (12h)
 - Mock: Testes de comportamentos automatizados em Java (12h)
 - Teste de Integração: Testes SQL e DAOs automatizados em Java (12h)
+
+__Total:__ 80 horas
 
 <br/>
 
@@ -95,6 +109,8 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 - Web Design Responsivo: Páginas que se adaptam do mobile ao desk (10h)
 - Front-end: Projeto final de carreira (6h)
 
+__Total:__ 132 horas
+
 <br/>
 
 ## Carreira Desenvolvedor PHP Erudito
@@ -102,6 +118,8 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 - Design Patterns PHP II: Boas práticas de programação (16h)
 - SOLID com PHP: Orientação a Objetos com PHP (8h)
 - Testes: TDD com PHP (10h)
+
+__Total:__ 74 horas
 
 <br/>
 
@@ -111,6 +129,8 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 - Expressões regulares: Capturando textos de forma mágica
 - ~~jQuery: Domine a biblioteca mais popular do mercado~~
 - ~~jQuery: Avance na biblioteca mais popular do mercado parte 2~~
+
+__Total:__ 
 
 <br/>
 <br/>
