@@ -2,7 +2,18 @@
 
 Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><br/>
 
+# Demais Cursos
+- :white_check_mark: [Git]: Controle e compartilhe seu código
+- :white_check_mark: Windows: Introdução ao Prompt
+- CakePHP I: Acelere o desenvolvimento web
+- Performance Web I: otimizando o front-end
+- Linux I: Conhecendo e utilizando o terminal
+- Linux II: Programas, processos e pacotes
+- Docker: Criando containers sem dor de cabeça
+- Laravel: facilitando o desenvolvimento PHP
+- Vagrant: Automatização e implementação de entrega contínua
 
+# Carreiras
 
 ## Carreira Iniciante Back-end PHP
 - :white_check_mark: HTTP: Entendendo a web por baixo dos panos
@@ -26,13 +37,13 @@ __Total:__ 68 horas
 <br/>
 
 ## Carreira Desenvolvedor Java Web
-- ~~HTTP: Entendendo a web por baixo dos panos (14h)~~
+- _HTTP: Entendendo a web por baixo dos panos (14h)_
 - HTML5 e CSS3 I: Suas primeiras páginas da Web (32h)
 - Servlets: Fundamentos de Java na Web (16h)
 - Java e JSTL: Tags para facilitar o desenvolvimento JSP (6h)
-- ~~MySQL I: Inicianco suas consultas (8h)~~
+- _MySQL I: Inicianco suas consultas (8h)_
 - Java e JDBC: Trabalhando com um banco de dados (8h)
-- ~~Git: Controle e compartilhe seu código (16h)~~ 
+- _Git: Controle e compartilhe seu código (16h)_
 
 __Total:__ 110 horas
 
@@ -101,7 +112,7 @@ __Total:__ 80 horas
 
 
 ## Carreira Desenvolvedor Front-end
-- ~~HTML5 e CSS3 I: Suas primeiras páginas da Web (32h)~~
+- _HTML5 e CSS3 I: Suas primeiras páginas da Web (32h)_
 - HTML5 e CSS3 II: Turbinando as suas páginas (40h)
 - JavaScript: Programando na linguagem da web (20h)
 - jQuery: Domine a biblioteca mais popular do mercado (12h)
@@ -124,27 +135,16 @@ __Total:__ 74 horas
 <br/>
 
 ## Carreira Desenvolvedor Javascript
-- ~~HTTP: Entendendo a web por baixo dos panos~~
-- ~~JavaScript: Programando na linguagem da web~~
+- _HTTP: Entendendo a web por baixo dos panos_
+- _JavaScript: Programando na linguagem da web_
 - Expressões regulares: Capturando textos de forma mágica
-- ~~jQuery: Domine a biblioteca mais popular do mercado~~
-- ~~jQuery: Avance na biblioteca mais popular do mercado parte 2~~
+- _jQuery: Domine a biblioteca mais popular do mercado_
+- _jQuery: Avance na biblioteca mais popular do mercado parte 2_
 
 __Total:__ 
 
 <br/>
 <br/>
-
-## Outros Cursos
-- :white_check_mark: [Git]: Controle e compartilhe seu código
-- :white_check_mark: Windows: Introdução ao Prompt
-- CakePHP I: Acelere o desenvolvimento web
-- Performance Web I: otimizando o front-end
-- Linux I: Conhecendo e utilizando o terminal
-- Linux II: Programas, processos e pacotes
-- Docker: Criando containers sem dor de cabeça
-- Laravel: facilitando o desenvolvimento PHP
-- Vagrant: Automatização e implementação de entrega contínua
 
 [PHP e MySQL I]: https://github.com/fromnanda/alura-cursos/tree/master/iniciante-backend-php/php-mysql-i
 [Git]: https://github.com/fromnanda/alura-cursos/tree/master/engenheiro-devops/git
