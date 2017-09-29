@@ -14,6 +14,55 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 
 <br/>
 
+## Carreira Desenvolvedor Java
+- :arrow_right: Java I: Primeiros passos
+- Java II: Orientação a Objetos
+- Java III: Principais APIs e bibliotecas
+- Java: Dominando as Collections
+- Java 8: Tire proveito dos novos recursos da linguagem
+
+<br/>
+
+## Carreira Desenvolvedor Java Web
+- Java e JPA: Otimizações com JPA2 e Hibernate
+- EJB: O poder da Java EE
+- Java e JSF I: Sua aplicação web com JSF2
+- Java e JSF 2 II: Componentes ricos com Primefaces
+- Java e JSF 2 - III: Integração com CDI
+- Maven: Build do zero a web
+- jJava EE parte 1: Crie sua loja online com CDI, JSF, JPA
+- Java EE parte 2: Sua loja online com HTML, REST e Cache
+- Java EE parte 3: Finalizando sua loja com REST, JMS, JAAS e WebSockets
+
+
+<br/>
+
+## Carreira Desenvolvedor Java Web Enterprise
+- JAX-RS e Jersey: Domine a criação de webservices REST
+- JAX-WS: Domine a criação de webservices SOAP
+- JMS e ActiveMQ: Mensageria com Java
+- Apache Camel: O framework de integração entre sistemas
+- Rest Assured: Testes automatizado de webservice
+
+<br/>
+
+## Carreira Desenvolvedor Java Web com Spring
+
+<br/>
+
+## Carreira Expert em Integrações de Aplicações com Java
+
+<br/>
+
+## Carreira Avançando na Plataforma Java
+
+<br/>
+
+## Carreira Expert em Orientação a Objetos com Java
+
+<br/>
+
+
 ## Carreira Desenvolvedor Front-end
 - HTML5 e CSS3 I: Suas primeiras páginas da Web
 - HTML5 e CSS3 II: Turbinando as suas páginas
