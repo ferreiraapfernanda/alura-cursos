@@ -7,104 +7,110 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 ## Carreira Iniciante Back-end PHP
 - :white_check_mark: HTTP: Entendendo a web por baixo dos panos
 - :white_check_mark: [PHP e MySQL I]: Fundamentos para criar um sistema na Web 
-- :arrow_right: [PHP e MySQL II]: Cookies, sessões e mais recursos
-- :arrow_right: MySQL I: Iniciando suas consultas
-- PHP I: Orientação a objetos com sua linguagem preferida
-- PHP II: Avançando com Orientação a objetos
+- :arrow_right: [PHP e MySQL II]: Cookies, sessões e mais recursos (12h)
+- :arrow_right: MySQL I: Iniciando suas consultas (8h)
+- PHP I: Orientação a objetos com sua linguagem preferida (12h)
+- PHP II: Avançando com Orientação a objetos (12h)
 
 <br/>
 
 ## Carreira Desenvolvedor Java 
-- :arrow_right: Java I: Primeiros passos
-- Java II: Orientação a Objetos
-- Java III: Principais APIs e bibliotecas
-- Java: Dominando as Collections
-- Java 8: Tire proveito dos novos recursos da linguagem
+- :arrow_right: Java I: Primeiros passos (12h)
+- Java II: Orientação a Objetos (12h)
+- Java III: Principais APIs e bibliotecas (12h)
+- Java: Dominando as Collections (20h)
+- Java 8: Tire proveito dos novos recursos da linguagem (12h)
 
 <br/>
 
 ## Carreira Desenvolvedor Java Web
-- HTTP: Entendendo a web por baixo dos panos
-- HTML5 e CSS3 I: Suas primeiras páginas da Web
-- Servlets: Fundamentos de Java na Web
-- Java e JSTL: Tags para facilitar o desenvolvimento JSP
-- MySQL I: Inicianco suas consultas
-- Java e JDBC: Trabalhando com um banco de dados
-- Git: Controle e compartilhe seu código
+- ~~HTTP: Entendendo a web por baixo dos panos (14h)~~
+- HTML5 e CSS3 I: Suas primeiras páginas da Web (32h)
+- Servlets: Fundamentos de Java na Web (16h)
+- Java e JSTL: Tags para facilitar o desenvolvimento JSP (6h)
+- ~~MySQL I: Inicianco suas consultas (8h)~~
+- Java e JDBC: Trabalhando com um banco de dados (8h)
+- ~~Git: Controle e compartilhe seu código (16h)~~
 
 <br/>
 
 ## Carreira Desenvolvedor Java Web Enterprise
-- Java e JPA: Otimizações com JPA2 e Hibernate
-- EJB: O poder da Java EE
-- Java e JSF I: Sua aplicação web com JSF2
-- Java e JSF 2 II: Componentes ricos com Primefaces
-- Java e JSF 2 - III: Integração com CDI
-- Maven: Build do zero a web
-- jJava EE parte 1: Crie sua loja online com CDI, JSF, JPA
-- Java EE parte 2: Sua loja online com HTML, REST e Cache
-- Java EE parte 3: Finalizando sua loja com REST, JMS, JAAS e WebSockets
+- Java e JPA: Otimizações com JPA2 e Hibernate (12h)
+- EJB: O poder da Java EE (15h)
+- Java e JSF I: Sua aplicação web com JSF2 (20h)
+- Java e JSF 2 II: Componentes ricos com Primefaces (12h)
+- Java e JSF 2 - III: Integração com CDI (16h)
+- Maven: Build do zero a web (6h)
+- Java EE parte 1: Crie sua loja online com CDI, JSF, JPA (14h)
+- Java EE parte 2: Sua loja online com HTML, REST e Cache (14h)
+- Java EE parte 3: Finalizando sua loja com REST, JMS, JAAS e WebSockets (14h)
 
 <br/>
 
 ## Carreira Desenvolvedor Java Web com Spring
-- Spring MVC I: Criando aplicações web
-- Spring MVC II: Integração, cache, segurança e templates
-- Maven: Build do zero a web
-- Spring Boot: Agilidade no desenvolvimento Java com Spring
-- Java e JPA: Persista seus objetos com a JPA2 e Hibernate
-- Java e JPA: Otimizações com JPA2 e Hibernate
+- Spring MVC I: Criando aplicações web (20h)
+- Spring MVC II: Integração, cache, segurança e templates (15h)
+- Maven: Build do zero a web (6h)
+- Spring Boot: Agilidade no desenvolvimento Java com Spring (10h)
+- Java e JPA: Persista seus objetos com a JPA2 e Hibernate (17h)
+- Java e JPA: Otimizações com JPA2 e Hibernate (12h)
 
 <br/>
 
 ## Carreira Expert em Integrações de Aplicações com Java
-- JAX-RS e Jersey: Domine a criação de webservices REST
-- JAX-WS: Domine a criação de webservices SOAP
-- JMS e ActiveMQ: Mensageria com Java
-- Apache Camel: O framework de integração entre sistemas
-- Rest Assured: Testes automatizado de webservice
+- JAX-RS e Jersey: Domine a criação de webservices REST (12h)
+- JAX-WS: Domine a criação de webservices SOAP (16h)
+- JMS e ActiveMQ: Mensageria com Java (16h)
+- Apache Camel: O framework de integração entre sistemas (16h)
+- Rest Assured: Testes automatizado de webservice (12h)
 
 <br/>
 
 ## Carreira Avançando na Plataforma Java
-- Java Reflection: mágica e meta programação
-- Java e XML: integração, parsing e validação
-- Threads 1: Programação paralela em Java
-- Threads 2: Programação concorrente avançada
-- Eclipse: Produtividade Extrema na IDE com Java
+- Java Reflection: mágica e meta programação (8h)
+- Java e XML: integração, parsing e validação (8h)
+- Threads 1: Programação paralela em Java (16h)
+- Threads 2: Programação concorrente avançada (16h)
+- Eclipse: Produtividade Extrema na IDE com Java (12h)
 
 <br/>
 
 ## Carreira Expert em Orientação a Objetos com Java
-- Design Patterns Java I: Boas práticas de programação
-- Design Patterns Java II: Boas práticas de programação
-- SOLID com Java: Oriantação a Objetos com Java
-- Testes: TDD com Java
-- Teste de Integração: Testes SQL e DAOs automatizados em Java
+- Design Patterns Java I: Boas práticas de programação (20h)
+- Design Patterns Java II: Boas práticas de programação (16h)
+- SOLID com Java: Oriantação a Objetos com Java (8h)
+- Testes: TDD com Java (12h)
+- Mock: Testes de comportamentos automatizados em Java (12h)
+- Teste de Integração: Testes SQL e DAOs automatizados em Java (12h)
 
 <br/>
 
 
 ## Carreira Desenvolvedor Front-end
-- HTML5 e CSS3 I: Suas primeiras páginas da Web
-- HTML5 e CSS3 II: Turbinando as suas páginas
-- JavaScript: Programando na linguagem da web
-- jQuery: Domine a biblioteca mais popular do mercado
-- jQuery: Avance na biblioteca mais popular do mercado parte 2
-- Web Design Responsivo: Páginas que se adaptam do mobile ao desk
+- ~~HTML5 e CSS3 I: Suas primeiras páginas da Web (32h)~~
+- HTML5 e CSS3 II: Turbinando as suas páginas (40h)
+- JavaScript: Programando na linguagem da web (20h)
+- jQuery: Domine a biblioteca mais popular do mercado (12h)
+- jQuery: Avance na biblioteca mais popular do mercado parte 2 (12h)
+- Web Design Responsivo: Páginas que se adaptam do mobile ao desk (10h)
+- Front-end: Projeto final de carreira (6h)
 
 <br/>
 
 ## Carreira Desenvolvedor PHP Erudito
-- Design Patterns PHP I: Boas práticas de programação
-- Design Patterns PHP II: Boas práticas de programação
-- SOLID com PHP: Orientação a Objetos com PHP
-- Testes: TDD com PHP
+- Design Patterns PHP I: Boas práticas de programação (40h)
+- Design Patterns PHP II: Boas práticas de programação (16h)
+- SOLID com PHP: Orientação a Objetos com PHP (8h)
+- Testes: TDD com PHP (10h)
 
 <br/>
 
 ## Carreira Desenvolvedor Javascript
+- ~~HTTP: Entendendo a web por baixo dos panos~~
+- ~~JavaScript: Programando na linguagem da web~~
 - Expressões regulares: Capturando textos de forma mágica
+- ~~jQuery: Domine a biblioteca mais popular do mercado~~
+- ~~jQuery: Avance na biblioteca mais popular do mercado parte 2~~
 
 <br/>
 <br/>
