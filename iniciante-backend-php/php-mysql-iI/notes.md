@@ -1,8 +1,8 @@
-# PHP e MySQL II
+# :white_check_mark: PHP e MySQL II
 
 [Link para o curso](https://cursos.alura.com.br/course/php-mysql-e-fundamentos-da-web-parte-2)
 
-Curso conluído em 01/10/2017
+Curso concluído em 01/10/2017
 
 Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><br/>
 
