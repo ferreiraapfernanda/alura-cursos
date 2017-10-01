@@ -7,15 +7,25 @@ Curso iniciado em:
 Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><br/>
 
 :white_check_mark: 1. Uma ação de login
+
 :white_check_mark: 2. Efetuando o login e cookies
+
 :white_check_mark: 3. Protegendo o acesso as páginas, refatorando e extraindo a lógica
+
 :white_check_mark: 4. Insegurança com cookies, segurança com session e efetuando logout
+
 :white_check_mark: 5. Passando parâmetros para a próxima requisição
+
 :white_check_mark: 6. Refatoração, escopo de flash e controle de erro
+
 :white_check_mark: 7. Um único formulário para adicionar e alterar
+
 8. SQL Injection
+
 9. Include, require, require_onde
+
 10. Envio de email via SMTP
+
 
 ## 1. Uma ação de login
 - Sempre criptografar a senha, nem que seja só por md5
