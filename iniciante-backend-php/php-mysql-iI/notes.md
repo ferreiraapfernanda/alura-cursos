@@ -2,7 +2,7 @@
 
 [Link para o curso](https://cursos.alura.com.br/course/php-mysql-e-fundamentos-da-web-parte-2)
 
-Curso iniciado em:
+Curso conluído em 01/10/2017
 
 Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><br/>
 
@@ -24,7 +24,7 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 
 :white_check_mark: 9. Include, require, require_once
 
-10. Envio de email via SMTP
+:white_check_mark: 10. Envio de email via SMTP
 
 
 ## 1. Uma ação de login
