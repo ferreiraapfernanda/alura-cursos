@@ -18,7 +18,7 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 ## Carreira Iniciante Back-end PHP
 - :white_check_mark: HTTP: Entendendo a web por baixo dos panos
 - :white_check_mark: [PHP e MySQL I]: Fundamentos para criar um sistema na Web 
-- :arrow_right: [PHP e MySQL II]: Cookies, sessões e mais recursos (12h)
+- :white_check_mark: [PHP e MySQL II]: Cookies, sessões e mais recursos (12h)
 - :arrow_right: MySQL I: Iniciando suas consultas (8h)
 - PHP I: Orientação a objetos com sua linguagem preferida (12h)
 - PHP II: Avançando com Orientação a objetos (12h)
