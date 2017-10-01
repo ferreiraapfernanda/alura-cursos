@@ -12,7 +12,7 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 :white_check_mark: 4. Insegurança com cookies, segurança com session e efetuando logout
 :white_check_mark: 5. Passando parâmetros para a próxima requisição
 :white_check_mark: 6. Refatoração, escopo de flash e controle de erro
-7. Um único formulário para adicionar e alterar
+:white_check_mark: 7. Um único formulário para adicionar e alterar
 8. SQL Injection
 9. Include, require, require_onde
 10. Envio de email via SMTP
@@ -38,3 +38,10 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 - Passar parâmetros somente pela sessão, quando possível. Assim como fizemos com as mensagens de erro e sucesso
 
 ## 6. Refatoração, escopo de flash e controle de erro
+
+## 7. Um único formulário para adicionar e alterar
+
+
+## 8. SQL Injection
+## 9. Include, require, require_onde
+## 10. Envio de email via SMTP
