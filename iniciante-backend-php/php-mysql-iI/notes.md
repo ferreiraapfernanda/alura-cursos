@@ -20,9 +20,9 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 
 :white_check_mark: 7. Um único formulário para adicionar e alterar
 
-8. SQL Injection
+:white_check_mark: 8. SQL Injection
 
-9. Include, require, require_once
+:white_check_mark: 9. Include, require, require_once
 
 10. Envio de email via SMTP
 
@@ -56,5 +56,7 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 ``$email = mysqli_real_escape_string($email);``
 
 ## 9. Include, require, require_once
+- include dá erro caso o arquivo não exista
+- require_once garante que o arquivo só seja inserido uma vez
 
 ## 10. Envio de email via SMTP
