@@ -22,7 +22,7 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 
 8. SQL Injection
 
-9. Include, require, require_onde
+9. Include, require, require_once
 
 10. Envio de email via SMTP
 
@@ -51,7 +51,10 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 
 ## 7. Um único formulário para adicionar e alterar
 
-
 ## 8. SQL Injection
-## 9. Include, require, require_onde
+- Tratar qualquer query com os dados que o usuário manda para o site
+``$email = mysqli_real_escape_string($email);``
+
+## 9. Include, require, require_once
+
 ## 10. Envio de email via SMTP
