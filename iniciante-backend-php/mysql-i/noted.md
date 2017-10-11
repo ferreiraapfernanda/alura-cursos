@@ -7,7 +7,7 @@ Curso iniciado em: 07/10/2017
 Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><br/>
 
 :white_check_mark: 1. Consultado os dados
-2. Atualizando e excluindo dados
+:white_check_mark: 2. Atualizando e excluindo dados
 3. Alterando e restringindo o formato das nossas tabelas
 4. Agrupando dados e fazendo consultas mais inteligentes
 5. Juntando dados de várias tabelas
@@ -36,13 +36,13 @@ select data, valor from compras where valor <> 500;
 
 select data, valor from compras where observacoes like 'Geladeira%';
 
-
-
-
-
 ```
 
 ## 2. Atualizando e excluindo dados
+
+
+
+
 ## 3. Alterando e restringindo o formato das nossas tabelas
 ## 4. Agrupando dados e fazendo consultas mais inteligentes
 ## 5. Juntando dados de várias tabelas
