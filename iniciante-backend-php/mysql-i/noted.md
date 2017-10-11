@@ -39,10 +39,28 @@ select data, valor from compras where observacoes like 'Geladeira%';
 ```
 
 ## 2. Atualizando e excluindo dados
+```SQL
 
+DELETE FROM COMPRAS WHERE ...
+UPDATE COMPRAS SET VAL = TXT, VAL1 = TXT1;
 
-
-
+```
 ## 3. Alterando e restringindo o formato das nossas tabelas
+```SQL
+
+... WHERE IS NULL;
+... WHERE IS NOT NULL;
+
+ALTER TABLE COMPRAS MODIFY COLUMN OBSERVACOES TEXT NOT NULL;
+ALTER TABLE COMPRAS MODIFY RECEBIDO BOOLEAN DEFAULT '0';
+ALTER TABLE COMPRAS ADD COLUMN FORMA_PAGT ENUM('CARTAO', 'BOLETO', 'DINHEIRO');
+ALTER TABLE COMPRAS CHANGE FORMA_PAGT FORMA_PAGT ENUM('CARTAO', 'BOLETO', 'DINHEIRO');
+
+/* CHANGE: ele recebe a coluna que quer ser alterada, e a versão nova dessa coluna. */
+
+```
+
+
+
 ## 4. Agrupando dados e fazendo consultas mais inteligentes
 ## 5. Juntando dados de várias tabelas
