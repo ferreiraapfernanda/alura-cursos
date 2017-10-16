@@ -19,8 +19,8 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 - :white_check_mark: HTTP: Entendendo a web por baixo dos panos
 - :white_check_mark: [PHP e MySQL I]: Fundamentos para criar um sistema na Web 
 - :white_check_mark: [PHP e MySQL II]: Cookies, sessões e mais recursos (12h)
-- :arrow_right: MySQL I: Iniciando suas consultas (8h)
-- PHP I: Orientação a objetos com sua linguagem preferida (12h)
+- :white_check_mark: MySQL I: Iniciando suas consultas (8h)
+- :arrow_right: PHP I: Orientação a objetos com sua linguagem preferida (12h)
 - PHP II: Avançando com Orientação a objetos (12h)
 
 <br/>
@@ -41,9 +41,9 @@ __Total:__ 68 horas
 - HTML5 e CSS3 I: Suas primeiras páginas da Web (32h)
 - Servlets: Fundamentos de Java na Web (16h)
 - Java e JSTL: Tags para facilitar o desenvolvimento JSP (6h)
-- _MySQL I: Inicianco suas consultas (8h)_
+- :white_check_mark: MySQL I: Inicianco suas consultas (8h)
 - Java e JDBC: Trabalhando com um banco de dados (8h)
-- _Git: Controle e compartilhe seu código (16h)_
+- :white_check_mark: Git: Controle e compartilhe seu código (16h)
 
 __Total:__ 110 horas
 
@@ -135,7 +135,7 @@ __Total:__ 74 horas
 <br/>
 
 ## Carreira Desenvolvedor Javascript
-- _HTTP: Entendendo a web por baixo dos panos_
+- :arrow_right: HTTP: Entendendo a web por baixo dos panos
 - _JavaScript: Programando na linguagem da web_
 - Expressões regulares: Capturando textos de forma mágica
 - _jQuery: Domine a biblioteca mais popular do mercado_
