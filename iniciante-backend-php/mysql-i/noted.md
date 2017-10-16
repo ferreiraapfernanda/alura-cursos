@@ -1,8 +1,9 @@
-# MySQL I
+# :white_check_mark: MySQL I
 
 [Link para o curso](https://cursos.alura.com.br/course/introducao-a-banco-de-dados-e-sql)
 
 Curso iniciado em: 07/10/2017
+Curso concluído em: 16/10/2017
 
 Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/>
 
@@ -14,7 +15,7 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/>
 
 :white_check_mark: 4. Agrupando dados e fazendo consultas mais inteligentes
 
-5. Juntando dados de várias tabelas
+:white_check_mark: 5. Juntando dados de várias tabelas
 
 </br></br>
 
@@ -93,3 +94,23 @@ order by year(data), month(data);
 ```
 
 ## 5. Juntando dados de várias tabelas
+
+```sql
+
+CREATE TABLE compradores (
+     id int not null auto_increment,
+     nome varchar(100) not null,
+     endereco varchar(100) not null,
+     telefone varchar(20) not null,
+     primary key (id)
+     );
+
+alter table compras add column comprador_id int;
+
+select observacoes, valor, nome 
+from compras join compradores on compras.comprador_id = compradores.id;
+
+ALTER TABLE COMPRAS ADD FOREIGN KEY (COMPRADOR_ID) REFERENCES COMPRADORES(ID);
+
+
+```
