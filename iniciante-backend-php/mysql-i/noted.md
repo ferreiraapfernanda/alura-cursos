@@ -4,13 +4,19 @@
 
 Curso iniciado em: 07/10/2017
 
-Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><br/>
+Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/>
 
 :white_check_mark: 1. Consultado os dados
+
 :white_check_mark: 2. Atualizando e excluindo dados
-3. Alterando e restringindo o formato das nossas tabelas
-4. Agrupando dados e fazendo consultas mais inteligentes
+
+:white_check_mark: 3. Alterando e restringindo o formato das nossas tabelas
+
+:white_check_mark: 4. Agrupando dados e fazendo consultas mais inteligentes
+
 5. Juntando dados de várias tabelas
+
+</br></br>
 
 ## 1. Consultado os dados
 ```sql
@@ -63,4 +69,27 @@ ALTER TABLE COMPRAS CHANGE FORMA_PAGT FORMA_PAGT ENUM('CARTAO', 'BOLETO', 'DINHE
 
 
 ## 4. Agrupando dados e fazendo consultas mais inteligentes
+- Funções de month(data) e year(data) para manipulação de datas)
+
+```sql
+
+select sum(valor) as total 
+from compras 
+where data > '2010-01-01';
+
+select count(valor) as quantidade 
+from compras 
+where data > '2010-01-01';
+
+select month(data), year(data), sum(valor) 
+from compras 
+group by month(data), year(data);
+
+select month(data), year(data), sum(valor) 
+from compras 
+group by month(data), year(data) 
+order by year(data), month(data);
+
+```
+
 ## 5. Juntando dados de várias tabelas
