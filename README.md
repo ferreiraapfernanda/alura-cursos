@@ -1,6 +1,9 @@
 # Cursos Alura
 
-Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><br/>
+:dart: Meta 2017:
+  - Carreira Iniciante Back-end PHP
+  - Carreira Desenvolvedor Java
+  - Carreira Desenvolvedor Java Web
 
 # Demais Cursos
 - :white_check_mark: [Git]: Controle e compartilhe seu código
@@ -13,20 +16,36 @@ Legenda: :white_check_mark: Concluídos | :arrow_right: Em andamento <br/><br/><
 - Laravel: facilitando o desenvolvimento PHP
 - Vagrant: Automatização e implementação de entrega contínua
 
-# Carreiras
+# Carreiras PHP
 
 ## Carreira Iniciante Back-end PHP
-- :white_check_mark: HTTP: Entendendo a web por baixo dos panos
-- :white_check_mark: [PHP e MySQL I]: Fundamentos para criar um sistema na Web 
+- :white_check_mark: HTTP: Entendendo a web por baixo dos panos  (14h)
+- :white_check_mark: [PHP e MySQL I]: Fundamentos para criar um sistema na Web (12h)
 - :white_check_mark: [PHP e MySQL II]: Cookies, sessões e mais recursos (12h)
 - :white_check_mark: MySQL I: Iniciando suas consultas (8h)
-- :arrow_right: PHP I: Orientação a objetos com sua linguagem preferida (12h)
+- :on: PHP I: Orientação a objetos com sua linguagem preferida (12h)
 - PHP II: Avançando com Orientação a objetos (12h)
+
+__Total:__ 70 horas
 
 <br/>
 
+## Carreira Desenvolvedor PHP Erudito
+- Design Patterns PHP I: Boas práticas de programação (40h)
+- Design Patterns PHP II: Boas práticas de programação (16h)
+- SOLID com PHP: Orientação a Objetos com PHP (8h)
+- Testes: TDD com PHP (10h)
+
+__Total:__ 74 horas
+
+<br/>
+
+
+
+# Carreiras Java
+
 ## Carreira Desenvolvedor Java 
-- :arrow_right: Java I: Primeiros passos (12h)
+- :on: Java I: Primeiros passos (12h)
 - Java II: Orientação a Objetos (12h)
 - Java III: Principais APIs e bibliotecas (12h)
 - Java: Dominando as Collections (20h)
@@ -37,7 +56,7 @@ __Total:__ 68 horas
 <br/>
 
 ## Carreira Desenvolvedor Java Web
-- _HTTP: Entendendo a web por baixo dos panos (14h)_
+- :white_check_mark: HTTP: Entendendo a web por baixo dos panos (14h)
 - HTML5 e CSS3 I: Suas primeiras páginas da Web (32h)
 - Servlets: Fundamentos de Java na Web (16h)
 - Java e JSTL: Tags para facilitar o desenvolvimento JSP (6h)
@@ -61,6 +80,7 @@ __Total:__ 110 horas
 - Java EE parte 3: Finalizando sua loja com REST, JMS, JAAS e WebSockets (14h)
 
 __Total:__ 123 horas
+
 
 <br/>
 
@@ -111,8 +131,10 @@ __Total:__ 80 horas
 <br/>
 
 
+# Carreiras Front-End
+
 ## Carreira Desenvolvedor Front-end
-- _HTML5 e CSS3 I: Suas primeiras páginas da Web (32h)_
+- HTML5 e CSS3 I: Suas primeiras páginas da Web (32h)
 - HTML5 e CSS3 II: Turbinando as suas páginas (40h)
 - JavaScript: Programando na linguagem da web (20h)
 - jQuery: Domine a biblioteca mais popular do mercado (12h)
@@ -124,24 +146,14 @@ __Total:__ 132 horas
 
 <br/>
 
-## Carreira Desenvolvedor PHP Erudito
-- Design Patterns PHP I: Boas práticas de programação (40h)
-- Design Patterns PHP II: Boas práticas de programação (16h)
-- SOLID com PHP: Orientação a Objetos com PHP (8h)
-- Testes: TDD com PHP (10h)
-
-__Total:__ 74 horas
-
-<br/>
-
 ## Carreira Desenvolvedor Javascript
-- :arrow_right: HTTP: Entendendo a web por baixo dos panos
-- _JavaScript: Programando na linguagem da web_
+- :on: HTTP: Entendendo a web por baixo dos panos
+- JavaScript: Programando na linguagem da web
 - Expressões regulares: Capturando textos de forma mágica
-- _jQuery: Domine a biblioteca mais popular do mercado_
-- _jQuery: Avance na biblioteca mais popular do mercado parte 2_
+- jQuery: Domine a biblioteca mais popular do mercado
+- jQuery: Avance na biblioteca mais popular do mercado parte 2
 
-__Total:__ 
+__Total:__ ?
 
 <br/>
 <br/>
