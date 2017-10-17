@@ -1,11 +1,13 @@
 # Cursos Alura
 
 :dart: Meta 2017:
-  - Carreira Iniciante Back-end PHP
-  - Carreira Desenvolvedor Java
-  - Carreira Desenvolvedor Java Web
 
-# Demais Cursos
+- :on: Carreira Iniciante Back-end PHP
+- Carreira Desenvolvedor Java
+- Carreira Desenvolvedor Java Web
+
+## Demais Cursos
+
 - :white_check_mark: [Git]: Controle e compartilhe seu código
 - :white_check_mark: Windows: Introdução ao Prompt
 - CakePHP I: Acelere o desenvolvimento web
@@ -16,9 +18,10 @@
 - Laravel: facilitando o desenvolvimento PHP
 - Vagrant: Automatização e implementação de entrega contínua
 
-# Carreiras PHP
+## Carreiras PHP
 
-## Carreira Iniciante Back-end PHP
+### :on: Carreira Iniciante Back-end PHP
+
 - :white_check_mark: HTTP: Entendendo a web por baixo dos panos  (14h)
 - :white_check_mark: [PHP e MySQL I]: Fundamentos para criar um sistema na Web (12h)
 - :white_check_mark: [PHP e MySQL II]: Cookies, sessões e mais recursos (12h)
@@ -28,9 +31,8 @@
 
 __Total:__ 70 horas
 
-<br/>
+### Carreira Desenvolvedor PHP Erudito
 
-## Carreira Desenvolvedor PHP Erudito
 - Design Patterns PHP I: Boas práticas de programação (40h)
 - Design Patterns PHP II: Boas práticas de programação (16h)
 - SOLID com PHP: Orientação a Objetos com PHP (8h)
@@ -38,13 +40,10 @@ __Total:__ 70 horas
 
 __Total:__ 74 horas
 
-<br/>
+## Carreiras Java
 
+### Carreira Desenvolvedor Java
 
-
-# Carreiras Java
-
-## Carreira Desenvolvedor Java 
 - :on: Java I: Primeiros passos (12h)
 - Java II: Orientação a Objetos (12h)
 - Java III: Principais APIs e bibliotecas (12h)
@@ -53,9 +52,8 @@ __Total:__ 74 horas
 
 __Total:__ 68 horas
 
-<br/>
+### Carreira Desenvolvedor Java Web
 
-## Carreira Desenvolvedor Java Web
 - :white_check_mark: HTTP: Entendendo a web por baixo dos panos (14h)
 - HTML5 e CSS3 I: Suas primeiras páginas da Web (32h)
 - Servlets: Fundamentos de Java na Web (16h)
@@ -66,9 +64,8 @@ __Total:__ 68 horas
 
 __Total:__ 110 horas
 
-<br/>
+### Carreira Desenvolvedor Java Web Enterprise
 
-## Carreira Desenvolvedor Java Web Enterprise
 - Java e JPA: Otimizações com JPA2 e Hibernate (12h)
 - EJB: O poder da Java EE (15h)
 - Java e JSF I: Sua aplicação web com JSF2 (20h)
@@ -81,10 +78,8 @@ __Total:__ 110 horas
 
 __Total:__ 123 horas
 
+### Carreira Desenvolvedor Java Web com Spring
 
-<br/>
-
-## Carreira Desenvolvedor Java Web com Spring
 - Spring MVC I: Criando aplicações web (20h)
 - Spring MVC II: Integração, cache, segurança e templates (15h)
 - Maven: Build do zero a web (6h)
@@ -94,9 +89,8 @@ __Total:__ 123 horas
 
 __Total:__ 80 horas
 
-<br/>
+### Carreira Expert em Integrações de Aplicações com Java
 
-## Carreira Expert em Integrações de Aplicações com Java
 - JAX-RS e Jersey: Domine a criação de webservices REST (12h)
 - JAX-WS: Domine a criação de webservices SOAP (16h)
 - JMS e ActiveMQ: Mensageria com Java (16h)
@@ -105,9 +99,8 @@ __Total:__ 80 horas
 
 __Total:__ 72 horas
 
-<br/>
+### Carreira Avançando na Plataforma Java
 
-## Carreira Avançando na Plataforma Java
 - Java Reflection: mágica e meta programação (8h)
 - Java e XML: integração, parsing e validação (8h)
 - Threads 1: Programação paralela em Java (16h)
@@ -116,9 +109,8 @@ __Total:__ 72 horas
 
 __Total:__ 60 horas
 
-<br/>
+### Carreira Expert em Orientação a Objetos com Java
 
-## Carreira Expert em Orientação a Objetos com Java
 - Design Patterns Java I: Boas práticas de programação (20h)
 - Design Patterns Java II: Boas práticas de programação (16h)
 - SOLID com Java: Oriantação a Objetos com Java (8h)
@@ -128,12 +120,10 @@ __Total:__ 60 horas
 
 __Total:__ 80 horas
 
-<br/>
+## Carreiras Front-End
 
+### Carreira Desenvolvedor Front-end
 
-# Carreiras Front-End
-
-## Carreira Desenvolvedor Front-end
 - HTML5 e CSS3 I: Suas primeiras páginas da Web (32h)
 - HTML5 e CSS3 II: Turbinando as suas páginas (40h)
 - JavaScript: Programando na linguagem da web (20h)
@@ -144,19 +134,15 @@ __Total:__ 80 horas
 
 __Total:__ 132 horas
 
-<br/>
+### Carreira Desenvolvedor Javascript
 
-## Carreira Desenvolvedor Javascript
-- :on: HTTP: Entendendo a web por baixo dos panos
+- :white_check_mark: HTTP: Entendendo a web por baixo dos panos
 - JavaScript: Programando na linguagem da web
 - Expressões regulares: Capturando textos de forma mágica
 - jQuery: Domine a biblioteca mais popular do mercado
 - jQuery: Avance na biblioteca mais popular do mercado parte 2
 
 __Total:__ ?
-
-<br/>
-<br/>
 
 [PHP e MySQL I]: https://github.com/fromnanda/alura-cursos/tree/master/iniciante-backend-php/php-mysql-i
 [Git]: https://github.com/fromnanda/alura-cursos/tree/master/engenheiro-devops/git
