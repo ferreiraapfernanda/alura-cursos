@@ -23,6 +23,8 @@ Curso concluído em:
 
 ## 4. Encapsulamento
 
+A vantagem é que fica possível fazer validações, protegendo a aplicação de erros e modificações de terceiros
+
 ## 5. Comparando objetos
 
 ## 6. Magic methods
