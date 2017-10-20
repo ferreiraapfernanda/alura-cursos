@@ -10,6 +10,7 @@
 
 - :white_check_mark: [Git]: Controle e compartilhe seu código
 - :white_check_mark: Windows: Introdução ao Prompt
+- [PHP COM PDO](https://cursos.alura.com.br/course/php-pdo-parte-1)
 - CakePHP I: Acelere o desenvolvimento web
 - Performance Web I: otimizando o front-end
 - Linux I: Conhecendo e utilizando o terminal
