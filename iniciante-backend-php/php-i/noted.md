@@ -10,8 +10,8 @@ Curso concluído em:
 2. :white_check_mark: Evoluindo a listagem de produtos
 3. :white_check_mark: Métodos
 4. :white_check_mark: Encapsulamento
-5. :white_check_mark: Comparando objetos
-6. Magic methods
+5. :white_check_mark: :on: Comparando objetos
+6. :on: Magic methods
 
 </br></br>
 
@@ -56,3 +56,27 @@ A variável de instância só guarda a referência do local da memória.
 
 
 ## 6. Magic methods
+
+Método construtor: Nas versões anteriores ao PHP 5, você declarava seus construtores criando uma função com o mesmo nome da classe.
+
+```php 
+function __construct($nome, $preco, $descricao, Categoria $categoria, $usado) {
+        $this->nome = $nome;
+        $this->preco = $preco;
+        $this->descricao = $descricao;
+        $this->categoria = $categoria;
+        $this->usado = $usado;
+}
+```
+
+
+Método toString
+```php
+function __toString() {
+    return $this->nome.": R$ ".$this->preco;
+}
+```
+
+Método destruct
+
+Mais sobre [Magic Methods](http://php.net/manual/pt_BR/language.oop5.magic.php)
