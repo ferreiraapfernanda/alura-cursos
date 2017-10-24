@@ -1,10 +1,10 @@
-# :on: PHP I
+# PHP I
 
 [Link para o curso](https://cursos.alura.com.br/course/php-oo-1)
 
-Curso iniciado em: 17/10/2017
+__Curso iniciado em: 17/10/2017__
 
-Curso concluído em:
+__Curso concluído em: 23/10/2017__
 
 1. :white_check_mark: Classes e Objetos
 2. :white_check_mark: Evoluindo a listagem de produtos
