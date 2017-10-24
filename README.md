@@ -27,8 +27,8 @@
 - :white_check_mark: [PHP e MySQL I]: Fundamentos para criar um sistema na Web (12h)
 - :white_check_mark: [PHP e MySQL II]: Cookies, sessões e mais recursos (12h)
 - :white_check_mark: MySQL I: Iniciando suas consultas (8h)
-- :on: PHP I: Orientação a objetos com sua linguagem preferida (12h)
-- PHP II: Avançando com Orientação a objetos (12h)
+- :white_check_mark: PHP I: Orientação a objetos com sua linguagem preferida (12h)
+- :ON: PHP II: Avançando com Orientação a objetos (12h)
 
 __Total:__ 70 horas
 
