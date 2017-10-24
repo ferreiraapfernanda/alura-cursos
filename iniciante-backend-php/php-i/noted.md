@@ -10,8 +10,8 @@ Curso concluído em:
 2. :white_check_mark: Evoluindo a listagem de produtos
 3. :white_check_mark: Métodos
 4. :white_check_mark: Encapsulamento
-5. :white_check_mark: :on: Comparando objetos
-6. :on: Magic methods
+5. :white_check_mark: Comparando objetos
+6. :white_check_mark:  Magic methods
 
 </br></br>
 
