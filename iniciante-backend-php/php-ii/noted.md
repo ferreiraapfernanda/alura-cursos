@@ -7,7 +7,7 @@ Curso iniciado em: 24/10/2017
 
 :white_check_mark: :on: 1. Autoloading de classes
 
-2. DAO - Data Access Object
+2. :on: DAO - Data Access Object
 
 3. Herança
 
@@ -36,6 +36,24 @@ spl_autoload_register("carregaClasse");
 - Cada classe deve estar no seu arquivo e o nome do arquivo deve ser o nome da classe.
 
 ## 2. DAO - Data Access Object
+
+- Criação de uma classe para encapsular as funções de acesso aos dados. 
+Exemplo: ProdutoDao.php
+```php
+
+class ProdutoDao {
+
+private $conexao;
+
+function __construct($conexao){
+  $this->conexao = $conexao;
+}
+
+// Funções de banco-produto.php
+
+}
+
+```
 
 ## 3. Herança
 
