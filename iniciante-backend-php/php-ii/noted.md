@@ -5,7 +5,7 @@
 Curso iniciado em: 24/10/2017
 
 
-:white_check_mark: :on: 1. Autoloading de classes
+:white_check_mark: 1. Autoloading de classes
 
 2. :on: DAO - Data Access Object
 
