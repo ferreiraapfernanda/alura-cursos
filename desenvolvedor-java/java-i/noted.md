@@ -6,8 +6,8 @@ __Curso iniciado em: 26/10/2017__
 __Curso concluído em:__
 
 1. :white_check_mark: A linguagem Java
-1. Variáveis e fluxo
-1. Começando com Orientação a objetos
+1. :white_check_mark: Variáveis e fluxo
+1. :on: Começando com Orientação a objetos
 1. Arrays
 1. Modificadores de acesso
 1. Construtores
@@ -40,6 +40,22 @@ class OlaMundo {
 - Ofuscador, para a liberação do programa [ProGuard](http://proguard.sf.net)
 
 ## 2. Variáveis e fluxo
+
+- Tipos primitivos, referenciados com minúsculo
+
+```java
+
+int
+char
+double
+float
+long numeroGrande = 999999999L;
+String
+boolean
+
+```
+
+- Casting ```java long copiaDeNumero = (int) numero;```
 
 ## 3. Começando com Orientação a objetos
 
