@@ -57,6 +57,8 @@ function __construct($conexao){
 
 ## 3. Herança
 
+
+
 ## 4. Reescrita e Polimorfismo
 
 ## 5. Classe Abstrata e o padrão Factory
