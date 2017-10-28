@@ -7,9 +7,9 @@ __Curso concluído em:__
 
 1. :white_check_mark: A linguagem Java
 1. :white_check_mark: Variáveis e fluxo
-1. :on: Começando com Orientação a objetos
-1. Arrays
-1. Modificadores de acesso
+1. :white_check_mark: Começando com Orientação a objetos
+1. :white_check_mark: Arrays
+1. :white_check_mark: Modificadores de acesso
 1. Construtores
 1. Atributos e métodos estáticos
 
@@ -62,6 +62,9 @@ boolean
 ## 4. Arrays
 
 ## 5. Modificadores de acesso
+
+- Private indica que __somente a própria classe__ pode utilizar esse atributo
+- Não criar get e set para todos os atributos. Alguns atributos são muito importantes, e precisam seguir diversas regras de negócio, por isso, utilizam-se métodos mais ricos/complexos.
 
 ## 6. Construtores
 

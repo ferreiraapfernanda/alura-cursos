@@ -28,7 +28,7 @@
 - :white_check_mark: [PHP e MySQL II]: Cookies, sessões e mais recursos (12h)
 - :white_check_mark: MySQL I: Iniciando suas consultas (8h)
 - :white_check_mark: PHP I: Orientação a objetos com sua linguagem preferida (12h)
-- :ON: PHP II: Avançando com Orientação a objetos (12h)
+- :on: PHP II: Avançando com Orientação a objetos (12h)
 
 __Total:__ 70 horas
 
