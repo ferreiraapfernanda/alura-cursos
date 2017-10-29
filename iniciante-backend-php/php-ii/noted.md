@@ -1,28 +1,26 @@
 # :on: PHP II
 
-[Link para o curso](https://cursos.alura.com.br/course/php-oo-2)
-
-Curso iniciado em: 24/10/2017
-
+- [Link para o curso](https://cursos.alura.com.br/course/php-oo-2)
+- Curso iniciado em: 24/10/2017
 
 :white_check_mark: 1. Autoloading de classes
 
-:white_check_mark: 2. DAO - Data Access Object
+:white_check_mark: 1. DAO - Data Access Object
 
-3. Herança
+:white_check_mark: 1. Herança
 
-4. Reescrita e Polimorfismo
+1. Reescrita e Polimorfismo
 
-5. Classe Abstrata e o padrão Factory
+1. Classe Abstrata e o padrão Factory
 
-6. Método abstrato
-
-<br/>
+1. Método abstrato
 
 ## 1. Autoloading de classes
 
 - Autoload somente no PHP5.
+
 - Cria a função que carrega as classes, e depois registra ela como função de autoload
+
 ```php
 
 function carregaClase($nomeDaClasse) {
@@ -32,13 +30,17 @@ function carregaClase($nomeDaClasse) {
 spl_autoload_register("carregaClasse");
 
 ```
+
 - A função só será executada quando ocorre a utilização de uma classe não definida (no próprio arquivo)
+
 - Cada classe deve estar no seu arquivo e o nome do arquivo deve ser o nome da classe.
 
 ## 2. DAO - Data Access Object
 
-- Criação de uma classe para encapsular as funções de acesso aos dados. 
+- Criação de uma classe para encapsular as funções de acesso aos dados.
+
 Exemplo: ProdutoDao.php
+
 ```php
 
 class ProdutoDao {
@@ -57,7 +59,8 @@ function __construct($conexao){
 
 ## 3. Herança
 
-
+- Private: Só a própria classe enxerga
+- Protected: A própria classeeasclasses filhas enxergam
 
 ## 4. Reescrita e Polimorfismo
 
@@ -65,12 +68,8 @@ function __construct($conexao){
 
 ## 6. Método abstrato
 
-
-</br></br>
-
-Legenda: 
+Legenda:
 
 :white_check_mark: Concluído
 
-:on: Em andamento 
-
+:on: Em andamento
