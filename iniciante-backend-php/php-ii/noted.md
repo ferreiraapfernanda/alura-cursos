@@ -3,11 +3,11 @@
 - [Link para o curso](https://cursos.alura.com.br/course/php-oo-2)
 - Curso iniciado em: 24/10/2017
 
-:white_check_mark: 1. Autoloading de classes
+1. :white_check_mark: Autoloading de classes
 
-:white_check_mark: 1. DAO - Data Access Object
+1. :white_check_mark: DAO - Data Access Object
 
-:white_check_mark: 1. Herança
+1. :white_check_mark: Herança
 
 1. Reescrita e Polimorfismo
 
