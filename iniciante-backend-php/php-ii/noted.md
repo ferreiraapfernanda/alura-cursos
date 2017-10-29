@@ -23,7 +23,7 @@
 
 ```php
 
-function carregaClase($nomeDaClasse) {
+function carregaClasse($nomeDaClasse) {
   require_once("class/".$nomeDaClasse.".php");
 }
 
@@ -60,7 +60,7 @@ function __construct($conexao){
 ## 3. Herança
 
 - Private: Só a própria classe enxerga
-- Protected: A própria classeeasclasses filhas enxergam
+- Protected: A própria classe e as classes filhas enxergam
 
 ## 4. Reescrita e Polimorfismo
 
