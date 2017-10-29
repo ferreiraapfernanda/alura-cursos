@@ -1,9 +1,8 @@
 # Java I: Primeiros passos
 
-[Link para o curso](https://cursos.alura.com.br/course/primeiros-passos-com-java)
-
-__Curso iniciado em: 26/10/2017__
-__Curso concluído em:__
+- [Link para o curso](https://cursos.alura.com.br/course/primeiros-passos-com-java)
+- __Curso iniciado em: 26/10/2017__
+- __Curso concluído em:__
 
 1. :white_check_mark: A linguagem Java
 1. :white_check_mark: Variáveis e fluxo
