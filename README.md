@@ -45,7 +45,7 @@ __Total:__ 74 horas
 
 ### Carreira Desenvolvedor Java
 
-- :on: Java I: Primeiros passos (12h)
+- :white_check_mark: Java I: Primeiros passos (12h)
 - Java II: Orientação a Objetos (12h)
 - Java III: Principais APIs e bibliotecas (12h)
 - Java: Dominando as Collections (20h)
