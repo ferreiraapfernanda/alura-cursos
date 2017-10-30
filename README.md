@@ -1,8 +1,25 @@
-# Cursos Alura
+# Alura 
 
-## PROGRAMAÇÃO
+Listas das carreiras e cursos que pretendo concluir no Alura
 
-### Cursos de PHP
+## Carreiras
+- :on: Carreira Iniciante Back-end PHP
+- Carreira Desenvolvedor PHP Erudito
+- :on: Carreira Desenvolvedor Java
+- Carreira Desenvolvedor Java Web
+- Carreira Desenvolvedor Java Web Enterprise
+- Carreira Desenvolvedor Java Web com Spring
+- Carreira Expert em Integrações de Aplicações com Java
+- Carreira Avançando na Plataforma Java
+- Carreira Expert em Orientação a Objetos com Java
+- Carreira Desenvolvedor Front-end
+- Carreira Desenvolvedor Javascript
+
+## Cursos 
+
+### PROGRAMAÇÃO
+
+#### Cursos de PHP
 
 - :ok: PHP e MySQL I
 - :ok: PHP e MySQL II
@@ -22,7 +39,7 @@
 - Zend Framework II
 - Testes: TDD com PHP
 
-### Cursos Java
+#### Cursos Java
 
 - :ok: Java I
 - Java II
@@ -39,7 +56,7 @@
 - Java Debug
 - Java Brasil
 
-### Cursos Java Para Web
+#### Cursos Java Para Web
 
 - Servlets
 - Java e JSTL
@@ -65,7 +82,7 @@
 - Play! Framework II 
 - Java e MongoDB
 
-### Cursos Integrações cem Java
+#### Cursos Integrações cem Java
 
 - JAX-RS e Jersey
 - JAX-WS
@@ -73,14 +90,14 @@
 - Apache Camel
 - Rest Assured
 
-### Cursos Testes em Java
+#### Cursos Testes em Java
 
 - Testes: TDD com Java 
 - Mock
 - Teste de Integração
 - Selenium
 
-### Cursos Boas Práticas em Java
+#### Cursos Boas Práticas em Java
 
 - Orientação a Objetos
 - Design Patterns Java I
@@ -89,7 +106,7 @@
 - Java laboratório com Testes
 - Java laboratório com Testes
 
-### Cursos de Certificação Java
+#### Cursos de Certificação Java
 
 - Certificação Java SE 7 Programmer I: Básico
 - Certificação Java SE 7 Programmer I: Tipos de Dados
@@ -101,15 +118,15 @@
 - Certificação Java SE 7 Programmer I: Lidando com exceções
 - Certificação Java SE 7 Programmer I: Conteúdo além da prova
 
-### Cursos de Java e Persistência
+#### Cursos de Java e Persistência
 
 - Java e JDBC
 - Java e JPA
 - Java e JPA Otimizações
 
-## FRONT-END
+### FRONT-END
 
-### HTML e CSS
+#### HTML e CSS
 
 - HTML5 e CSS3 I
 - HTML5 e CSS3 II
@@ -123,12 +140,12 @@
 - Google ChartTools
 - Front-end (Projeto Final)
 
-### jQUERY
+#### jQUERY
 
 - jQuery
 - JQuery parte 2
 
-### JavaScript
+#### JavaScript
 
 - JavaScript
 - Expressões regulares
@@ -140,7 +157,7 @@
 - Cocos Creator
 - Progressive Web Apps
 
-### Frameworks MVC
+#### Frameworks MVC
 
 - Angular 1
 - React parte 1
@@ -156,7 +173,7 @@
 - Vue.js parte 1
 - Vue.js parte 2
 
-### Automação e Performance
+#### Automação e Performance
 
 - Grunt
 - Jasmine
@@ -166,11 +183,11 @@
 - Performance Web I
 - Performance Web II
 
-## INFRAESTRUTURA
+### INFRAESTRUTURA
 
-### SQL
+#### SQL
+
 - Modelagem de Banco de Dados Relacional
-
 - :ok: MYSQL I
 - MYSQL II
 - PostgreSQL I
@@ -187,7 +204,7 @@
 - Certificação Oracle SQL Fundamentals 6
 - Certificação Oracle SQL Fundamentals 7
 
-### Análise de Dados
+#### Análise de Dados
 
 - Data Analysis
 - Chatobot com Watson
@@ -196,7 +213,7 @@
 - Machine Learning: Introdução aos sistemas de recomendações
 - Machine Learning: Aprendizado supervisionado
 
-### NoSQL
+#### NoSQL
 
 - Redis I
 - Redis II
@@ -204,7 +221,7 @@
 - Elasticsearch
 - Elasticsearch 5
 
-### Linux
+#### Linux
 
 - Linux I
 - Linux II
@@ -223,14 +240,14 @@
 - Certificação Linux LPI Essentials parte 11
 - Certificação Linux LPI Essentials parte 12
 
-### Build e Versionamento
+#### Build e Versionamento
 
 - :ok: Git
 - Maven
 - Ant
 - Ivy
 
-### Entrega Contínua
+#### Entrega Contínua
 
 - Vagrant
 - Docker
@@ -239,12 +256,12 @@
 - AWS S3
 - Integração Contínua
 
-### Windows
+#### Windows
 
 - :ok: Windows Prompt
 - Windows Server
 
-### Redes
+#### Redes
 
 - Redes parte 1
 - Redes parte 2
@@ -260,9 +277,9 @@
 - Certificação Cisco CCNA parte 5
 - Certificação Cisco CCNA parte 6
 
-## DESIGN E UX
+### DESIGN E UX
 
-### Introdução ao Design
+#### Introdução ao Design
 
 - Gestalt
 - Identidade Visual parte 1
@@ -273,7 +290,7 @@
 - Colorização Digital
 - Manipulação Fotográfica
 
-### Web Design
+#### Web Design
 
 - Photoshop para web I
 - Photoshop para web II
@@ -284,7 +301,7 @@
 - Illustrator: crie layouts para a web
 - Animate (Flash)
 
-### Impressos
+#### Impressos
 
 - InDesign: folhetos e folders
 - Design editorial
@@ -298,7 +315,7 @@
 - Pintura Digital parte 1
 - Pintura Digital parte 2
 
-### UX
+#### UX
 
 - UX
 - UX Strategy
@@ -314,16 +331,16 @@
 - Sketch: 10 heurísticas de Nielsen I
 - Sketch: 10 heurísticas de Nielsen II
 
-## BUSINESS
+### BUSINESS
 
-### Excel
+#### Excel
 
 - Excel
 - Excel II
 - Excel III
 - VBA
 
-### Agilidade
+#### Agilidade
 
 - Métodos ágeis
 - Scrum
@@ -334,7 +351,7 @@
 - Scrum parte 5
 - Scrum parte 6
 
-### SEO E ADWORDS
+#### SEO E ADWORDS
 
 - SEO I
 - SEO II
@@ -343,11 +360,11 @@
 - Google Adwords: otimizando resultados
 - SEO Wordpress
 
-### Documentação
+#### Documentação
 
 - UML
 
-### Carreiras
+#### Carreiras
 
 - Hábitos
 - Comunicação
@@ -356,7 +373,7 @@
 - Design Thinking parte 2
 - Design Thinking parte 2
 
-### Governança 
+#### Governança 
 
 - Certificação ITIL Foundation 1
 - Certificação ITIL Foundation 2
@@ -379,7 +396,7 @@
 - Certificação PMP e CAPM parte 11
 - Certificação PMP e CAPM parte 12
 
-### Cosntrução de Sites
+#### Cosntrução de Sites
 
 - Wordpress I
 - Wordpress II
@@ -387,9 +404,9 @@
 - Shopify I
 - Shopify II
 
-## MOBILE
+### MOBILE
 
-### Android
+#### Android
 
 - Android I Eclipse
 - Android II
@@ -402,7 +419,7 @@
 - Android com Web Service parte 2
 - Android com Web Service parte 3
 
-### Multiplataforma
+#### Multiplataforma
 
 - Cordova e PhoneGap
 - Xamarin parte 1
