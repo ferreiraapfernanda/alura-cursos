@@ -1,10 +1,11 @@
 class Conta {
 
     int numero;
+    int agencia;
     Pessoa titular;
     private double saldo;
-    int agencia;
     private double limite;
+    private static int numeroIncremental = 1;
 
     public Conta(int numero, double limite){
         this(numero, limite, 0);
@@ -14,6 +15,16 @@ class Conta {
         this.numero = numero;
         this.limite = limite;
         this.saldo = saldoInicial;
+    }
+
+    public Conta(){
+        this.numero = numeroIncremental;
+        numeroIncremental++;
+    }
+
+
+    public int getNumero(){
+        return this.numero;
     }
 
     public double getSaldo(){
