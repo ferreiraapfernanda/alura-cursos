@@ -1,150 +1,416 @@
 # Cursos Alura
 
-:dart: Meta 2017:
+## PROGRAMAÇÃO
 
-- :on: Carreira Iniciante Back-end PHP
-- Carreira Desenvolvedor Java
-- Carreira Desenvolvedor Java Web
+### Cursos de PHP
 
-## Demais Cursos
+- :ok: PHP e MySQL I
+- :ok: PHP e MySQL II
+- :ok: PHP I
+- :on: PHP II
+- PHP com PDO
+- Design Patterns PHP I
+- Design Patterns PHP II
+- SOLID com PHP
+- CodeIgniter I
+- CodeIgniter II
+- Laravel
+- Laravel II
+- CakePHP I
+- CakePHP II
+- Zend Framework
+- Zend Framework II
+- Testes: TDD com PHP
 
-- :white_check_mark: [Git]: Controle e compartilhe seu código
-- :white_check_mark: Windows: Introdução ao Prompt
-- [PHP COM PDO](https://cursos.alura.com.br/course/php-pdo-parte-1)
-- CakePHP I: Acelere o desenvolvimento web
-- Performance Web I: otimizando o front-end
-- Linux I: Conhecendo e utilizando o terminal
-- Linux II: Programas, processos e pacotes
-- Docker: Criando containers sem dor de cabeça
-- Laravel: facilitando o desenvolvimento PHP
-- Vagrant: Automatização e implementação de entrega contínua
+### Cursos Java
 
-## Carreiras PHP
+- :ok: Java I
+- Java II
+- Java III
+- Refatorando na prática
+- Java 8
+- Threads 1
+- Threads 2
+- Java Reflection
+- Eclipse
+- Intellij IDEA
+- Jasper Reports
+- Java Collections
+- Java Debug
+- Java Brasil
 
-### :on: Carreira Iniciante Back-end PHP
+### Cursos Java Para Web
 
-- :white_check_mark: HTTP: Entendendo a web por baixo dos panos  (14h)
-- :white_check_mark: [PHP e MySQL I]: Fundamentos para criar um sistema na Web (12h)
-- :white_check_mark: [PHP e MySQL II]: Cookies, sessões e mais recursos (12h)
-- :white_check_mark: MySQL I: Iniciando suas consultas (8h)
-- :white_check_mark: PHP I: Orientação a objetos com sua linguagem preferida (12h)
-- :on: PHP II: Avançando com Orientação a objetos (12h)
+- Servlets
+- Java e JSTL
+- Java e XML
+- XStream
+- VRaptor3
+- VRaptor4
+- VRaptor e JPA
+- Java e JSF I
+- Java e JSF 2 II
+- Java JSF 2 - III
+- CDI 1.2
+- Spring MVC
+- Spring MVC I
+- Spring MVC II
+- Spring Boot
+- EJB
+- Java EE parte 1
+- Java EE parte 2
+- Java EE parte 3
+- Java laboratório Web
+- Play! Framework I
+- Play! Framework II 
+- Java e MongoDB
 
-__Total:__ 70 horas
+### Cursos Integrações cem Java
 
-### Carreira Desenvolvedor PHP Erudito
+- JAX-RS e Jersey
+- JAX-WS
+- JSM e ActiveMQ
+- Apache Camel
+- Rest Assured
 
-- Design Patterns PHP I: Boas práticas de programação (40h)
-- Design Patterns PHP II: Boas práticas de programação (16h)
-- SOLID com PHP: Orientação a Objetos com PHP (8h)
-- Testes: TDD com PHP (10h)
+### Cursos Testes em Java
 
-__Total:__ 74 horas
+- Testes: TDD com Java 
+- Mock
+- Teste de Integração
+- Selenium
 
-## Carreiras Java
+### Cursos Boas Práticas em Java
 
-### Carreira Desenvolvedor Java
+- Orientação a Objetos
+- Design Patterns Java I
+- Design Patterns Java II 
+- SOLID com Java
+- Java laboratório com Testes
+- Java laboratório com Testes
 
-- :white_check_mark: Java I: Primeiros passos (12h)
-- Java II: Orientação a Objetos (12h)
-- Java III: Principais APIs e bibliotecas (12h)
-- Java: Dominando as Collections (20h)
-- Java 8: Tire proveito dos novos recursos da linguagem (12h)
+### Cursos de Certificação Java
 
-__Total:__ 68 horas
+- Certificação Java SE 7 Programmer I: Básico
+- Certificação Java SE 7 Programmer I: Tipos de Dados
+- Certificação Java SE 7 Programmer I: Operadores
+- Certificação Java SE 7 Programmer I: Laços
+- Certificação Java SE 7 Programmer I: Criando e usando Arrays
+- Certificação Java SE 7 Programmer I: Métodos e encapsulamento
+- Certificação Java SE 7 Programmer I: Relações entre classes
+- Certificação Java SE 7 Programmer I: Lidando com exceções
+- Certificação Java SE 7 Programmer I: Conteúdo além da prova
 
-### Carreira Desenvolvedor Java Web
+### Cursos de Java e Persistência
 
-- :white_check_mark: HTTP: Entendendo a web por baixo dos panos (14h)
-- HTML5 e CSS3 I: Suas primeiras páginas da Web (32h)
-- Servlets: Fundamentos de Java na Web (16h)
-- Java e JSTL: Tags para facilitar o desenvolvimento JSP (6h)
-- :white_check_mark: MySQL I: Inicianco suas consultas (8h)
-- Java e JDBC: Trabalhando com um banco de dados (8h)
-- :white_check_mark: Git: Controle e compartilhe seu código (16h)
+- Java e JDBC
+- Java e JPA
+- Java e JPA Otimizações
 
-__Total:__ 110 horas
+## FRONT-END
 
-### Carreira Desenvolvedor Java Web Enterprise
+### HTML e CSS
 
-- Java e JPA: Otimizações com JPA2 e Hibernate (12h)
-- EJB: O poder da Java EE (15h)
-- Java e JSF I: Sua aplicação web com JSF2 (20h)
-- Java e JSF 2 II: Componentes ricos com Primefaces (12h)
-- Java e JSF 2 - III: Integração com CDI (16h)
-- Maven: Build do zero a web (6h)
-- Java EE parte 1: Crie sua loja online com CDI, JSF, JPA (14h)
-- Java EE parte 2: Sua loja online com HTML, REST e Cache (14h)
-- Java EE parte 3: Finalizando sua loja com REST, JMS, JAAS e WebSockets (14h)
+- HTML5 e CSS3 I
+- HTML5 e CSS3 II
+- Web Design Responsivo
+- Flexbox
+- Bootstrap
+- Email Marketing Responsivo I
+- Email Marketing Responsivo II
+- :ok: HTTP
+- Chrome DevTools
+- Google ChartTools
+- Front-end (Projeto Final)
 
-__Total:__ 123 horas
+### jQUERY
 
-### Carreira Desenvolvedor Java Web com Spring
+- jQuery
+- JQuery parte 2
 
-- Spring MVC I: Criando aplicações web (20h)
-- Spring MVC II: Integração, cache, segurança e templates (15h)
-- Maven: Build do zero a web (6h)
-- Spring Boot: Agilidade no desenvolvimento Java com Spring (10h)
-- Java e JPA: Persista seus objetos com a JPA2 e Hibernate (17h)
-- Java e JPA: Otimizações com JPA2 e Hibernate (12h)
+### JavaScript
 
-__Total:__ 80 horas
+- JavaScript
+- Expressões regulares
+- JavaScript Avançado I
+- JavaScript Avançado II
+- JavaScript Avançado III
+- TypeScript parte 1
+- TypeScript parte 2
+- Cocos Creator
+- Progressive Web Apps
 
-### Carreira Expert em Integrações de Aplicações com Java
+### Frameworks MVC
 
-- JAX-RS e Jersey: Domine a criação de webservices REST (12h)
-- JAX-WS: Domine a criação de webservices SOAP (16h)
-- JMS e ActiveMQ: Mensageria com Java (16h)
-- Apache Camel: O framework de integração entre sistemas (16h)
-- Rest Assured: Testes automatizado de webservice (12h)
+- Angular 1
+- React parte 1
+- React parte 2
+- React parte 3
+- Meteor
+- Node.js
+- MEAN Stack
+- Node.js e HTTP
+- Electron
+- Angular 2 parte 1
+- Angular 2 parte 2
+- Vue.js parte 1
+- Vue.js parte 2
 
-__Total:__ 72 horas
+### Automação e Performance
 
-### Carreira Avançando na Plataforma Java
+- Grunt
+- Jasmine
+- Sass e cOMpass
+- Gulp
+- LESS
+- Performance Web I
+- Performance Web II
 
-- Java Reflection: mágica e meta programação (8h)
-- Java e XML: integração, parsing e validação (8h)
-- Threads 1: Programação paralela em Java (16h)
-- Threads 2: Programação concorrente avançada (16h)
-- Eclipse: Produtividade Extrema na IDE com Java (12h)
+## INFRAESTRUTURA
 
-__Total:__ 60 horas
+### SQL
+- Modelagem de Banco de Dados Relacional
 
-### Carreira Expert em Orientação a Objetos com Java
+- :ok: MYSQL I
+- MYSQL II
+- PostgreSQL I
+- SQLServer I
+- SQLServer II
+- Access
+- Oracle I
+- Oracle II
+- Certificação Oracle SQL Fundamentals 1
+- Certificação Oracle SQL Fundamentals 2
+- Certificação Oracle SQL Fundamentals 3
+- Certificação Oracle SQL Fundamentals 4
+- Certificação Oracle SQL Fundamentals 5
+- Certificação Oracle SQL Fundamentals 6
+- Certificação Oracle SQL Fundamentals 7
 
-- Design Patterns Java I: Boas práticas de programação (20h)
-- Design Patterns Java II: Boas práticas de programação (16h)
-- SOLID com Java: Oriantação a Objetos com Java (8h)
-- Testes: TDD com Java (12h)
-- Mock: Testes de comportamentos automatizados em Java (12h)
-- Teste de Integração: Testes SQL e DAOs automatizados em Java (12h)
+### Análise de Dados
 
-__Total:__ 80 horas
+- Data Analysis
+- Chatobot com Watson
+- Machine Learning: Introdução a classificação
+- Machine Learning II: Avançando com tipos diferentes de classificação
+- Machine Learning: Introdução aos sistemas de recomendações
+- Machine Learning: Aprendizado supervisionado
 
-## Carreiras Front-End
+### NoSQL
 
-### Carreira Desenvolvedor Front-end
+- Redis I
+- Redis II
+- MongoDB
+- Elasticsearch
+- Elasticsearch 5
 
-- HTML5 e CSS3 I: Suas primeiras páginas da Web (32h)
-- HTML5 e CSS3 II: Turbinando as suas páginas (40h)
-- JavaScript: Programando na linguagem da web (20h)
-- jQuery: Domine a biblioteca mais popular do mercado (12h)
-- jQuery: Avance na biblioteca mais popular do mercado parte 2 (12h)
-- Web Design Responsivo: Páginas que se adaptam do mobile ao desk (10h)
-- Front-end: Projeto final de carreira (6h)
+### Linux
 
-__Total:__ 132 horas
+- Linux I
+- Linux II
+- Shell Scripting parte 1
+- Shell Scripting parte 2
+- Certificação Linux LPI Essentials parte 1
+- Certificação Linux LPI Essentials parte 2
+- Certificação Linux LPI Essentials parte 3
+- Certificação Linux LPI Essentials parte 4
+- Certificação Linux LPI Essentials parte 5
+- Certificação Linux LPI Essentials parte 6
+- Certificação Linux LPI Essentials parte 7
+- Certificação Linux LPI Essentials parte 8
+- Certificação Linux LPI Essentials parte 9
+- Certificação Linux LPI Essentials parte 10
+- Certificação Linux LPI Essentials parte 11
+- Certificação Linux LPI Essentials parte 12
 
-### Carreira Desenvolvedor Javascript
+### Build e Versionamento
 
-- :white_check_mark: HTTP: Entendendo a web por baixo dos panos
-- JavaScript: Programando na linguagem da web
-- Expressões regulares: Capturando textos de forma mágica
-- jQuery: Domine a biblioteca mais popular do mercado
-- jQuery: Avance na biblioteca mais popular do mercado parte 2
+- :ok: Git
+- Maven
+- Ant
+- Ivy
 
-__Total:__ ?
+### Entrega Contínua
 
-[PHP e MySQL I]: https://github.com/fromnanda/alura-cursos/tree/master/iniciante-backend-php/php-mysql-i
-[Git]: https://github.com/fromnanda/alura-cursos/tree/master/engenheiro-devops/git
-[PHP e MySQL II]: https://github.com/fromnanda/alura-cursos/blob/master/iniciante-backend-php/php-mysql-iI/notes.md
+- Vagrant
+- Docker
+- Kubernetes
+- Amazon EC2
+- AWS S3
+- Integração Contínua
+
+### Windows
+
+- :ok: Windows Prompt
+- Windows Server
+
+### Redes
+
+- Redes parte 1
+- Redes parte 2
+- Segurança Web
+- Segurança de redes: conehça as vulnerabilidades
+- Redes parte 3
+- Redes parte 4
+- Segurança de redes: Crie um firewall
+- Certificação Cisco CCNA parte 1
+- Certificação Cisco CCNA parte 2
+- Certificação Cisco CCNA parte 3
+- Certificação Cisco CCNA parte 4
+- Certificação Cisco CCNA parte 5
+- Certificação Cisco CCNA parte 6
+
+## DESIGN E UX
+
+### Introdução ao Design
+
+- Gestalt
+- Identidade Visual parte 1
+- Identidade visual parte 2
+- Identidade visual parte 3
+- Photoshop
+- Illustrator: criação de ilustração vetorial
+- Colorização Digital
+- Manipulação Fotográfica
+
+### Web Design
+
+- Photoshop para web I
+- Photoshop para web II
+- Iconografia I
+- Tipografia para web
+- Email marketing
+- Facebook
+- Illustrator: crie layouts para a web
+- Animate (Flash)
+
+### Impressos
+
+- InDesign: folhetos e folders
+- Design editorial
+- Indesign: diagramação
+- CorelDraw
+- Photoshop: esboço poster de super herói
+- Photoshop: entrega do poster de super herói
+- Photoshop: conceitue um personagem publicitário
+- Illustrator: Acabamento do personagem publicitário
+- Photoshop: contando histórias por meio de uma imagem
+- Pintura Digital parte 1
+- Pintura Digital parte 2
+
+### UX
+
+- UX
+- UX Strategy
+- UX Usability
+- UX Produto
+- UX Research
+- UX mitos
+- UX: do briefinf ao protótipo
+- Microcopy
+- UX Design com Axure: protótipo para App mobile
+- UX Design com Axure: aprimoramento de protótipo para App
+- Sketch: primeiros passos
+- Sketch: 10 heurísticas de Nielsen I
+- Sketch: 10 heurísticas de Nielsen II
+
+## BUSINESS
+
+### Excel
+
+- Excel
+- Excel II
+- Excel III
+- VBA
+
+### Agilidade
+
+- Métodos ágeis
+- Scrum
+- Scrum parte 1
+- Scrum parte 2
+- Scrum parte 3
+- Scrum parte 4
+- Scrum parte 5
+- Scrum parte 6
+
+### SEO E ADWORDS
+
+- SEO I
+- SEO II
+- SEO III
+- Google Adwords: publicando campanha
+- Google Adwords: otimizando resultados
+- SEO Wordpress
+
+### Documentação
+
+- UML
+
+### Carreiras
+
+- Hábitos
+- Comunicação
+- Relacionamento pessoal
+- Design Thinking parte 1
+- Design Thinking parte 2
+- Design Thinking parte 2
+
+### Governança 
+
+- Certificação ITIL Foundation 1
+- Certificação ITIL Foundation 2
+- Certificação ITIL Foundation 3
+- Certificação ITIL Foundation 4
+- Certificação COBIT 5 Foundations parte 1
+- Certificação COBIT 5 Foundations parte 2
+- Certificação COBIT 5 Foundations parte 3
+- Certificação COBIT 5 Foundations parte 4
+- Certificação PMP e CAPM parte 1
+- Certificação PMP e CAPM parte 2
+- Certificação PMP e CAPM parte 3
+- Certificação PMP e CAPM parte 4
+- Certificação PMP e CAPM parte 5
+- Certificação PMP e CAPM parte 6
+- Certificação PMP e CAPM parte 7
+- Certificação PMP e CAPM parte 8
+- Certificação PMP e CAPM parte 9
+- Certificação PMP e CAPM parte 10
+- Certificação PMP e CAPM parte 11
+- Certificação PMP e CAPM parte 12
+
+### Cosntrução de Sites
+
+- Wordpress I
+- Wordpress II
+- Wordpress: criação de um tema do zero
+- Shopify I
+- Shopify II
+
+## MOBILE
+
+### Android
+
+- Android I Eclipse
+- Android II
+- Android III
+- Android I Android Studio
+- Android II
+- Android III
+- Android na prática
+- Android com Web Service parte 1
+- Android com Web Service parte 2
+- Android com Web Service parte 3
+
+### Multiplataforma
+
+- Cordova e PhoneGap
+- Xamarin parte 1
+- Xamarin parte 2
+- Xamarin parte 3
+- Xamarin parte 4
+- React Native parte 1
+- Ionic 1 parte 1
+- Ionic 1 parte 2
+- Ionic 2 parte 1
+- Ionic 2 parte 2
