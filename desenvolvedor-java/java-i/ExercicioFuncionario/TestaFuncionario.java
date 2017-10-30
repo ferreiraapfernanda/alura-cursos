@@ -10,12 +10,9 @@ class TestaFuncionario {
         f1.setSalario(1300.0);
         f1.setRg("3999999999");
 
-        Data data = new Data();
-        d.preencheData(1, 2, 2017)
+        Data data = new Data(1,2,2017);
 
-        f1.setDataEntrada(d);
-
-        f1.dataEntrada.preencheData(1, 2, 2017);
+        f1.setDataEntrada(data);
 
         //Funcionario f2 = f1;
 

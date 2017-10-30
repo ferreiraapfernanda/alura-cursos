@@ -8,8 +8,24 @@ class Funcionario {
     private double salario;
     private Data dataEntrada;
     private String rg;
+    private int identificador;
+
+    private static int numeroIncremental = 0;
 
     // getters and setters
+
+    public Funcionario(String nome){
+        this.nome = nome;
+        this.identificador = ++numeroIncremental;
+    }
+
+    public int getIdentificador(){
+        return this.identificador;
+    }
+
+    public Funcionario(String nome){
+        this.nome = nome;        
+    }
 
     public void setNome(String nome){
         this.nome = nome;
@@ -40,11 +56,11 @@ class Funcionario {
         return this.departamento;
     }
 
-    public String getSalario(){
+    public double getSalario(){
         return this.salario;
     }
 
-    public String getDataEntrada(){
+    public Data getDataEntrada(){
         return this.dataEntrada;
     }
 
@@ -68,7 +84,7 @@ class Funcionario {
         System.out.println("Salario: " + this.salario);
         System.out.println("Data de entrada: " + this.dataEntrada.getFormatada());
         System.out.println("RG: " + this.rg);
-        System.out.println("Ganho Anual: " + this.calculaGanhoAnual());
+        System.out.println("Ganho Anual: " + this.getGanhoAnual());
     }
 
 }
@@ -80,11 +96,16 @@ class Empresa {
     private Funcionario[] funcionarios;
     private int tamanho;
 
+
+    public Empresa(int tamanho){
+        funcionarios = new Funcionario[tamanho];
+    }
+
     public Funcionario getFuncionario (int posicao) {
         return this.funcionarios[posicao];
     }
 
-    public void setNome(Strng nome){
+    public void setNome(String nome){
         this.nome = nome;
     }
 
@@ -110,8 +131,8 @@ class Empresa {
         for(int i = 0; i < this.funcionarios.length; i++){
             if(this.funcionarios[i] == null ) continue;
             System.out.println(" - Funcionario na posicao: " + i);
-            System.out.println("Nome: " + this.funcionarios[i].nome);
-            System.out.println("Data de Entrada : " + this.funcionarios[i].dataEntrada.getFormatada());
+            System.out.println("Nome: " + this.funcionarios[i].getNome());
+            System.out.println("Data de Entrada : " + this.funcionarios[i].getDataEntrada().getFormatada());
             
         }
     }
