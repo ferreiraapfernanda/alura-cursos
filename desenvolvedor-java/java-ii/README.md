@@ -35,6 +35,5 @@
 ### 5. Exceções e controle de erros
 
 __Legenda:__
-
 - :on: em andamento
 - :ok: concluído
