@@ -7,10 +7,10 @@
 ## Aulas
 
 1. :ok: Herança, reescrita e polimorfismo
-2. A IDE Eclipse
-3. Classes abstratas
-4. Interfaces
-5. Exceções e controle de erros
+1. :ok: A IDE Eclipse
+1. Classes abstratas
+1. Interfaces
+1. Exceções e controle de erros
 
 ## Anotações
 
@@ -20,6 +20,14 @@
 
 ### 2. A IDE Eclipse
 
+- quick fixes, acessível pelo comando "Ctrl+1"
+- Ctrl + 3 Aciona modo de descoberta de menu.
+- Ctrl + F11 roda a última classe que você rodou
+- Ctrl + PgUp e Ctrl + PgDown Navega nas abas abertas
+- Ctrl + M Expande a View atual para a tela toda
+- Ctrl + O Rápida navegação pelo arquivo
+- Ctrl sobre hyperlink, ou F3
+
 ### 3. Classes abstratas
 
 ### 4. Interfaces
@@ -27,8 +35,6 @@
 ### 5. Exceções e controle de erros
 
 __Legenda:__
+
 - :on: em andamento
 - :ok: concluído
-
-
-3
