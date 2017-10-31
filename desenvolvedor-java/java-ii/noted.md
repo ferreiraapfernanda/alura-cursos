@@ -1,0 +1,34 @@
+# :ok: Java II: Orientação a Objetos
+
+- [Link para o curso](https://cursos.alura.com.br/course/java-e-orientacao-a-objetos)
+- __Curso iniciado em: 31/10/2017__
+- __Curso concluído em:__
+
+## Aulas
+
+1. :ok: Herança, reescrita e polimorfismo
+2. A IDE Eclipse
+3. Classes abstratas
+4. Interfaces
+5. Exceções e controle de erros
+
+## Anotações
+
+### 1. Herança, reescrita e polimorfismo
+
+- Caso exista uma função na classe mãe e na classe filha (com o mesmo nome), e uma terceira classe for utilizar essa(s) função(ões), o próprio código saberá diferenciar qual implementação usar de acordo com a classe (exemplo: classes funcionário, gerente e desenvolvedor possuem método de bonus, e a classe totalBonus utiliza somente a classe funcionário em sua implementação)
+
+### 2. A IDE Eclipse
+
+### 3. Classes abstratas
+
+### 4. Interfaces
+
+### 5. Exceções e controle de erros
+
+__Legenda:__
+- :on: em andamento
+- :ok: concluído
+
+
+3
