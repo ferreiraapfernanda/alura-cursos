@@ -8,7 +8,7 @@
 
 1. :ok: Herança, reescrita e polimorfismo
 1. :ok: A IDE Eclipse
-1. Classes abstratas
+1. :ok: Classes abstratas
 1. Interfaces
 1. Exceções e controle de erros
 
