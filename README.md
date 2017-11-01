@@ -26,6 +26,7 @@ Listas das carreiras e cursos que pretendo concluir no Alura
 - :ok: PHP I
 - :on: PHP II
 - PHP com PDO
+- PHP PDO parte 2
 - Design Patterns PHP I
 - Design Patterns PHP II
 - SOLID com PHP
@@ -367,6 +368,7 @@ Listas das carreiras e cursos que pretendo concluir no Alura
 #### Carreiras
 
 - Hábitos
+- Produtividade
 - Comunicação
 - Relacionamento pessoal
 - Design Thinking parte 1
