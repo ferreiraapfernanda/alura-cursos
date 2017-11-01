@@ -2,7 +2,7 @@
 
 - [Link para o curso](https://cursos.alura.com.br/course/java-e-orientacao-a-objetos)
 - __Curso iniciado em: 31/10/2017__
-- __Curso concluído em:__
+- __Curso concluído em: 01/11/2017__
 
 ## Aulas
 
@@ -10,11 +10,13 @@
 1. :ok: A IDE Eclipse
 1. :ok: Classes abstratas
 1. :ok: Interfaces
-1. Exceções e controle de erros
+1. :ok: Exceções e controle de erros
 
 ## Anotações
 
 ### 1. Herança, reescrita e polimorfismo
+
+- Caso exista uma função na classe mãe e na classe filha (com o mesmo nome), e uma terceira classe for utilizar essa(s) função(ões), o próprio código saberá diferenciar qual implementação usar de acordo com a classe (exemplo: classes funcionário, gerente e desenvolvedor possuem método de bonus, e a classe totalBonus utiliza somente a classe funcionário em sua implementação)
 
 - Não faça herança quando a relação não é estritamente "é um".
 
@@ -36,9 +38,9 @@
 
 - Interface: "Ela é um contrato onde quem assina se responsabiliza por implementar esses métodos (cumprir o contrato). Uma interface pode definir uma série de métodos, mas nunca conter implementação deles."
 
-- Caso exista uma função na classe mãe e na classe filha (com o mesmo nome), e uma terceira classe for utilizar essa(s) função(ões), o próprio código saberá diferenciar qual implementação usar de acordo com a classe (exemplo: classes funcionário, gerente e desenvolvedor possuem método de bonus, e a classe totalBonus utiliza somente a classe funcionário em sua implementação)
-
 ### 5. Exceções e controle de erros
+
+- "Sempre que você quiser tratar o caso excepcional, nós adicionamos o try/catch no código. Mas se a intenção é apenas indicar que a exceção pode acontecer, sem desejar tratá-la, usamos o throw".
 
 __Legenda:__
 

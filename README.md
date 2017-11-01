@@ -42,7 +42,7 @@ Listas das carreiras e cursos que pretendo concluir no Alura
 #### Cursos Java
 
 - :ok: Java I
-- :on: Java II
+- :ok: Java II
 - Java III
 - Refatorando na prática
 - Java 8
