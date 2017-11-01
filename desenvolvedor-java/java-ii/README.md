@@ -18,10 +18,6 @@
 
 - Não faça herança quando a relação não é estritamente "é um".
 
-- Interface: "Ela é um contrato onde quem assina se responsabiliza por implementar esses métodos (cumprir o contrato). Uma interface pode definir uma série de métodos, mas nunca conter implementação deles."
-
-- Caso exista uma função na classe mãe e na classe filha (com o mesmo nome), e uma terceira classe for utilizar essa(s) função(ões), o próprio código saberá diferenciar qual implementação usar de acordo com a classe (exemplo: classes funcionário, gerente e desenvolvedor possuem método de bonus, e a classe totalBonus utiliza somente a classe funcionário em sua implementação)
-
 ### 2. A IDE Eclipse
 
 - quick fixes, acessível pelo comando "Ctrl+1"
@@ -38,8 +34,13 @@
 
 - Garante que determinados métodos existirão em uma classe. Exemplo: Funcionario (abstr) e Cliente possuem um método de autenticação no sistema através da interface Autenticavel)
 
+- Interface: "Ela é um contrato onde quem assina se responsabiliza por implementar esses métodos (cumprir o contrato). Uma interface pode definir uma série de métodos, mas nunca conter implementação deles."
+
+- Caso exista uma função na classe mãe e na classe filha (com o mesmo nome), e uma terceira classe for utilizar essa(s) função(ões), o próprio código saberá diferenciar qual implementação usar de acordo com a classe (exemplo: classes funcionário, gerente e desenvolvedor possuem método de bonus, e a classe totalBonus utiliza somente a classe funcionário em sua implementação)
+
 ### 5. Exceções e controle de erros
 
 __Legenda:__
+
 - :on: em andamento
 - :ok: concluído
