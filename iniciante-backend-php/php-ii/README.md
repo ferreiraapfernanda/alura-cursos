@@ -3,13 +3,13 @@
 - [Link para o curso](https://cursos.alura.com.br/course/php-oo-2)
 - Curso iniciado em: 24/10/2017
 
-1. :white_check_mark: Autoloading de classes
+1. :ok: Autoloading de classes
 
-1. :white_check_mark: DAO - Data Access Object
+1. :ok: DAO - Data Access Object
 
-1. :white_check_mark: Herança
+1. :ok: Herança
 
-1. Reescrita e Polimorfismo
+1. :ok: Reescrita e Polimorfismo
 
 1. Classe Abstrata e o padrão Factory
 
@@ -70,6 +70,6 @@ function __construct($conexao){
 
 Legenda:
 
-:white_check_mark: Concluído
+:ok: Concluído
 
 :on: Em andamento
