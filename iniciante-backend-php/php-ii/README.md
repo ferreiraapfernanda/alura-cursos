@@ -11,7 +11,7 @@
 
 1. :ok: Reescrita e Polimorfismo
 
-1. Classe Abstrata e o padrão Factory
+1. :ok: Classe Abstrata e o padrão Factory
 
 1. Método abstrato
 
