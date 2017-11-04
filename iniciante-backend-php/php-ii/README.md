@@ -1,7 +1,8 @@
-# :on: PHP II
+# :ok: PHP II
 
 - [Link para o curso](https://cursos.alura.com.br/course/php-oo-2)
 - Curso iniciado em: 24/10/2017
+- Curso concluído em: 04/11/2017
 
 1. :ok: Autoloading de classes
 
@@ -13,7 +14,7 @@
 
 1. :ok: Classe Abstrata e o padrão Factory
 
-1. Método abstrato
+1. :ok: Método abstrato
 
 ## 1. Autoloading de classes
 

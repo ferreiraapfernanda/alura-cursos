@@ -1,9 +1,10 @@
-# Alura 
+# Alura
 
 Listas das carreiras e cursos que pretendo concluir no Alura
 
 ## Carreiras
-- :on: Carreira Iniciante Back-end PHP
+
+- :ok: Carreira Iniciante Back-end PHP
 - Carreira Desenvolvedor PHP Erudito
 - :on: Carreira Desenvolvedor Java
 - Carreira Desenvolvedor Java Web
@@ -15,7 +16,7 @@ Listas das carreiras e cursos que pretendo concluir no Alura
 - Carreira Desenvolvedor Front-end
 - Carreira Desenvolvedor Javascript
 
-## Cursos 
+## Cursos
 
 ### PROGRAMAÇÃO
 
@@ -24,7 +25,7 @@ Listas das carreiras e cursos que pretendo concluir no Alura
 - :ok: PHP e MySQL I
 - :ok: PHP e MySQL II
 - :ok: PHP I
-- :on: PHP II
+- :ok: PHP II
 - PHP com PDO
 - PHP PDO parte 2
 - Design Patterns PHP I
@@ -80,7 +81,7 @@ Listas das carreiras e cursos que pretendo concluir no Alura
 - Java EE parte 3
 - Java laboratório Web
 - Play! Framework I
-- Play! Framework II 
+- Play! Framework II
 - Java e MongoDB
 
 #### Cursos Integrações cem Java
@@ -93,7 +94,7 @@ Listas das carreiras e cursos que pretendo concluir no Alura
 
 #### Cursos Testes em Java
 
-- Testes: TDD com Java 
+- Testes: TDD com Java
 - Mock
 - Teste de Integração
 - Selenium
@@ -102,7 +103,7 @@ Listas das carreiras e cursos que pretendo concluir no Alura
 
 - Orientação a Objetos
 - Design Patterns Java I
-- Design Patterns Java II 
+- Design Patterns Java II
 - SOLID com Java
 - Java laboratório com Testes
 - Java laboratório com Testes
@@ -375,7 +376,7 @@ Listas das carreiras e cursos que pretendo concluir no Alura
 - Design Thinking parte 2
 - Design Thinking parte 2
 
-#### Governança 
+#### Governança
 
 - Certificação ITIL Foundation 1
 - Certificação ITIL Foundation 2
