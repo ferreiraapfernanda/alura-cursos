@@ -8,7 +8,7 @@
 
 1. :ok: Pacotes
 1. :ok: Jar e Javadoc
-1. Java.lang
+1. :ok: Java.lang
 1. Pacote java.io
 1. Collections framework
 1. Threads
@@ -25,6 +25,8 @@
 - Javadoc Commmand: C:\Program Files\Java\jdk-9.0.1\bin\javadoc.exe
 
 ### 3. Java.lang
+
+- A classe que nos ajudará a evitar arredondamentos e a armazenar números decimais bem grandes é a java.math.BigDecimal
 
 ### 4. Pacote java.io
 
