@@ -10,7 +10,7 @@
 1. :ok: Jar e Javadoc
 1. :ok: Java.lang
 1. :ok: Pacote java.io
-1. Collections framework
+1. :on: Collections framework
 1. Threads
 
 ## Anotações
@@ -47,6 +47,31 @@ Mesmo processo:
 - Cria o __BufferedWriter__ para escrever linhas, e não caracter por caracter
 
 ### 5. Collections framework
+
+- Collections
+
+```java
+Collections.sort(contas);
+```
+
+- LinkedList
+
+```java
+List<String> nomes = new LinkedList<String>();
+```
+
+- HashSet: implementação co método __hashCode()__
+
+```java
+Set<String> nomes = new HashSet<String>();
+```
+
+- HashMap: faz a ligação, onde a string representa uma identificação do valor.
+
+```java
+Map<String, Conta> contas = new HashMap<String, Conta>();
+java contas.put("Diretor", c1);
+```
 
 ### 6. Threads
 
