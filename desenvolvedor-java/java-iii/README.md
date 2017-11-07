@@ -9,7 +9,7 @@
 1. :ok: Pacotes
 1. :ok: Jar e Javadoc
 1. :ok: Java.lang
-1. Pacote java.io
+1. :ok: Pacote java.io
 1. Collections framework
 1. Threads
 
@@ -21,7 +21,7 @@
 
 ### 2. Jar e Javadoc
 
-- ``` Project > Generate Javadoc ```
+- ```Project > Generate Javadoc```
 - Javadoc Commmand: C:\Program Files\Java\jdk-9.0.1\bin\javadoc.exe
 
 ### 3. Java.lang
@@ -29,6 +29,22 @@
 - A classe que nos ajudará a evitar arredondamentos e a armazenar números decimais bem grandes é a java.math.BigDecimal
 
 ### 4. Pacote java.io
+
+#### Para Leitura
+
+- __InputStream__ lê os bytes
+- __InputStreamReader__ lê os caracteres
+- __BufferedReader__ utiliza a memória do disco para utilizar memória do disco, não ficar lendo somente um caracter por vez, ou lê linhas de uma vez só
+- Utiliza o método __readLine()__ para exibir uma linha inteira
+- Método close fecha todos os readers __close()__
+
+#### Para Escrita
+
+Mesmo processo:
+
+- Abre o arquivo através de bytes __OutputStream__
+- Cria um __OutputStreamWriter__ para escrever os caracteres (e não bytes)
+- Cria o __BufferedWriter__ para escrever linhas, e não caracter por caracter
 
 ### 5. Collections framework
 
