@@ -210,6 +210,7 @@ Listas das carreiras e cursos que pretendo concluir no Alura
 
 - Data Analysis
 - Chatobot com Watson
+- SAS
 - Machine Learning: Introdução a classificação
 - Machine Learning II: Avançando com tipos diferentes de classificação
 - Machine Learning: Introdução aos sistemas de recomendações
