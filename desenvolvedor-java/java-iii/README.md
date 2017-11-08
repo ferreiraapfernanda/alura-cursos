@@ -73,6 +73,10 @@ Map<String, Conta> contas = new HashMap<String, Conta>();
 java contas.put("Diretor", c1);
 ```
 
+- ```reverse(List<?> list)``` - Inverte a ordem dos elementos em uma lista específica.
+- ```rotate(List<?> list, int distance)``` - Rotaciona os elementos de uma lista específica a uma distância específica.
+- ```shuffle(List<?> list)``` - Troca aleatoriamente a lista específica usando um código padrão de aleatoriedade.
+
 ### 6. Threads
 
 __Legenda:__
