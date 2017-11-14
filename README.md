@@ -1,6 +1,6 @@
 # Alura
 
-Listas das carreiras e cursos que pretendo concluir no Alura
+Listas das carreiras e cursos que pretendo concluir na Alura
 
 ## Carreiras
 
