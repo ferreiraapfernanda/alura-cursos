@@ -45,7 +45,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 
 - :ok: Java I
 - :ok: Java II
-- :on: Java III
+- :ok: Java III
 - Refatorando na prática
 - Java 8
 - Threads 1

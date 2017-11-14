@@ -2,7 +2,7 @@
 
 - [Link para o curso](https://cursos.alura.com.br/course/java-e-bibliotecas)
 - __Curso iniciado em: 06/11/2017__
-- __Curso concluído em:__
+- __Curso concluído em: 14/11/2017__
 
 ## Aulas
 
@@ -11,7 +11,7 @@
 1. :ok: Java.lang
 1. :ok: Pacote java.io
 1. :ok: Collections framework
-1. Threads
+1. :ok: Threads
 
 ## Anotações
 
@@ -78,6 +78,12 @@ java contas.put("Diretor", c1);
 - ```shuffle(List<?> list)``` - Troca aleatoriamente a lista específica usando um código padrão de aleatoriedade.
 
 ### 6. Threads
+
+- implements Runnable
+- método run()
+- thread.start();
+- thread.join();
+- syncronized(this)
 
 __Legenda:__
 
