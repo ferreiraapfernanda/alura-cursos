@@ -7,7 +7,7 @@
 ## Aulas
 
 1. :ok: Extraindo métodos e classes
-2. Nomes mais legíveis
+2. :ok: Nomes mais legíveis
 3. Ifs e Switches
 4. Código duplicado
 5. Parâmetros booleanos
