@@ -1,8 +1,8 @@
 # :white_check_mark: Java I: Primeiros passos
 
 - [Link para o curso](https://cursos.alura.com.br/course/primeiros-passos-com-java)
-- __Curso iniciado em: 26/10/2017__
-- __Curso concluído em: 30/10/2017__
+- **Curso iniciado em: 26/10/2017**
+- **Curso concluído em: 30/10/2017**
 
 1. :white_check_mark: A linguagem Java
 1. :white_check_mark: Variáveis e fluxo
@@ -14,9 +14,9 @@
 
 ## 1. A linguagem Java
 
-- Java compilado para um pseudocódigo (__byte code__), que sera interpretado pela __JVM__. A JVM é uma máquina virtual, uma camada para que cada SO poderá interpretar e executar as funções. Ela isola totalmente a aplicação do sistema operacional.
+- Java compilado para um pseudocódigo (**byte code**), que sera interpretado pela **JVM**. A JVM é uma máquina virtual, uma camada para que cada SO poderá interpretar e executar as funções. Ela isola totalmente a aplicação do sistema operacional.
 
-- O código compilado __.class__ pode ser executado em qualquer SO
+- O código compilado **.class** pode ser executado em qualquer SO
 
 - Case sensitive
 
@@ -32,9 +32,9 @@ class OlaMundo {
 
 ```
 
-- Compilação: __javac OlaMundo.java__
+- Compilação: **javac OlaMundo.java**
 
-- Execução __java OlaMundo__
+- Execução **java OlaMundo**
 
 - Ofuscador, para a liberação do programa [ProGuard](http://proguard.sf.net)
 
@@ -62,7 +62,7 @@ boolean
 
 ## 5. Modificadores de acesso
 
-- Private indica que __somente a própria classe__ pode utilizar esse atributo
+- Private indica que **somente a própria classe** pode utilizar esse atributo
 
 - Não criar get e set para todos os atributos. Alguns atributos são muito importantes, e precisam seguir diversas regras de negócio, por isso, utilizam-se métodos mais ricos/complexos.
 
@@ -72,7 +72,7 @@ boolean
 
 ## 7. Atributos e métodos estáticos
 
-- __static__ significa que é um método da classe, e não do objeto como normalmente se é definido
+- **static** significa que é um método da classe, e não do objeto como normalmente se é definido
 
 - Static assim como os modificadores de acesso é um recurso que é destinado a problemas específicos, quando você precisa interagir com as classes e não com os objetos, nestes casos e apenas nestes casos o static deve ser considerado.
 

@@ -1,8 +1,8 @@
 # :ok: Java II: Orientação a Objetos
 
 - [Link para o curso](https://cursos.alura.com.br/course/java-e-orientacao-a-objetos)
-- __Curso iniciado em: 31/10/2017__
-- __Curso concluído em: 01/11/2017__
+- **Curso iniciado em: 31/10/2017**
+- **Curso concluído em: 01/11/2017**
 
 ## Aulas
 
@@ -42,7 +42,7 @@
 
 - "Sempre que você quiser tratar o caso excepcional, nós adicionamos o try/catch no código. Mas se a intenção é apenas indicar que a exceção pode acontecer, sem desejar tratá-la, usamos o throw".
 
-__Legenda:__
+**Legenda:**
 
 - :on: em andamento
 - :ok: concluído

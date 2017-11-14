@@ -1,8 +1,8 @@
 # Java III: Orientação a Objetos
 
 - [Link para o curso](https://cursos.alura.com.br/course/java-e-bibliotecas)
-- __Curso iniciado em: 06/11/2017__
-- __Curso concluído em: 14/11/2017__
+- **Curso iniciado em: 06/11/2017**
+- **Curso concluído em: 14/11/2017**
 
 ## Aulas
 
@@ -17,7 +17,7 @@
 
 ### 1. Pacotes
 
-- __Ctrl+Shift+O__ faz a importação automática das classes necessárias para o arquivo
+- **Ctrl+Shift+O** faz a importação automática das classes necessárias para o arquivo
 
 ### 2. Jar e Javadoc
 
@@ -32,19 +32,19 @@
 
 #### Para Leitura
 
-- __InputStream__ lê os bytes
-- __InputStreamReader__ lê os caracteres
-- __BufferedReader__ utiliza a memória do disco para utilizar memória do disco, não ficar lendo somente um caracter por vez, ou lê linhas de uma vez só
-- Utiliza o método __readLine()__ para exibir uma linha inteira
-- Método close fecha todos os readers __close()__
+- **InputStream** lê os bytes
+- **InputStreamReader** lê os caracteres
+- **BufferedReader** utiliza a memória do disco para utilizar memória do disco, não ficar lendo somente um caracter por vez, ou lê linhas de uma vez só
+- Utiliza o método **readLine()** para exibir uma linha inteira
+- Método close fecha todos os readers **close()**
 
 #### Para Escrita
 
 Mesmo processo:
 
-- Abre o arquivo através de bytes __OutputStream__
-- Cria um __OutputStreamWriter__ para escrever os caracteres (e não bytes)
-- Cria o __BufferedWriter__ para escrever linhas, e não caracter por caracter
+- Abre o arquivo através de bytes **OutputStream**
+- Cria um **OutputStreamWriter** para escrever os caracteres (e não bytes)
+- Cria o **BufferedWriter** para escrever linhas, e não caracter por caracter
 
 ### 5. Collections framework
 
@@ -60,7 +60,7 @@ Collections.sort(contas);
 List<String> nomes = new LinkedList<String>();
 ```
 
-- HashSet: implementação co método __hashCode()__
+- HashSet: implementação co método **hashCode()**
 
 ```java
 Set<String> nomes = new HashSet<String>();
@@ -85,7 +85,7 @@ java contas.put("Diretor", c1);
 - thread.join();
 - syncronized(this)
 
-__Legenda:__
+**Legenda:**
 
 - :on: em andamento
 - :ok: concluído

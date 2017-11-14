@@ -2,9 +2,9 @@
 
 [Link para o curso](https://cursos.alura.com.br/course/php-oo-1)
 
-__Curso iniciado em: 17/10/2017__
+**Curso iniciado em: 17/10/2017**
 
-__Curso concluído em: 23/10/2017__
+**Curso concluído em: 23/10/2017**
 
 1. :white_check_mark: Classes e Objetos
 2. :white_check_mark: Evoluindo a listagem de produtos
@@ -27,8 +27,8 @@ A vantagem é que fica possível fazer validações, protegendo a aplicação de
 
 ## 5. Comparando objetos
 
-A comparação __==__ entre dois objetos retornará TRUE se as instâncias foram da mesma classe e possuem as mesmas propriedades e valores.
-Já a comparação __===__ só será verdadeira se os objetos se referem à mesma instância da mesma classe. Exemplo: 
+A comparação **==** entre dois objetos retornará TRUE se as instâncias foram da mesma classe e possuem as mesmas propriedades e valores.
+Já a comparação **===** só será verdadeira se os objetos se referem à mesma instância da mesma classe. Exemplo: 
 ```php
 <?php
 
@@ -60,7 +60,7 @@ A variável de instância só guarda a referência do local da memória.
 Método construtor: Nas versões anteriores ao PHP 5, você declarava seus construtores criando uma função com o mesmo nome da classe.
 
 ```php 
-function __construct($nome, $preco, $descricao, Categoria $categoria, $usado) {
+function **construct($nome, $preco, $descricao, Categoria $categoria, $usado) {
         $this->nome = $nome;
         $this->preco = $preco;
         $this->descricao = $descricao;
@@ -72,7 +72,7 @@ function __construct($nome, $preco, $descricao, Categoria $categoria, $usado) {
 
 Método toString
 ```php
-function __toString() {
+function **toString() {
     return $this->nome.": R$ ".$this->preco;
 }
 ```

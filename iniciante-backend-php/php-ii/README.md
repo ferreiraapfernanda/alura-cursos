@@ -48,7 +48,7 @@ class ProdutoDao {
 
 private $conexao;
 
-function __construct($conexao){
+function **construct($conexao){
   $this->conexao = $conexao;
 }
 
