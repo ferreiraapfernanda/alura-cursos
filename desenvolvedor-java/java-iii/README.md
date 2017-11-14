@@ -10,7 +10,7 @@
 1. :ok: Jar e Javadoc
 1. :ok: Java.lang
 1. :ok: Pacote java.io
-1. :on: Collections framework
+1. :ok: Collections framework
 1. Threads
 
 ## Anotações
