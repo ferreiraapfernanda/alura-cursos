@@ -6,8 +6,8 @@
 
 ## Aulas
 
-1. Default methods
-2. Lambdas
+1. :ok: Default methods
+2. :on: Lambdas
 3. Method references
 4. Streams
 5. Mais Streams
@@ -23,8 +23,18 @@
 
 - Método forEach() com Consumer<>. O Consumer fará a implementação de um método accept()
 
-
 ### 2. Lambdas
+
+- Para os casos onde temos uma classe que só tem um método implementado, é uma boa prática a utilização dos Lambdas. O compilador já sabe que um certo método precisa de um certo objeto, e que esse objeto precisa da implementação de um certo método. Por exemplo:
+
+    - Para utilizar o método forEach(), é preciso de um objeto que implemente a interface Consumer<>.
+    - O objeto Consumer precisa de uma implementação de seu método accept(). Um jeito de resolvermos isso é da sequinte maneira:
+    - ```palavras.forEach(s -> System.out.println(s));```
+
+- Interface Funcional: uma interface parece muito com uma função, pois só tem um método implementado
+- Para o caso da ordenação: 
+
+  ```palavras.sort((s1, s2) -> Integer.compare(s1.length(), s2.length()));```
 
 ### 3. Method references
 
