@@ -9,7 +9,7 @@
 1. :ok: Extraindo métodos e classes
 2. :ok: Nomes mais legíveis
 3. :ok: Ifs e Switches
-4. Código duplicado
+4. :ok: Código duplicado
 5. Parâmetros booleanos
 6. Removendo Números mágicos
 
@@ -24,6 +24,7 @@
 ### 3. Ifs e Switches
 
 ### 4. Código duplicado
+- Criação de classes abstratas para evitar códigos duplicados
 
 ### 5. Parâmetros booleanos
 
