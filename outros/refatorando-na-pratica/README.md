@@ -10,7 +10,7 @@
 2. :ok: Nomes mais legíveis
 3. :ok: Ifs e Switches
 4. :ok: Código duplicado
-5. Parâmetros booleanos
+5. :ok: Parâmetros booleanos
 6. Removendo Números mágicos
 
 ## Anotações
@@ -27,6 +27,7 @@
 - Criação de classes abstratas para evitar códigos duplicados
 
 ### 5. Parâmetros booleanos
+- Evitar parâmetros booleanos, utilize métodos para cada tipo
 
 ### 6. Removendo Números mágicos
 
