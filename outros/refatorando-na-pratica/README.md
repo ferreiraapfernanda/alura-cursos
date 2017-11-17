@@ -2,7 +2,7 @@
 
 - [Link para o curso](https://cursos.alura.com.br/course/refatorando-na-pratica-com-java)
 - **Curso iniciado em: 14/11/2017**
-- **Curso concluído em:**
+- **Curso concluído em: 17/11/2017**
 
 ## Aulas
 
@@ -11,7 +11,7 @@
 3. :ok: Ifs e Switches
 4. :ok: Código duplicado
 5. :ok: Parâmetros booleanos
-6. Removendo Números mágicos
+6. :ok:Removendo Números mágicos
 
 ## Anotações
 
@@ -30,6 +30,7 @@
 - Evitar parâmetros booleanos, utilize métodos para cada tipo
 
 ### 6. Removendo Números mágicos
+- Prefira a criação de constantes e/ou enumerações
 
 **Legenda:**
 
