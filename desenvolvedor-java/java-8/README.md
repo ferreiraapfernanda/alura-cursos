@@ -9,7 +9,7 @@
 1. :ok: Default methods
 2. :ok: Lambdas
 3. :ok: Method references
-4. Streams
+4. :ok: Streams
 5. Mais Streams
 6. Datas
 
@@ -70,6 +70,22 @@
     > Dada uma string, invoca o método length, que devolverá um Integer
 
 ### 4. Streams
+
+- Filtra os cursos que só tem mais do que 100 alunos: ```cursos.stream().filter(c -> c.getAlunos() >= 100).forEach( c -> System.out.println(c.getNome()));```
+
+- Filtra pelos cursos que só tem mais do que 100 alunos, mas agora, faz o mapeamento, exibindo o número de alunos : ```cursos.stream().filter(c -> c.getAlunos() >= 100).map( Curso::getAlunos ).forEach(System.out::println);```
+
+- Existem outros métodos, como por exemplo, fazer a soma depois de um filter:
+
+    ```java
+    int sum = cursos.stream()
+			.filter(c -> c.getAlunos() >= 100)
+			.mapToInt(Curso::getAlunos)
+			.sum();
+		
+		System.out.println(sum);
+    ```
+- [Documentação da API Stream](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html)
 
 ### 5. Mais Streams
 
