@@ -8,7 +8,7 @@
 
 1. :ok: Default methods
 2. :ok: Lambdas
-3. Method references
+3. :ok: Method references
 4. Streams
 5. Mais Streams
 6. Datas
@@ -42,6 +42,32 @@
     ```new Thread(() -> System.out.println("executando um runnable")).start();```
 
 ### 3. Method references
+
+- Quando vamos fazer a ordenação dentro de uma lista, precisamos identificar por qual critério iremos ordenar. Por isso, precisamos identificar um **comparador** para esses objetos. No ordenação, iremos utilizar o método comparing do Comparator, e somente ele. O método comparing, por sua vez, necessita de uma função, que determinará o critério de ordenação, por exemplo, o tamanho da string. De uma maneira mais extensão, podemos escrever da seguinte maneira:
+
+    ```java
+    Function<String, Integer> funcao = s -> s.length();
+    Comparator<String> comparador = Comparator.comparing(funcao);
+    palavras.sort(comparador);
+    ```
+
+    > Para ordenar a lista, precisamos de um tipo de compaação
+    > Esse tipo de comparação deve especificar uma função onde irá devolver um Integer
+    > No caso, a nossa função irá ordenar pelo tamanho da string
+
+    Porém, podemos também diminuir algumas linhas desse código, pois como estamos utilizando uma interface funcional (o comparador só possui uma função, ou seja, o comparing, e o comparing só possui uma função também), não precisamos mais indicar cada objeto e função que sejam padrão, podemos então utilizar um lambda novamente:
+
+    ```java
+    palavras.sort(Comparator.comparing(s -> s.length()));
+    ```
+
+    Mas podemos diminuir ainda mais esse código, utilizando method references, onde todo o processo fica implícito:
+
+    ```java
+    palavras.sort(Comparator.comparing(String::length));
+    ```
+
+    > Dada uma string, invoca o método length, que devolverá um Integer
 
 ### 4. Streams
 
