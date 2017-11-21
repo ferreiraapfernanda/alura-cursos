@@ -11,7 +11,7 @@
 3. :ok: Method references
 4. :ok: Streams
 5. :ok: Mais Streams
-6. Datas
+6. :ok: Datas
 
 ## Anotações
 
