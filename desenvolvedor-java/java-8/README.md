@@ -10,7 +10,7 @@
 2. :ok: Lambdas
 3. :ok: Method references
 4. :ok: Streams
-5. Mais Streams
+5. :ok: Mais Streams
 6. Datas
 
 ## Anotações
@@ -88,6 +88,20 @@
 - [Documentação da API Stream](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html)
 
 ### 5. Mais Streams
+
+- Para evitar o erro de nullo, pro exemplo, já existe o método ifPresent: ```cursos.stream().filter(c ->c.getAlunos() >= 100).findAny().ifPresent( c -> System.out.println(c.getNome()) );```
+
+- Para extrar a coleção do filtro criado: ```cursos = cursos.stream().filter(c ->c.getAlunos() >= 100).collect(Collectors.toList());```
+
+- 
+```java
+cursos.stream()
+	.filter(c ->c.getAlunos() >= 100)
+	.collect(Collectors.toMap(c -> c.getNome(), c -> c.getAlunos() ))
+	.forEach( (nome, alunos) -> System.out.println( nome + " tem " + alunos + " alunos" ) );
+```
+
+- parallelStream()
 
 ### 6. Datas
 
