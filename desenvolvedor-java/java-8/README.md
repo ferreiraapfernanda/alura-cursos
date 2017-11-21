@@ -7,7 +7,7 @@
 ## Aulas
 
 1. :ok: Default methods
-2. :on: Lambdas
+2. :ok: Lambdas
 3. Method references
 4. Streams
 5. Mais Streams
@@ -29,12 +29,17 @@
 
     - Para utilizar o método forEach(), é preciso de um objeto que implemente a interface Consumer<>.
     - O objeto Consumer precisa de uma implementação de seu método accept(). Um jeito de resolvermos isso é da sequinte maneira:
-    - ```palavras.forEach(s -> System.out.println(s));```
+    
+        ```palavras.forEach(s -> System.out.println(s));```
 
 - Interface Funcional: uma interface parece muito com uma função, pois só tem um método implementado
 - Para o caso da ordenação: 
 
   ```palavras.sort((s1, s2) -> Integer.compare(s1.length(), s2.length()));```
+
+- Criação de Thread:
+    
+    ```new Thread(() -> System.out.println("executando um runnable")).start();```
 
 ### 3. Method references
 
