@@ -15,8 +15,21 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Carreira Expert em Orientação a Objetos com Java
 - Carreira Desenvolvedor Front-end
 - Carreira Desenvolvedor Javascript
+- Carreira Desenvolvedor Wordpress
+- Carreira Desenvolvedor Ruby and Rails
+- Carreira Desenvolvedor Python
+- Carreira Desenvolvedor ASP.NET
+- Carreira Inteligência Artificial Iniciante
 
 ## Cursos
+
+- WordPress I
+- WordPress II
+- WordPress: criação de um tema do zero
+- SEO WordPress
+- Machine Learning: Introdução a classificação
+- Machine Learning II
+- Machine Learning: Introdução ao sistemas de recomendações
 
 ### PROGRAMAÇÃO
 
@@ -83,6 +96,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Play! Framework I
 - Play! Framework II
 - Java e MongoDB
+- Segurança web em Java
 
 #### Cursos Integrações cem Java
 
@@ -125,6 +139,85 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Java e JDBC
 - Java e JPA
 - Java e JPA Otimizações
+
+#### Cursos de Programação Funcional
+- Clojure
+
+#### Cursos de Linguagem C
+- C I
+- C II
+- C III
+
+#### Cursos de C#
+- C# I
+- C# II
+- C# III
+- C#: paralelismo
+- C# Collections parte 1
+- C# Collections parte 2
+- C# Brasil
+- Unity
+
+#### Cursos de .NET para Web
+- ASP.NET MVC 5
+- ASP.NET Razor
+- Projeto Completo: Controle Financeiro com Aps.NET MVC 5
+- ASP.NET Core parte 1
+- APS.NET Core parte 2
+
+#### Cursos de Integrações em .NET
+- WCF
+- Web API 2
+
+#### Cursos de Testes em C#
+- Testes TDD com C#
+- Mock
+- Selenium
+
+#### Cursos de Boas Práticas em C#
+- Design Patterns C# I
+- Design Patterns C# II
+- SOLID com C#
+
+#### Cursos de Persistência com .NET
+- NHibernate
+- Entity LinQ parte 1
+- Entity LinQ parte 2
+- Entity Framework Core
+- Entity Framework Core parte 1
+- Entity Framework Core parte 2
+- Entity Framework
+- .NET e MongoDB
+
+#### Cursos de Ruby
+- Ruby I
+- Ruby II
+- Ruby III
+- Orientação a Objetos: melhores técnicas com Ruby
+
+#### Ruby on Rails
+- Ruby on Rails 3 parte 1
+- Ruby on Rails 3 parte II
+- Ruby on Rails 3 parte III
+- Ruby on Rais 4
+
+#### Cursos de Computação
+- Estrutura de Dados
+- Estatística I
+- Estatística II
+- Algoritmos I
+- Algoritmos II
+
+#### Cursos de Python
+- Python 2
+- Django
+- Python 3
+- Python 3 parte 1
+- Python 3 parte 2
+- Design Patterns Python I
+- Design Patterns Python II
+
+
 
 ### FRONT-END
 
