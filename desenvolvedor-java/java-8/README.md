@@ -2,7 +2,7 @@
 
 - [Link para o curso](https://cursos.alura.com.br/course/java8-lambdas)
 - **Curso iniciado em: 17/11/2017**
-- **Curso concluído em:**
+- **Curso concluído em: 21/11/2017**
 
 ## Aulas
 
