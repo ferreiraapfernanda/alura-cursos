@@ -8,7 +8,7 @@
 
 1. :ok: Trabalhando com ArrayList
 2. :ok: Listas de objetos
-3. Relacionamentos com coleções
+3. :ok: Relacionamentos com coleções
 4. Mais práticas com relacionamentos
 5. O poder dos sets
 6. Aplicando o Set no modelo
@@ -28,6 +28,14 @@
 - Para a ordenação de uma lista, todos os objetos devem implementar a interface **Comparable**, ou seja, quando tempos uma lista de Aulas, a classe Aula deve extender de Comparable, que por sua vez, exige que se tenha implementado o método **compareTo()**. Exemplo: ```aulas.sort(Comparator.comparing(Aula::getTempo));```
 
 ### 3. Relacionamentos com coleções
+
+- ```private List<Aula> aulas``` = Menos comprometimento com o tipo de lista (baixa acoplamento)
+
+- ```return Collections.unmodifiableList(aulas);``` retorna uma cópia READ-ONLY da lista de aulas, importante para quando quer controlar quais métodos/quem pode modificar a lista
+
+- ArrayList busca mais rápido, mas o processo de remoção e inserção no começo é mais demorado (**consumo de tempo linear**).
+
+- LinkedList já é mais rápida nas inserções e remoções, mas a busca de um elemento é mais demorado.
 
 ### 4. Mais práticas com relacionamentos
 
