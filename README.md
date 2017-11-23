@@ -2,7 +2,7 @@
 
 Listas das carreiras e cursos que pretendo concluir na Alura
 
-## Carreiras
+## :briefcase: Carreiras
 
 - :ok: Carreira Iniciante Back-end PHP
 - Carreira Desenvolvedor PHP Erudito
@@ -21,8 +21,9 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Carreira Desenvolvedor ASP.NET
 - Carreira Inteligência Artificial Iniciante
 
-## Cursos
+## :open_file_folder: Cursos
 
+### Cursos sem Categoria (?)
 - WordPress I
 - WordPress II
 - WordPress: criação de um tema do zero
@@ -31,9 +32,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Machine Learning II
 - Machine Learning: Introdução ao sistemas de recomendações
 
-### PROGRAMAÇÃO
-
-#### Cursos de PHP
+### Cursos de PHP
 
 - :ok: PHP e MySQL I
 - :ok: PHP e MySQL II
@@ -54,7 +53,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Zend Framework II
 - Testes: TDD com PHP
 
-#### Cursos Java
+### Cursos Java
 
 - :ok: Java I
 - :ok: Java II
@@ -71,7 +70,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Java Debug
 - Java Brasil
 
-#### Cursos Java Para Web
+### Cursos Java Para Web
 
 - Servlets
 - Java e JSTL
@@ -98,7 +97,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Java e MongoDB
 - Segurança web em Java
 
-#### Cursos Integrações cem Java
+### Cursos Integrações cem Java
 
 - JAX-RS e Jersey
 - JAX-WS
@@ -106,14 +105,14 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Apache Camel
 - Rest Assured
 
-#### Cursos Testes em Java
+### Cursos Testes em Java
 
 - Testes: TDD com Java
 - Mock
 - Teste de Integração
 - Selenium
 
-#### Cursos Boas Práticas em Java
+### Cursos Boas Práticas em Java
 
 - Orientação a Objetos
 - Design Patterns Java I
@@ -122,7 +121,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Java laboratório com Testes
 - Java laboratório com Testes
 
-#### Cursos de Certificação Java
+### Cursos de Certificação Java
 
 - Certificação Java SE 7 Programmer I: Básico
 - Certificação Java SE 7 Programmer I: Tipos de Dados
@@ -134,21 +133,21 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Certificação Java SE 7 Programmer I: Lidando com exceções
 - Certificação Java SE 7 Programmer I: Conteúdo além da prova
 
-#### Cursos de Java e Persistência
+### Cursos de Java e Persistência
 
 - Java e JDBC
 - Java e JPA
 - Java e JPA Otimizações
 
-#### Cursos de Programação Funcional
+### Cursos de Programação Funcional
 - Clojure
 
-#### Cursos de Linguagem C
+### Cursos de Linguagem C
 - C I
 - C II
 - C III
 
-#### Cursos de C#
+### Cursos de C#
 - C# I
 - C# II
 - C# III
@@ -158,28 +157,28 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - C# Brasil
 - Unity
 
-#### Cursos de .NET para Web
+### Cursos de .NET para Web
 - ASP.NET MVC 5
 - ASP.NET Razor
 - Projeto Completo: Controle Financeiro com Aps.NET MVC 5
 - ASP.NET Core parte 1
 - APS.NET Core parte 2
 
-#### Cursos de Integrações em .NET
+### Cursos de Integrações em .NET
 - WCF
 - Web API 2
 
-#### Cursos de Testes em C#
+### Cursos de Testes em C#
 - Testes TDD com C#
 - Mock
 - Selenium
 
-#### Cursos de Boas Práticas em C#
+### Cursos de Boas Práticas em C#
 - Design Patterns C# I
 - Design Patterns C# II
 - SOLID com C#
 
-#### Cursos de Persistência com .NET
+### Cursos de Persistência com .NET
 - NHibernate
 - Entity LinQ parte 1
 - Entity LinQ parte 2
@@ -189,26 +188,26 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Entity Framework
 - .NET e MongoDB
 
-#### Cursos de Ruby
+### Cursos de Ruby
 - Ruby I
 - Ruby II
 - Ruby III
 - Orientação a Objetos: melhores técnicas com Ruby
 
-#### Ruby on Rails
+### Ruby on Rails
 - Ruby on Rails 3 parte 1
 - Ruby on Rails 3 parte II
 - Ruby on Rails 3 parte III
 - Ruby on Rais 4
 
-#### Cursos de Computação
+### Cursos de Computação
 - Estrutura de Dados
 - Estatística I
 - Estatística II
 - Algoritmos I
 - Algoritmos II
 
-#### Cursos de Python
+### Cursos de Python
 - Python 2
 - Django
 - Python 3
@@ -217,11 +216,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Design Patterns Python I
 - Design Patterns Python II
 
-
-
-### FRONT-END
-
-#### HTML e CSS
+### Cursos de HTML e CSS
 
 - HTML5 e CSS3 I
 - HTML5 e CSS3 II
@@ -235,12 +230,12 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Google ChartTools
 - Front-end (Projeto Final)
 
-#### jQUERY
+### Cursos de jQUERY
 
 - jQuery
 - JQuery parte 2
 
-#### JavaScript
+### Cursos de JavaScript
 
 - JavaScript
 - Expressões regulares
@@ -252,7 +247,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Cocos Creator
 - Progressive Web Apps
 
-#### Frameworks MVC
+### Cursos de Frameworks MVC
 
 - Angular 1
 - React parte 1
@@ -268,7 +263,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Vue.js parte 1
 - Vue.js parte 2
 
-#### Automação e Performance
+### Cursos de Automação e Performance
 
 - Grunt
 - Jasmine
@@ -278,9 +273,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Performance Web I
 - Performance Web II
 
-### INFRAESTRUTURA
-
-#### SQL
+### Cursos de SQL
 
 - Modelagem de Banco de Dados Relacional
 - :ok: MYSQL I
@@ -299,7 +292,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Certificação Oracle SQL Fundamentals 6
 - Certificação Oracle SQL Fundamentals 7
 
-#### Análise de Dados
+### Cursos de Análise de Dados
 
 - Data Analysis
 - Chatobot com Watson
@@ -309,7 +302,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Machine Learning: Introdução aos sistemas de recomendações
 - Machine Learning: Aprendizado supervisionado
 
-#### NoSQL
+### Cursos de NoSQL
 
 - Redis I
 - Redis II
@@ -317,7 +310,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Elasticsearch
 - Elasticsearch 5
 
-#### Linux
+### Cursos de Linux
 
 - Linux I
 - Linux II
@@ -336,14 +329,14 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Certificação Linux LPI Essentials parte 11
 - Certificação Linux LPI Essentials parte 12
 
-#### Build e Versionamento
+### Cursos de Build e Versionamento
 
 - :ok: Git
 - Maven
 - Ant
 - Ivy
 
-#### Entrega Contínua
+### Cursos de Entrega Contínua
 
 - Vagrant
 - Docker
@@ -352,12 +345,12 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - AWS S3
 - Integração Contínua
 
-#### Windows
+### Cursos de Windows
 
 - :ok: Windows Prompt
 - Windows Server
 
-#### Redes
+### Cursos de Redes
 
 - Redes parte 1
 - Redes parte 2
@@ -373,9 +366,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Certificação Cisco CCNA parte 5
 - Certificação Cisco CCNA parte 6
 
-### DESIGN E UX
-
-#### Introdução ao Design
+### Cursos de Introdução ao Design
 
 - Gestalt
 - Identidade Visual parte 1
@@ -386,7 +377,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Colorização Digital
 - Manipulação Fotográfica
 
-#### Web Design
+### Cursos de Web Design
 
 - Photoshop para web I
 - Photoshop para web II
@@ -397,7 +388,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Illustrator: crie layouts para a web
 - Animate (Flash)
 
-#### Impressos
+### Cursos de Impressos
 
 - InDesign: folhetos e folders
 - Design editorial
@@ -411,7 +402,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Pintura Digital parte 1
 - Pintura Digital parte 2
 
-#### UX
+### Cursos de UX
 
 - UX
 - UX Strategy
@@ -427,16 +418,14 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Sketch: 10 heurísticas de Nielsen I
 - Sketch: 10 heurísticas de Nielsen II
 
-### BUSINESS
-
-#### Excel
+### Cursos de Excel
 
 - Excel
 - Excel II
 - Excel III
 - VBA
 
-#### Agilidade
+### Cursos de Agilidade
 
 - Métodos ágeis
 - Scrum
@@ -447,7 +436,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Scrum parte 5
 - Scrum parte 6
 
-#### SEO E ADWORDS
+### Cursos de SEO E ADWORDS
 
 - SEO I
 - SEO II
@@ -456,11 +445,11 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Google Adwords: otimizando resultados
 - SEO Wordpress
 
-#### Documentação
+### Cursos de Documentação
 
 - UML
 
-#### Carreiras
+### Cursos de Carreiras
 
 - Hábitos
 - Produtividade
@@ -470,7 +459,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Design Thinking parte 2
 - Design Thinking parte 2
 
-#### Governança
+### Cursos de Governança
 
 - Certificação ITIL Foundation 1
 - Certificação ITIL Foundation 2
@@ -493,7 +482,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Certificação PMP e CAPM parte 11
 - Certificação PMP e CAPM parte 12
 
-#### Cosntrução de Sites
+### Cursos de Cosntrução de Sites
 
 - Wordpress I
 - Wordpress II
@@ -501,9 +490,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Shopify I
 - Shopify II
 
-### MOBILE
-
-#### Android
+### Cursos de Android
 
 - Android I Eclipse
 - Android II
@@ -516,7 +503,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Android com Web Service parte 2
 - Android com Web Service parte 3
 
-#### Multiplataforma
+### Cursos de Multiplataforma
 
 - Cordova e PhoneGap
 - Xamarin parte 1
