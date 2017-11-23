@@ -10,7 +10,7 @@
 2. :ok: Listas de objetos
 3. :ok: Relacionamentos com coleções
 4. :ok: Mais práticas com relacionamentos
-5. O poder dos sets
+5. :ok: O poder dos sets
 6. Aplicando o Set no modelo
 7. Equals e hashcode
 8. Outros sets e iterators
@@ -39,7 +39,7 @@
 
 ### 4. Mais práticas com relacionamentos
 
-- Agora que a lista está READ-ONLY, a ordenação dessa lista não é mais possível. Uma maneira de fazer isso é criando uma nova lista, passando essa lista imutável no construtor: ```List<Aula> aulas = new ArrayList<>(aulasImutaveis);```
+- Agora que a lista está READ-ONLY, a ordenação dessa lista não é mais possível. Uma maneira de fazer isso é criando uma nova lista (ou coleção), passando essa lista imutável (ou set) no construtor: ```List<Aula> aulas = new ArrayList<>(aulasImutaveis);```
 
 - Métodos da classe Collections:
   - **reverse()** inverte a ordem da lista
@@ -48,6 +48,14 @@
   - **nCopies()** retorna lista imutável com a quantidade escolhida de um determinado elemento: ```(Collections.nCopies(1000, (Type)null);```
 
 ### 5. O poder dos sets
+
+- Set/HashSet não garante a ordem da lista
+- Só pode ser acessado pelo foreach
+- Não aceita elementos repetidos
+- Para validar se um elemento existe no hashset: ```boolean possuiElemento = alunos.contains("Elemento");```
+- **contains()** e **remove()** são muito mais rápidos
+- ArrayList: inserção rápida e busca muito lenta
+- HashSet: inserção um pouco mais lenta, mas busca muito rápida
 
 ### 6. Aplicando o Set no modelo
 
