@@ -9,7 +9,7 @@
 1. :ok: Trabalhando com ArrayList
 2. :ok: Listas de objetos
 3. :ok: Relacionamentos com coleções
-4. Mais práticas com relacionamentos
+4. :ok: Mais práticas com relacionamentos
 5. O poder dos sets
 6. Aplicando o Set no modelo
 7. Equals e hashcode
@@ -38,6 +38,14 @@
 - LinkedList já é mais rápida nas inserções e remoções, mas a busca de um elemento é mais demorado.
 
 ### 4. Mais práticas com relacionamentos
+
+- Agora que a lista está READ-ONLY, a ordenação dessa lista não é mais possível. Uma maneira de fazer isso é criando uma nova lista, passando essa lista imutável no construtor: ```List<Aula> aulas = new ArrayList<>(aulasImutaveis);```
+
+- Métodos da classe Collections:
+  - **reverse()** inverte a ordem da lista
+  - **shuffle()** embaralha a ordem da lista
+  - **singletonList()** devolve lista imutavel que contêm um único elemento especificado
+  - **nCopies()** retorna lista imutável com a quantidade escolhida de um determinado elemento: ```(Collections.nCopies(1000, (Type)null);```
 
 ### 5. O poder dos sets
 
