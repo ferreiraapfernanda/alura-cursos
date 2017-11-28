@@ -12,7 +12,7 @@
 4. :ok: Mais práticas com relacionamentos
 5. :ok: O poder dos sets
 6. :ok: Aplicando o Set no modelo
-7. Equals e hashcode
+7. :ok: Equals e hashcode
 8. Outros sets e iterators
 9. Qual Collection usar
 10. Mapas
@@ -60,6 +60,10 @@
 ### 6. Aplicando o Set no modelo
 
 ### 7. Equals e hashcode
+
+- A estrutura Set usa uma tabela de espalhamento para realizar mais rapidamente suas buscas
+- O espalhamento é feito para que se tenha o menor número possível de objetos dentro de um grupo
+- Sempre que reescrever o método equals, é preciso reescrever o método hashCode (pode utilizar o da String mesmo)
 
 ### 8. Outros sets e iterators
 
