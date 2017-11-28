@@ -14,7 +14,7 @@
 6. :ok: Aplicando o Set no modelo
 7. :ok: Equals e hashcode
 8. :ok: Outros sets e iterators
-9. Qual Collection usar
+9. :ok: Qual Collection usar
 10. Mapas
 
 ## Anotações
@@ -73,6 +73,9 @@
 - ```Vector<Aluno> vetor``` (é thread-safe)
 
 ### 9. Qual Collection usar
+
+- "Uma vez que apesar de List estender Collection, não podemos instanciar um objeto de uma interface"
+- "A implementação TreeSet já ordena os seus elementos na hora da inserção. Qual é o critério da ordenação depende e pode ser definido através de um Comparator"
 
 ### 10. Mapas
 
