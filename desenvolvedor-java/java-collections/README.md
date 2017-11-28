@@ -11,7 +11,7 @@
 3. :ok: Relacionamentos com coleções
 4. :ok: Mais práticas com relacionamentos
 5. :ok: O poder dos sets
-6. Aplicando o Set no modelo
+6. :ok: Aplicando o Set no modelo
 7. Equals e hashcode
 8. Outros sets e iterators
 9. Qual Collection usar
