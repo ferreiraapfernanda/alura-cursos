@@ -13,7 +13,7 @@
 5. :ok: O poder dos sets
 6. :ok: Aplicando o Set no modelo
 7. :ok: Equals e hashcode
-8. Outros sets e iterators
+8. :ok: Outros sets e iterators
 9. Qual Collection usar
 10. Mapas
 
@@ -66,6 +66,11 @@
 - Sempre que reescrever o método equals, é preciso reescrever o método hashCode (pode utilizar o da String mesmo)
 
 ### 8. Outros sets e iterators
+
+- LinkedHashSet: mantem a ordem de inserção, mas não pode pegar o n-ésimo elemento ("O LinkedHashSet nos dá a performance de um HashSet mas com acesso previsível e ordenado.")
+- TreeSet: só funciona com objetos **Comparable**. Pode criar o objeto mandando ao constutor um objeto que implementa Comparator
+- ```Iterator<Aluno> iterador = alunos.iterator();```
+- ```Vector<Aluno> vetor``` (é thread-safe)
 
 ### 9. Qual Collection usar
 
