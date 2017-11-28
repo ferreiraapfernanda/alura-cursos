@@ -2,7 +2,7 @@
 
 - [Link para o curso](https://cursos.alura.com.br/course/java-collections)
 - **Curso iniciado em: 23/11/2017**
-- **Curso concluído em:**
+- **Curso concluído em: 28/11/2017**
 
 ## Aulas
 
@@ -15,7 +15,7 @@
 7. :ok: Equals e hashcode
 8. :ok: Outros sets e iterators
 9. :ok: Qual Collection usar
-10. Mapas
+10. :ok: Mapas
 
 ## Anotações
 
@@ -78,6 +78,15 @@
 - "A implementação TreeSet já ordena os seus elementos na hora da inserção. Qual é o critério da ordenação depende e pode ser definido através de um Comparator"
 
 ### 10. Mapas
+
+- ```private Map<Integer, Aluno> matriculaParaAluno = new HashMap<>();```
+- ```this.matriculaParaAluno.put(aluno.getNumeroMaticula(), aluno);```
+- LinkedHashMap
+- Hashtable
+- .keySet();
+- .values();
+- .entrySet();
+
 
 **Legenda:**
 

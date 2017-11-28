@@ -6,7 +6,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 
 - :ok: Carreira Iniciante Back-end PHP
 - Carreira Desenvolvedor PHP Erudito
-- :on: Carreira Desenvolvedor Java
+- :ok: Carreira Desenvolvedor Java
 - Carreira Desenvolvedor Java Web
 - Carreira Desenvolvedor Java Web Enterprise
 - Carreira Desenvolvedor Java Web com Spring
@@ -24,6 +24,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 ## :open_file_folder: Cursos
 
 ### Cursos sem Categoria (?)
+
 - WordPress I
 - WordPress II
 - WordPress: criação de um tema do zero
@@ -60,7 +61,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - :ok: Java III
 - :ok: Refatorando na prática
 - :ok: Java 8
-- :on: Java Collections
+- :ok: Java Collections
 - Threads 1
 - Threads 2
 - Java Reflection
