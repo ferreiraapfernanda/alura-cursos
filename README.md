@@ -4,31 +4,54 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 
 ## :briefcase: Carreiras
 
-- :ok: Carreira Iniciante Back-end PHP
-- Carreira Desenvolvedor PHP Erudito
-- :ok: Carreira Desenvolvedor Java
-- Carreira Desenvolvedor Java Web
-- Carreira Desenvolvedor Java Web Enterprise
-- Carreira Desenvolvedor Java Web com Spring
-- Carreira Expert em Integrações de Aplicações com Java
-- Carreira Avançando na Plataforma Java
-- Carreira Expert em Orientação a Objetos com Java
-- Carreira Desenvolvedor Front-end
-- Carreira Desenvolvedor Javascript
-- Carreira Desenvolvedor Wordpress
-- Carreira Desenvolvedor Ruby and Rails
-- Carreira Desenvolvedor Python
-- Carreira Desenvolvedor ASP.NET
-- Carreira Inteligência Artificial Iniciante
+- :ok: Iniciante Back-end PHP
+- :ok: Desenvolvedor Java
+- Desenvolvedor Java Web
+- Desenvolvedor PHP Erudito
+- Desenvolvedor Java Web Enterprise
+- Desenvolvedor Java Web com Spring
+- Expert em Integrações de Aplicações com Java
+- Avançando na Plataforma Java
+- Expert em Orientação a Objetos com Java
+- Desenvolvedor Front-end
+- Desenvolvedor Javascript
+- Engenheiro JavaScript
+- Engenheiro Front-end
+- Desenvolvedor Wordpress
+- Programador Angular 1
+- Desenvolvedor FullStack MEAN
+- Programador Angular 2
+- Programador React
+- Desenvolvedor Vue.js
+- Desenvolvedor Node.js
+- Desenvolvedor Ruby and Rails
+- Desenvolvedor Python
+- Engenheiro Devops
+- Certificação Oracle 12c: Exame 1Z0-061
+- Infraestrutura de Redes
+- Iniciando com SQL e MYSQL
+- Certificação LPI Linux Essentials
+- Interner das Coisas
+- Raspberry Pi
+- Design Web
+- UX Designer
+- Design Gráfico para Materiais Impressos
+- Agilista
+- Social Media Marketing
+- Soft Skills
+- Marketing Digital
+- SQO Expert
+- Certificação ITIL Foundation
+- Desenvolvedor VBA
+- Design Thinking
+- Desenvolvedor ASP.NET
+- Inteligência Artificial Iniciante
+
+-----
 
 ## :open_file_folder: Cursos
 
 ### Cursos sem Categoria (?)
-
-- WordPress I
-- WordPress II
-- WordPress: criação de um tema do zero
-- SEO WordPress
 - Machine Learning: Introdução a classificação
 - Machine Learning II
 - Machine Learning: Introdução ao sistemas de recomendações
