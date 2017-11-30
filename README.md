@@ -180,6 +180,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - C# Collections parte 2
 - C# Brasil
 - Unity
+- Unity parte 2
 
 ### Cursos de .NET para Web
 - ASP.NET MVC 5
@@ -270,6 +271,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - TypeScript parte 2
 - Cocos Creator
 - Progressive Web Apps
+- JavaScript: Projeto final
 
 ### Cursos de Frameworks MVC
 
@@ -526,6 +528,9 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Android com Web Service parte 1
 - Android com Web Service parte 2
 - Android com Web Service parte 3
+- Kotlin parte 1
+- Kotlin parte 2
+- Kotlin parte 3
 
 ### Cursos de Multiplataforma
 
