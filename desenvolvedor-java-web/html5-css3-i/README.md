@@ -8,7 +8,7 @@
 
 1. :ok: Introdução ao HTML
 2. :ok: Introdução a CSS
-3. Aproduntamento no HTML
+3. :ok: Aproduntamento no HTML
 4. O navegador trabalhando a nosso favor
 5. Aprimorando o layout
 6. Construindo uma base sólida
