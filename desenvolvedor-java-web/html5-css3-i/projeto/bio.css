@@ -1,0 +1,19 @@
+body {
+    font-family: "Crimson Text", "Times New Romam", serif;
+    background-color: #F2FFFC;
+    font-size: 120%;
+}
+
+h1, h2 {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    background-color: #851944;
+    color: #FFF;
+    text-align: center;
+}

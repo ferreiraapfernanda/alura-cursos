@@ -6,8 +6,8 @@
 
 ## Aulas
 
-1. Introdução ao HTML
-2. Introdução a CSS
+1. :ok: Introdução ao HTML
+2. :ok: Introdução a CSS
 3. Aproduntamento no HTML
 4. O navegador trabalhando a nosso favor
 5. Aprimorando o layout
