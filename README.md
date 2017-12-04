@@ -6,7 +6,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 
 - :ok: Iniciante Back-end PHP
 - :ok: Desenvolvedor Java
-- Desenvolvedor Java Web
+- :on: Desenvolvedor Java Web
 - Desenvolvedor PHP Erudito
 - Desenvolvedor Java Web Enterprise
 - Desenvolvedor Java Web com Spring
@@ -242,7 +242,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 
 ### Cursos de HTML e CSS
 
-- HTML5 e CSS3 I
+- :on: HTML5 e CSS3 I
 - HTML5 e CSS3 II
 - Web Design Responsivo
 - Flexbox
