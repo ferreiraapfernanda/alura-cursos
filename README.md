@@ -55,6 +55,8 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Machine Learning: Introdução a classificação
 - Machine Learning II
 - Machine Learning: Introdução ao sistemas de recomendações
+- Introdução a Chatbot
+- Chatbot parte 2
 
 ### Cursos de PHP
 
