@@ -57,6 +57,8 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Machine Learning: Introdução ao sistemas de recomendações
 - Introdução a Chatbot
 - Chatbot parte 2
+- C#: Praticando refatoração de código
+- PowerShell parte 1: Começando com a linguagem de scripting moderna
 
 ### Cursos de PHP
 
