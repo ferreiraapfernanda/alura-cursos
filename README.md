@@ -124,6 +124,7 @@ Listas das carreiras e cursos que pretendo concluir na Alura
 - Play! Framework II
 - Java e MongoDB
 - Segurança web em Java
+- Segurança web em Java parte 2
 
 ### Cursos Integrações cem Java
 
