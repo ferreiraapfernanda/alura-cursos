@@ -31,6 +31,12 @@
 
 ### 5. Aprimorando o layout
 
+- box-sizing: border-box (o css definirá que o tamanho definido será para o elemento inteiro, não só para o conteúdo, em caso de utilização de bordas por exemplo)
+    > Quando aplicamos o valor border-box para a propriedade box-sizing nos elementos "blockquote", vemos que o tamanho deles aparentemente diminui. Isso acontece porque estamos mudando a forma como o navegador mede a largura dos elementos.
+    > Por padrão, o navegador mede a largura ignorando padding e bordas. No momento em que colocamos border-box, dizemos ao navegador que ele deve considerar padding e bordas nesse cálculo.
+
+- line-height: quando não define qual o medida, ela será relativo ao valor da fonte. por exemplo: 1.5
+
 ### 6. Construindo uma base sólida
 
 ### 7. Um pouquinho de posicionamento
