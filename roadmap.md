@@ -1,4 +1,19 @@
-# PHP RoadMap
+# My RoadMap
+
+- :ok: Iniciante Back-end PHP @ Alura
+- Desenvolvedor PHP Erudito @ Alura
+- PHP Web Scraping [@lorien](https://github.com/lorien/awesome-web-scraping/blob/master/php.md#php-web-scraping)
+- Web Scraping Console Tools [@lorien](https://github.com/lorien/awesome-web-scraping/blob/master/console_tools.md#console-tools)
+- Web Scraping Books [@lorien](https://github.com/lorien/awesome-web-scraping/blob/master/books.md)
+- Desevolvedor Wordpress @ Alura
+- Desenvolvedor Python @ Alura
+- Web Scraping Web Services [@lorien](https://github.com/lorien/awesome-web-scraping/blob/master/web_services.md)
+- Desenvolvedor JavaScript @ Alura
+- Engenheiro JavaScript @ Alura
+- Desenvolvedor Front-end @ Alura
+- Engenheiro Front-end @ Alura
+
+## PHP RoadMap by @kamranahmedse
 
 Source: [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
 
@@ -15,7 +30,7 @@ Before starting, its good to know:
 - Character Encodings
 - Github Profile
 
-## Step 1
+### Step 1
 
 - Package Manager
     - Composer
@@ -37,7 +52,7 @@ Before starting, its good to know:
     - Codeception
         - Mockery
 
-## Step 2
+### Step 2
 
 - Web Server
     - Caddy
@@ -54,7 +69,7 @@ Before starting, its good to know:
 - GraphQL
 - Docker
 
-## Step 3
+### Step 3
 
 - Storage
     - Caching
@@ -73,7 +88,7 @@ Before starting, its good to know:
         - RethinkDV
         - Couchbase
 
-## Step 4
+### Step 4
 
 - Search Engines
     - Solr
@@ -83,3 +98,4 @@ Before starting, its good to know:
 - Architectural Patterns
 - Give DDD a shot
 - Learn different testing techniques
+
