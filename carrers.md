@@ -5,18 +5,7 @@
 - :ok: Iniciante Back-end PHP
 - :ok: Desenvolvedor Java
 - Desenvolvedor PHP Erudito
-    - Design Patterns PHP I
-    - Design Patterns PHP II
-    - SOLID com PHP
-    - Testes TDD com PHP
-- Desenvolvedor Java Web
-    - :ok: HTTP
-    - :on: HTML5 e CSS3 I
-    - Servlets
-    - Java e JSTL
-    - :ok: MySQL I
-    - Java e JDBC
-    - :ok: Git
+- :on: Desenvolvedor Java Web
 - Desenvolvedor Java Web Enterprise
 - Desenvolvedor Java Web com Spring
 - Expert em Integrações de Aplicações com Java
