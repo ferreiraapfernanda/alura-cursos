@@ -62,7 +62,7 @@
 - React parte 1: componentes reutilizáveis para sua webapp
 - React parte 2: Container components e o ciclo de vida do react
 - React parte 3: A arquitetura flux, implementação do Redux e server side rendering
-- Meteor: Crie single page applications com JavaScript
+- **Meteor: Crie single page applications com JavaScript**
 - Node.js: Inovando com Javascript no backend
 - MEAN Stack: criando aplicações completas com Javascript
 - Node.js e HTTP: desenvolvendo uma API seguindo o estilo REST
