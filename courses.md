@@ -44,6 +44,7 @@
  - :ok: HTTP: Entendendo a web por baixo dos panos
  - Chrome DevTools: analise, inspecione e depure suas páginas Web
  - Google Chart Tools: Crie Gráficos Memoráveis na Web
+ - Acessibilidade web: introdução a design inclusivos
  - Front-end: Projeto final de carreira
 
 ## Cursos de jQuery
@@ -91,6 +92,7 @@
  - Django: programação web com Python e simplicidade
  - Python 3: Introdução a Orientação a objetos
  - Flask parte 1: Crie uma webapp com Python 3
+ - Flask parte 2: Avançando no desenvolvimento web
 
 ## Cursos de Ruby e Ruby on Rails
  - Ruby I: Introdução a lógica de programação com jogos
@@ -214,6 +216,7 @@
 ## Cursos de Windows
  - :ok: Windows: Introdução ao Prompt
  - PowerShell parte 1: Começando com a linguagem de scripting moderna
+ - PowerShell parte 2: Sessões, Jobs e Administração Remota
 
 ## Cursos de Redes
  - Redes parte 1: Introdução, Conceitos e Prática
