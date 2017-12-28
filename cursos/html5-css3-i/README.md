@@ -12,7 +12,7 @@
 4. :ok: O navegador trabalhando a nosso favor
 5. :ok: Aprimorando o layout
 6. :ok: Construindo uma base sólida
-7. Um pouquinho de posicionamento
+7. :ok: Um pouquinho de posicionamento
 8. Mais seletores
 9. Nem tudo é o que parece
 10. Posicionamento mais a fundo
@@ -43,6 +43,9 @@
 - Cuidado com o quanto o seu css é específico
 
 ### 7. Um pouquinho de posicionamento
+
+- Propriedade **display** define o posicionamento padrão da tag (block por exemplo)
+- Somente o **display: inline** não permite altura ou largura, precisa do **display: inline-block**
 
 ### 8. Mais seletores
 
