@@ -10,8 +10,8 @@
 2. :ok: Introdução a CSS
 3. :ok: Aproduntamento no HTML
 4. :ok: O navegador trabalhando a nosso favor
-5. Aprimorando o layout
-6. Construindo uma base sólida
+5. :ok: Aprimorando o layout
+6. :ok: Construindo uma base sólida
 7. Um pouquinho de posicionamento
 8. Mais seletores
 9. Nem tudo é o que parece
@@ -38,6 +38,9 @@
 - line-height: quando não define qual o medida, ela será relativo ao valor da fonte. por exemplo: 1.5
 
 ### 6. Construindo uma base sólida
+
+- Sempre utilizar um reset, ele ajuda a ter uma base sólida, assim como elimina diferenças de layouts entre os navegadores
+- Cuidado com o quanto o seu css é específico
 
 ### 7. Um pouquinho de posicionamento
 
