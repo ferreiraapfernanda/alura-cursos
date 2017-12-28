@@ -13,7 +13,7 @@
 5. :ok: Aprimorando o layout
 6. :ok: Construindo uma base sólida
 7. :ok: Um pouquinho de posicionamento
-8. Mais seletores
+8. :ok: Mais seletores
 9. Nem tudo é o que parece
 10. Posicionamento mais a fundo
 11. Elementos onde queremos
@@ -48,6 +48,11 @@
 - Somente o **display: inline** não permite altura ou largura, precisa do **display: inline-block**
 
 ### 8. Mais seletores
+
+- **ID não pode repetir!**
+- Selecionar por uma classe é mais específico que selecionar por uma tag
+- O seletor de id é muito mais específico que o seletor de classe ou de tag
+- O critério de desempate é qual das classes aparece por último no arquivo CSS
 
 ### 9. Nem tudo é o que parece
 

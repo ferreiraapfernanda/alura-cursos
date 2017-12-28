@@ -2,70 +2,69 @@
 
 <html>
 
-<head>
-    <title>Blog - João da Silva</title>
-    <meta charset="utf-8">
-    <link rel="icon" href="favicon.png">
-    <link rel="stylesheet" href="bio.css">
+    <head>
+        <title>Blog - João da Silva</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="favicon.png">
+        <link rel="stylesheet" href="bio.css">
 
-    <!-- carrega a fonte Crimson Text nas versões normal, itálico e negrito -->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
+        <!-- carrega a fonte Crimson Text nas versões normal, itálico e negrito -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
 
-    <!-- carrega a fonte Open Sans Condensed na versão negrito, -->
-    <!-- que é a única necessária para os cabeçalhos            -->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
-</head>
+        <!-- carrega a fonte Open Sans Condensed na versão negrito, -->
+        <!-- que é a única necessária para os cabeçalhos            -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+    </head>
 
-<body>
+    <body>
 
-    <main>
+        <main>
 
-        <h1>Blog</h1>
-        <div>
-            <article>
-                <h2>O essencial de design responsivo</h2>
-                <time datetime="2014-07-13">13 de julho de 2014</time>
-                <p>Design responsivo tem ganho cada vez mais atenção como técnica de desenvolvimento de páginas web para dispositivos
-                    móveis. Mas como começar?</p>
-                <a href="#">Leia mais</a>
-                <footer>Tags:
-                    <a href="#">design responsivo</a>,
-                    <a href="#">mobile</a>,
-                    <a href="#">css</a>
-                </footer>
-            </article>
+            <h1 class="titulo-principal">Blog</h1>
+            <div class="conteudo-center">
+                <article>
+                    <h2>O essencial de design responsivo</h2>
+                    <time datetime="2014-07-13">13 de julho de 2014</time>
+                    <p>Design responsivo tem ganho cada vez mais atenção como técnica de desenvolvimento de páginas web para
+                        dispositivos móveis. Mas como começar?</p>
+                    <a class="link-leia-mais" href="#">Leia mais</a>
+                    <footer>Tags:
+                        <a href="#">design responsivo</a>,
+                        <a href="#">mobile</a>,
+                        <a href="#">css</a>
+                    </footer>
+                </article>
 
-            <article>
-                <h2>Por que fazer páginas acessíveis?</h2>
-                <time datetime="2014-07-13">13 de julho de 2014</time>
-                <p>Tem se falado cada vez sobre acessibilidade na web. Há diversas técnicas e diretivas a serem seguidas, inclusive
-                    da própria W3C. Mas vale a pena investir nisso?</p>
-                <a href="#">Leia mais</a>
-                <footer>Tags:
-                    <a href="#">acessibilidade</a>,
-                    <a href="#">boas práticas</a>
-                </footer>
-            </article>
+                <article>
+                    <h2>Por que fazer páginas acessíveis?</h2>
+                    <time datetime="2014-07-13">13 de julho de 2014</time>
+                    <p>Tem se falado cada vez sobre acessibilidade na web. Há diversas técnicas e diretivas a serem seguidas,
+                        inclusive da própria W3C. Mas vale a pena investir nisso?</p>
+                    <a class="link-leia-mais" href="#">Leia mais</a>
+                    <footer>Tags:
+                        <a href="#">acessibilidade</a>,
+                        <a href="#">boas práticas</a>
+                    </footer>
+                </article>
 
-            <article>
-                <h2>JavaScript não obstrusivo</h2>
-                <time datetime="2014-07-13">13 de julho de 2014</time>
-                <p>JavaScript é uma linguagem essencial hoje em dia para criar páginas ricas, interativas e dinâmicas. Porém,
-                    há alguns cuidados que devem ser tomados ao colocarmos código JavaScript em nossas páginas.</p>
-                <a href="#">Leia mais</a>
-                <footer>Tags:
-                    <a href="#">javascript</a>,
-                    <a href="#">boas práticas</a>
-                </footer>
-            </article>
+                <article>
+                    <h2>JavaScript não obstrusivo</h2>
+                    <time datetime="2014-07-13">13 de julho de 2014</time>
+                    <p>JavaScript é uma linguagem essencial hoje em dia para criar páginas ricas, interativas e dinâmicas. Porém,
+                        há alguns cuidados que devem ser tomados ao colocarmos código JavaScript em nossas páginas.</p>
+                    <a class="link-leia-mais" href="#">Leia mais</a>
+                    <footer>Tags:
+                        <a href="#">javascript</a>,
+                        <a href="#">boas práticas</a>
+                    </footer>
+                </article>
 
-        </div>
-    </main>
+            </div>
+        </main>
 
-    <img src="eu.jpg" alt="Foto de João da Silva">
+        <img src="eu.jpg" alt="Foto de João da Silva">
 
-    <aside>
-        <div>
+        <aside class="navegacao-site">
             <nav>
                 <h1>João da Silva</h1>
                 <ul>
@@ -86,12 +85,49 @@
                     </li>
                 </ul>
             </nav>
-        </div>
-    </aside>
 
-    <footer>
-        &copy; João da Silvia 2017
-    </footer>
-</body>
+
+            <ul class="icones-sociais">
+                <li>
+                    <a href="http://github.com/git-joaodasilva">
+                        <img src="github.png" alt="Github">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://twitter.com/twitter-joaodasilva">
+                        <img src="twitter.png" alt="Twitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://br.linkedin.com/pub/linkedin-joao-da-silva/32/4/508">
+                        <img src="linkedin.png" alt="LinkedIn">
+                    </a>
+                </li>
+            </ul>
+
+        </aside>
+
+        <footer id="rodape-pagina">
+            &copy; João da Silvia 2017
+
+            <ul class="icones-sociais social-rodape">
+                <li>
+                    <a href="http://github.com/git-joaodasilva">
+                        <img src="github.png" alt="Github">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://twitter.com/twitter-joaodasilva">
+                        <img src="twitter.png" alt="Twitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://br.linkedin.com/pub/linkedin-joao-da-silva/32/4/508">
+                        <img src="linkedin.png" alt="LinkedIn">
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </body>
 
 </html>

@@ -10,7 +10,7 @@ h2 {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
-main h1 {
+.titulo-principal {
     text-align: center;
     background-color: #851944;
     color: #FFF;
@@ -24,7 +24,7 @@ p {
     margin: 20px 0px;
 }
 
-blockquote {
+.citacoes {
     background-color: #D9E5E3;
     border: 10px solid #C2CCCA;
     width: 250px;
@@ -34,19 +34,30 @@ blockquote {
     border-right-color: #fff;
 }
 
-aside {
+.navegacao-site {
     background-color: #3C1D3D;
     color: #F2FFFC;
     text-align: center;
 }
 
-aside li {
+.icones-sociais li {
     display: inline-block;
 }
 
-footer {
+.social-rodape {
+    margin: 60px;
+}
+
+#rodape-pagina {
     background-color: #000;
     color: #F2FFFC;
+    padding: 20px;
+}
+
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
 }
 
 nav a {
@@ -68,7 +79,7 @@ footer {
     padding: 20px;
 }
 
-main div {
+.conteudo-center {
     width: 720px;
     padding: 30px 0;
     margin: auto;
@@ -89,4 +100,13 @@ em {
 
 h2 {
     font-size: 30px;
+}
+
+.link-leia-mais {
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
 }
