@@ -10,6 +10,10 @@ h2 {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
+h1 {
+    text-transform: uppercase;
+}
+
 .titulo-principal {
     text-align: center;
     background-color: #851944;
@@ -17,6 +21,10 @@ h2 {
     padding: 25px;
     border-bottom: 10px solid black;
     font-size: 60px;
+}
+
+nav a {
+    text-transform: lowercase;
 }
 
 p {
@@ -42,6 +50,26 @@ p {
 
 .icones-sociais li {
     display: inline-block;
+}
+
+.icones-sociais a {
+    
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px; /* Que técnica horrível */
+}
+
+.github {
+    background-image: url(github.png);
+}
+
+.twitter {
+    background-image: url(twitter.png);
+}
+
+.linkedin {
+    background-image: url(linkedin.png);
 }
 
 .social-rodape {

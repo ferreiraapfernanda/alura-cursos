@@ -14,7 +14,7 @@
 6. :ok: Construindo uma base sólida
 7. :ok: Um pouquinho de posicionamento
 8. :ok: Mais seletores
-9. Nem tudo é o que parece
+9. :ok: Nem tudo é o que parece
 10. Posicionamento mais a fundo
 11. Elementos onde queremos
 12. Desafios finais
