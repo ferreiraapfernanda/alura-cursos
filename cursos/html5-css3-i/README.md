@@ -16,7 +16,7 @@
 8. :ok: Mais seletores
 9. :ok: Nem tudo é o que parece
 10. :ok: Posicionamento mais a fundo
-11. Elementos onde queremos
+11. :ok: Elementos onde queremos
 12. Desafios finais
 
 ## Anotações
@@ -62,6 +62,12 @@
 - floats em sequência formam uma linha
 
 ### 11. Elementos onde queremos
+
+**position** | **referência**
+-------------|----------------
+relative | ele mesmo
+absolute | janela
+fixed | tela
 
 ### 12. Desafios finais
 

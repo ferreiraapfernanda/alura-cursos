@@ -5,6 +5,9 @@ body {
     line-height: 1.5;
 }
 
+.container {
+   
+}
 h1,
 h2 {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
@@ -123,11 +126,13 @@ main a {
 
 aside {
     box-sizing: border-box;
+    width: 15%;
+    position: relative;
+    top: 310px;
 }
 
 aside, img {
     float: right;
-    width: 15%;
     box-sizing: border-box;
     border-left: 10px solid black;
     border-bottom: 10px solid black;
@@ -138,6 +143,12 @@ aside a {
     font-family: "Open Sans Condensed", sans-serif;
 }
 
+img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 blockquote,
 aside,
 footer {
@@ -146,12 +157,16 @@ footer {
 
 footer {
     clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .conteudo-center {
     width: 720px;
     padding: 30px 0;
     margin: auto;
+    padding-bottom: 80px;
 }
 
 aside h1 {
