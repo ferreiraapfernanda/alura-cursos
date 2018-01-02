@@ -6,7 +6,7 @@
 
 ## Aulas
 
-1. Introdução: Editando seu site em tempo real
+1. :ok: Introdução: Editando seu site em tempo real
 2. O Console
 3. Debuggando
 4. Conectividade
