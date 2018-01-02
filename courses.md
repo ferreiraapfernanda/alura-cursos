@@ -1,19 +1,19 @@
 # Cursos Alura
 
-## Concluídos
+## Done and Doing
 
-- :ok: Windows: Introdução ao Prompt
-- :ok: Git: Controle e compartilhe seu código
-- :ok: HTTP: Entendendo a web por baixo dos panos
-- :ok: PHP e MySQL I: Fundamentos para criar um sistema na Web
-- :ok: PHP e MySQL II: Cookies, sessões e mais recursos
-- :ok: MySQL I: Iniciando suas consultas
-- :ok: PHP I: Orientação a objetos com sua linguagem preferida
-- :ok: PHP II: Avançando com Orientação a objetos
-- :ok: HTML5 e CSS3 I: Suas primeiras páginas da Web
-- :on: Chrome DevTools: analise, inspecione e depure suas páginas Web
+- :white_check_mark: Windows: Introdução ao Prompt
+- :white_check_mark: Git: Controle e compartilhe seu código
+- :white_check_mark: HTTP: Entendendo a web por baixo dos panos
+- :white_check_mark: PHP e MySQL I: Fundamentos para criar um sistema na Web
+- :white_check_mark: PHP e MySQL II: Cookies, sessões e mais recursos
+- :white_check_mark: MySQL I: Iniciando suas consultas
+- :white_check_mark: PHP I: Orientação a objetos com sua linguagem preferida
+- :white_check_mark: PHP II: Avançando com Orientação a objetos
+- :white_check_mark: HTML5 e CSS3 I: Suas primeiras páginas da Web
+- :eight_pointed_black_star: Chrome DevTools: analise, inspecione e depure suas páginas Web
 
-## Para Fazer
+## To Do
 
 ### Cursos de PHP
 
