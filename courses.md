@@ -2,16 +2,16 @@
 
 ## Done and Doing
 
-- :white_check_mark: Windows: Introdução ao Prompt
-- :white_check_mark: Git: Controle e compartilhe seu código
-- :white_check_mark: HTTP: Entendendo a web por baixo dos panos
-- :white_check_mark: PHP e MySQL I: Fundamentos para criar um sistema na Web
-- :white_check_mark: PHP e MySQL II: Cookies, sessões e mais recursos
-- :white_check_mark: MySQL I: Iniciando suas consultas
-- :white_check_mark: PHP I: Orientação a objetos com sua linguagem preferida
-- :white_check_mark: PHP II: Avançando com Orientação a objetos
-- :white_check_mark: HTML5 e CSS3 I: Suas primeiras páginas da Web
-- :eight_pointed_black_star: Chrome DevTools: analise, inspecione e depure suas páginas Web
+- :heavy_check_mark: Windows: Introdução ao Prompt
+- :heavy_check_mark: Git: Controle e compartilhe seu código
+- :heavy_check_mark: HTTP: Entendendo a web por baixo dos panos
+- :heavy_check_mark: PHP e MySQL I: Fundamentos para criar um sistema na Web
+- :heavy_check_mark: PHP e MySQL II: Cookies, sessões e mais recursos
+- :heavy_check_mark: MySQL I: Iniciando suas consultas
+- :heavy_check_mark: PHP I: Orientação a objetos com sua linguagem preferida
+- :heavy_check_mark: PHP II: Avançando com Orientação a objetos
+- :heavy_check_mark: HTML5 e CSS3 I: Suas primeiras páginas da Web
+- :small_orange_diamond: Chrome DevTools: analise, inspecione e depure suas páginas Web
 
 ## To Do
 
@@ -77,7 +77,7 @@
 - React parte 1: componentes reutilizáveis para sua webapp
 - React parte 2: Container components e o ciclo de vida do react
 - React parte 3: A arquitetura flux, implementação do Redux e server side rendering
-- **Meteor: Crie single page applications com JavaScript**
+- :heavy_exclamation_mark: Meteor: Crie single page applications com JavaScript
 - Node.js: Inovando com Javascript no backend
 - MEAN Stack: criando aplicações completas com Javascript
 - Node.js e HTTP: desenvolvendo uma API seguindo o estilo REST
