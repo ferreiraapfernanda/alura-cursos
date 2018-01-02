@@ -2,7 +2,7 @@
 
 - [Link para o curso](https://cursos.alura.com.br/course/introducao-html-css)
 - **Curso iniciado em: 04/12/2017**
-- **Curso concluído em:**
+- **Curso concluído em: 02/01/2018**
 
 ## Aulas
 
@@ -17,7 +17,7 @@
 9. :ok: Nem tudo é o que parece
 10. :ok: Posicionamento mais a fundo
 11. :ok: Elementos onde queremos
-12. Desafios finais
+12. :ok: Desafios finais
 
 ## Anotações
 

@@ -34,7 +34,7 @@
 - JavaScript: Projeto final de carreira
 
 ## Cursos de HTML e CSS
- - HTML5 e CSS3 I: Suas primeiras páginas da Web
+ - :ok: HTML5 e CSS3 I: Suas primeiras páginas da Web
  - HTML5 e CSS3 II: Turbinando as suas páginas
  - Web Design Responsivo: Páginas que se adaptam do mobile ao desk
  - Flexbox: Posicione elementos na tela

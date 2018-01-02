@@ -5,9 +5,6 @@ body {
     line-height: 1.5;
 }
 
-.container {
-   
-}
 h1,
 h2 {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
@@ -39,32 +36,6 @@ p {
     margin: 20px 0px;
 }
 
-.citacoes {
-    background-color: #D9E5E3;
-    border: 10px solid #C2CCCA;
-    width: 250px;
-    box-sizing: border-box;
-    margin: 20px 40px;
-    border-bottom-color: #333;
-    border-right-color: #fff;
-}
-
-cite {
-    font-style: italic;
-    float: right;
-    display: block;
-}
-
-.fiat {
-    float: right;
-}
-
-
-.petrobras {
-    float: left;
-}
-
-
 .navegacao-site {
     background-color: #3C1D3D;
     color: #F2FFFC;
@@ -76,23 +47,23 @@ cite {
 }
 
 .icones-sociais a {
-    
     width: 40px;
     height: 40px;
     display: inline-block;
-    text-indent: -9999px; /* Que técnica horrível */
+    text-indent: -9999px;
+    /* Que técnica horrível */
 }
 
 .github {
-    background-image: url(github.png);
+    background-image: url(../img/github.png);
 }
 
 .twitter {
-    background-image: url(twitter.png);
+    background-image: url(../img/twitter.png);
 }
 
 .linkedin {
-    background-image: url(linkedin.png);
+    background-image: url(../img/linkedin.png);
 }
 
 .social-rodape {
@@ -103,12 +74,6 @@ cite {
     background-color: #000;
     color: #F2FFFC;
     padding: 20px;
-}
-
-article {
-    padding-bottom: 30px;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 20px;
 }
 
 nav a {
@@ -131,7 +96,8 @@ aside {
     top: 310px;
 }
 
-aside, img {
+aside,
+.foto-joao {
     float: right;
     box-sizing: border-box;
     border-left: 10px solid black;
@@ -143,7 +109,7 @@ aside a {
     font-family: "Open Sans Condensed", sans-serif;
 }
 
-img {
+.foto-joao {
     position: absolute;
     top: 0;
     right: 0;
@@ -184,13 +150,4 @@ em {
 
 h2 {
     font-size: 30px;
-}
-
-.link-leia-mais {
-    padding: 8px;
-    margin: 16px;
-    display: block;
-    font-size: 24px;
-    text-align: center;
-    background-color: #E6E7E8;
 }
