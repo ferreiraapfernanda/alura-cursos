@@ -15,7 +15,7 @@
 7. :ok: Um pouquinho de posicionamento
 8. :ok: Mais seletores
 9. :ok: Nem tudo é o que parece
-10. Posicionamento mais a fundo
+10. :ok: Posicionamento mais a fundo
 11. Elementos onde queremos
 12. Desafios finais
 
@@ -57,6 +57,9 @@
 ### 9. Nem tudo é o que parece
 
 ### 10. Posicionamento mais a fundo
+
+- **clear: right** ele não deixa que o elemento possua um float (elemento do lado)
+- floats em sequência formam uma linha
 
 ### 11. Elementos onde queremos
 

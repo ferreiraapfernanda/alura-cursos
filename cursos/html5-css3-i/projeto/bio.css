@@ -14,6 +14,10 @@ h1 {
     text-transform: uppercase;
 }
 
+h2 {
+    clear: both;
+}
+
 .titulo-principal {
     text-align: center;
     background-color: #851944;
@@ -41,6 +45,22 @@ p {
     border-bottom-color: #333;
     border-right-color: #fff;
 }
+
+cite {
+    font-style: italic;
+    float: right;
+    display: block;
+}
+
+.fiat {
+    float: right;
+}
+
+
+.petrobras {
+    float: left;
+}
+
 
 .navegacao-site {
     background-color: #3C1D3D;
@@ -92,8 +112,25 @@ nav a {
     color: #F2FFFC;
 }
 
+main {
+    float: left;
+    width: 85%;
+}
+
 main a {
     color: #851944;
+}
+
+aside {
+    box-sizing: border-box;
+}
+
+aside, img {
+    float: right;
+    width: 15%;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
 }
 
 aside a {
@@ -105,6 +142,10 @@ blockquote,
 aside,
 footer {
     padding: 20px;
+}
+
+footer {
+    clear: both;
 }
 
 .conteudo-center {
