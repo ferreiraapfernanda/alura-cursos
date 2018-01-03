@@ -7,7 +7,7 @@
 ## Aulas
 
 1. :ok: Introdução: Editando seu site em tempo real
-2. O Console
+2. :ok: O Console
 3. Debuggando
 4. Conectividade
 5. Analisando a performance
@@ -22,6 +22,12 @@
 - Quando um elemento é adicionado ao DOM ele também é a somatória de diversos comportamentos que se acumulam. Para descobrir quais são os tipo desses elementos utilizamos a aba Properties.
 
 ### 2. O Console
+
+- $$(query) funciona como document.querySelectorAll(query), enquanto $(query) funciona como document.querySelector(query). Mas cuidado! O segundo comando é reescrito pelo jQuery, portanto só funciona dessa forma sem jQuery.
+
+- console.table([{nome:"Guilherme", empresa:"Alura"},{nome:"Paulo", empresa:"Caelum"}])
+
+- document.querySelector(".cabecalho").style.backgroundColor="green"
 
 ### 3. Debuggando
 
