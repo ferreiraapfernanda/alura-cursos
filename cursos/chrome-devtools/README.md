@@ -8,7 +8,7 @@
 
 1. :ok: Introdução: Editando seu site em tempo real
 2. :ok: O Console
-3. Debuggando
+3. :ok: Debuggando
 4. Conectividade
 5. Analisando a performance
 6. Persistencia, Cookies e Cache
