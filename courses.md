@@ -34,11 +34,11 @@
 - JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
 - JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 - JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
-- Testes: TDD com Java
-- Mock: Testes de comportamentos automatizados em Java
-- Teste de Integração: Testes SQL e DAOs automatizados em java
-- Selenium: Sua webapp testada de ponta a ponta em java
-- Jasmine: Testes automatizados em JavaScript
+- *Testes: TDD com Java*
+- *Mock: Testes de comportamentos automatizados em Java*
+- *Teste de Integração: Testes SQL e DAOs automatizados em java*
+- *Selenium: Sua webapp testada de ponta a ponta em java*
+- *Jasmine: Testes automatizados em JavaScript*
 - Gulp: automação de tarefas front-end
 - Performance Web I: otimizando o front-end
 - Performance Web II: Critical Path, HTTP/2 e Resource Hints
@@ -46,6 +46,8 @@
 - Bootstrap: criação de uma single-page responsiva
 - PHP com PDO parte 1: Persistindo os bancos de dados
 - PHP PDO parte 2: Mais segurança e organização na sua app
+
+## Outros
 - Testes: TDD com PHP
 - Laravel: facilitando o desenvolvimento PHP
 - Laravel II: Mais técnicas e webapps poderosas
@@ -68,8 +70,6 @@
 - Kubernetes: Introdução a orquestração de containers
 - Amazon EC2: Faça um deploy da sua webapp com alta disponibilidade e escalabilidade.
 - AWS S3: Manipule e armazene objetos na nuvem
-
-## Outros
 
 ### Cursos de PHP
 - CodeIgniter I: Programando elegantemente para a web
