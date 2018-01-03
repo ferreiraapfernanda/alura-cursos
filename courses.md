@@ -13,6 +13,13 @@
 - :heavy_check_mark: HTML5 e CSS3 I: Suas primeiras páginas da Web
 - :small_orange_diamond: Chrome DevTools: analise, inspecione e depure suas páginas Web
 
+- https://cursos.alura.com.br/career/iniciante-em-logica-de-programacao
+- https://cursos.alura.com.br/career/desenvolvedor-javascript
+- https://cursos.alura.com.br/career/desenvolvedor-front-end
+- https://cursos.alura.com.br/career/desenvolvedor-php-erudito
+- https://cursos.alura.com.br/career/engenheiro-javascript
+- https://cursos.alura.com.br/career/engenheiro-front-end
+
 ## To Do
 
 ### Cursos de PHP
