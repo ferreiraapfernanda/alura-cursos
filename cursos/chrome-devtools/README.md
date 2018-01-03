@@ -9,7 +9,7 @@
 1. :ok: Introdução: Editando seu site em tempo real
 2. :ok: O Console
 3. :ok: Debuggando
-4. Conectividade
+4. :ok: Conectividade
 5. Analisando a performance
 6. Persistencia, Cookies e Cache
 7. Device Mode
@@ -32,6 +32,8 @@
 ### 3. Debuggando
 
 ### 4. Conectividade
+
+- O botão faz uma chamada assíncrona. Toda requisição assíncrona é do tipo xhr, pois elas são feitas usando o objeto XMLHttpRequest no chrome.
 
 ### 5. Analisando a performance
 
