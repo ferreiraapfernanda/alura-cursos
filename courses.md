@@ -12,13 +12,28 @@
 - :heavy_check_mark: PHP II: Avançando com Orientação a objetos
 - :heavy_check_mark: HTML5 e CSS3 I: Suas primeiras páginas da Web
 - :small_orange_diamond: Chrome DevTools: analise, inspecione e depure suas páginas Web
+- HTML5 e CSS3 II: Turbinando as suas páginas
+- JavaScript: Programando na linguagem da web
+- Expressões regulares: Capturando textos de forma mágica
+- jQuery: Domine a biblioteca mais popular do mercado
+- jQuery: Avance na biblioteca mais popular do mercado parte 2
+- JavaScript: Projeto de conclusão
+- Web Design Responsivo: Páginas que se adaptam do mobile ao desk
+- Front-end: Projeto de conclusão
+- Design Patterns PHP I: Boas práticas de programação
+- Design Patterns PHP II: Boas práticas de programação
+- SOLID com PHP: Orientação a Objetos com PHP
+- Testes: TDD com PHP
+- JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
+- JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
+- JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
+- **Jasmine: Testes automatizados em JavaScript**
+- Gulp: automação de tarefas front-end
+- Performance Web I: otimizando o front-end
+- Performance Web II: Critical Path, HTTP/2 e Resource Hints
+- Sass e Compass: Descomplicando o CSS
+- Bootstrap: criação de uma single-page responsiva
 
-- https://cursos.alura.com.br/career/iniciante-em-logica-de-programacao
-- https://cursos.alura.com.br/career/desenvolvedor-javascript
-- https://cursos.alura.com.br/career/desenvolvedor-front-end
-- https://cursos.alura.com.br/career/desenvolvedor-php-erudito
-- https://cursos.alura.com.br/career/engenheiro-javascript
-- https://cursos.alura.com.br/career/engenheiro-front-end
 
 ## To Do
 
