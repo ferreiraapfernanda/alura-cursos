@@ -33,63 +33,54 @@
 - Performance Web II: Critical Path, HTTP/2 e Resource Hints
 - Sass e Compass: Descomplicando o CSS
 - Bootstrap: criação de uma single-page responsiva
-
+- PHP com PDO parte 1: Persistindo os bancos de dados
+- PHP PDO parte 2: Mais segurança e organização na sua app
+- Testes: TDD com PHP
+- Laravel: facilitando o desenvolvimento PHP
+- Laravel II: Mais técnicas e webapps poderosas
+- Python 2: Programando com a linguagem
+- CakePHP I: Acelere o desenvolvimento web
+- CakePHP II: Validação, emails e mais recursos
+- TypeScript parte 1: Evoluindo seu Javascript
+- TypeScript parte 2: Mais técnicas e boas práticas
+- Progressive Web Apps: crie apps offline
+- Acessibilidade web: introdução a design inclusivos
+- Google Chart Tools: Crie Gráficos Memoráveis na Web 
+- Flexbox: Posicione elementos na tela
+- WordPress I: hospedagem, administração e widgets
+- WordPress II: páginas, temas e boas práticas
+- Wordpress: Criação de um tema do zero
+- LESS: CSS simples e produtivo
+- Webpack: Manipulando módulos na sua webapp
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 
 ## To Do
 
 ### Cursos de PHP
-
-- PHP com PDO parte 1: Persistindo os bancos de dados
-- PHP PDO parte 2: Mais segurança e organização na sua app
-- Design Patterns PHP I: Boas práticas de programação
-- Design Patterns PHP II: Boas práticas de programação
-- SOLID com PHP: Orientação a Objetos com PHP
 - CodeIgniter I: Programando elegantemente para a web
 - CodeIgniter II: Mais técnicas e boas práticas
-- Laravel: facilitando o desenvolvimento PHP
-- Laravel II: Mais técnicas e webapps poderosas
-- CakePHP I: Acelere o desenvolvimento web
-- CakePHP II: Validação, emails e mais recursos
 - Zend Framework: Mais prática do seu framework predileto
 - Zend Framework: Seu desenvolvimento PHP acelerado
-- Testes: TDD com PHP
+
 
 ### Cursos de JavaScript
-
-- JavaScript: Programando na linguagem da web
-- Expressões regulares: Capturando textos de forma mágica
-- JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
-- JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
-- JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
-- TypeScript parte 1: Evoluindo seu Javascript
-- TypeScript parte 2: Mais técnicas e boas práticas
 - Cocos Creator parte 1: Simplificando o desenvolvimento de jogos para Web
 - Cocos Creator parte 2: Aprimore os conhecimentos com a engine
-- Progressive Web Apps: crie apps offline
-- JavaScript: Projeto final de carreira
 
 ### Cursos de HTML e CSS
-
-- HTML5 e CSS3 II: Turbinando as suas páginas
-- Web Design Responsivo: Páginas que se adaptam do mobile ao desk
-- Flexbox: Posicione elementos na tela
-- Bootstrap: criação de uma single-page responsiva
 - Email Marketing Responsivo parte 1: sua newsletter adaptável
 - Email Marketing Responsivo parte 2: testando suas newsletters
-- Google Chart Tools: Crie Gráficos Memoráveis na Web
-- Acessibilidade web: introdução a design inclusivos
-- Front-end: Projeto final de carreira
-
-### Cursos de jQuery
-
-- jQuery: Domine a biblioteca mais popular do mercado
-- jQuery: Avance na biblioteca mais popular do mercado parte 2
 
 ### Cursos de Construção de Sites
-
-- WordPress I: hospedagem, administração e widgets
-- WordPress II: páginas, temas e boas práticas
-- Wordpress: Criação de um tema do zero
 - Shopify I: Colocando sua loja online no ar
 - Shopify II: Customizações e ajustes para a sua loja online
 
@@ -99,7 +90,7 @@
 - React parte 1: componentes reutilizáveis para sua webapp
 - React parte 2: Container components e o ciclo de vida do react
 - React parte 3: A arquitetura flux, implementação do Redux e server side rendering
-- :heavy_exclamation_mark: Meteor: Crie single page applications com JavaScript
+- Meteor: Crie single page applications com JavaScript
 - Node.js: Inovando com Javascript no backend
 - MEAN Stack: criando aplicações completas com Javascript
 - Node.js e HTTP: desenvolvendo uma API seguindo o estilo REST
@@ -109,20 +100,8 @@
 - Vue.js parte 1: construindo Single Page Applications
 - Vue.js parte 2: construindo Single Page Applications
 
-### Cursos de Automação e Performance
-
-- Grunt: Automação de tarefas front-end
-- Jasmine: Testes automatizados em JavaScript
-- Sass e Compass: Descomplicando o CSS
-- Gulp: automação de tarefas front-end
-- LESS: CSS simples e produtivo
-- Performance Web I: otimizando o front-end
-- Performance Web II: Critical Path, HTTP/2 e Resource Hints
-- Webpack: Manipulando módulos na sua webapp
-
 ### Cursos de Python
 
-- Python 2: Programando com a linguagem
 - Python 3 parte 1: Introdução à nova versão da linguagem
 - Python 3 parte 2: Avançando na linguagem
 - Design Patterns Python I: Boas práticas de programação
