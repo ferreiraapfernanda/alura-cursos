@@ -1,6 +1,7 @@
 # Cursos Alura
 
-## Completos em 2017
+## Completos em 2017 (14 de jul de 2017 - 	31 de dez de 2017)
+
 - :heavy_check_mark: Windows: Introdução ao Prompt
 - :heavy_check_mark: Git: Controle e compartilhe seu código
 - :heavy_check_mark: HTTP: Entendendo a web por baixo dos panos
@@ -16,7 +17,8 @@
 - :heavy_check_mark: Java 8: Tire proveito dos novos recursos da linguagem
 - :heavy_check_mark: Refatorando na prática
 
-## Planejamento 2018 :four_leaf_clover:
+## Planejamento 2018 :four_leaf_clover: (Renovar em 14 de jul de 2018)
+
 - :heavy_check_mark: HTML5 e CSS3 I: Suas primeiras páginas da Web
 - :small_orange_diamond: Chrome DevTools: analise, inspecione e depure suas páginas Web
 - HTML5 e CSS3 II: Turbinando as suas páginas
@@ -48,6 +50,7 @@
 - PHP PDO parte 2: Mais segurança e organização na sua app
 
 ## Outros
+
 - Testes: TDD com PHP
 - Laravel: facilitando o desenvolvimento PHP
 - Laravel II: Mais técnicas e webapps poderosas
@@ -72,24 +75,29 @@
 - AWS S3: Manipule e armazene objetos na nuvem
 
 ### Cursos de PHP
+
 - CodeIgniter I: Programando elegantemente para a web
 - CodeIgniter II: Mais técnicas e boas práticas
 - Zend Framework: Mais prática do seu framework predileto
 - Zend Framework: Seu desenvolvimento PHP acelerado
 
 ### Cursos de JavaScript
+
 - Cocos Creator parte 1: Simplificando o desenvolvimento de jogos para Web
 - Cocos Creator parte 2: Aprimore os conhecimentos com a engine
 
 ### Cursos de HTML e CSS
+
 - Email Marketing Responsivo parte 1: sua newsletter adaptável
 - Email Marketing Responsivo parte 2: testando suas newsletters
 
 ### Cursos de Construção de Sites
+
 - Shopify I: Colocando sua loja online no ar
 - Shopify II: Customizações e ajustes para a sua loja online
 
 ### Cursos de Framworks MVC
+
 - Angular 1: crie webapps poderosas
 - React parte 1: componentes reutilizáveis para sua webapp
 - React parte 2: Container components e o ciclo de vida do react
@@ -105,6 +113,7 @@
 - Vue.js parte 2: construindo Single Page Applications
 
 ### Cursos de Python
+
 - Python 3 parte 1: Introdução à nova versão da linguagem
 - Python 3 parte 2: Avançando na linguagem
 - Design Patterns Python I: Boas práticas de programação
@@ -115,6 +124,7 @@
 - Flask parte 2: Avançando no desenvolvimento web
 
 ### Cursos de Ruby e Ruby on Rails
+
 - Ruby I: Introdução a lógica de programação com jogos
 - Ruby II: Continuando seus primeiros passos na programação
 - Ruby III: Mais lógica de programação em um novo jogo
@@ -127,9 +137,11 @@
 ### [Cursos de Java](https://www.alura.com.br/cursos-online-programacao/java)
 
 ### Cursos de Programação Funcional
+
 - Clojure: Introdução a programação funcional
 
 ### Cursos de Computação
+
 - Estrutura de Dados: Computação na prática com Java
 - Estatística I: Entenda seus dados com R
 - Estatística II: Aprofundando em hipóteses e correlações
@@ -138,6 +150,7 @@
 - Maratona de Programação: introdução e boas práticas de um programador maratonista
 
 ### Cursos de Android
+
 - Android I: Crie sua App fantástica no Eclipse
 - Android II: Imersão em interfaces e recursos
 - Android III: Integrações e Mapas para turbinar sua App
@@ -153,6 +166,7 @@
 - Kotlin parte 3: Técnicas avançadas na sua app
 
 ### Cursos Mobile Multiplataforma
+
 - Cordova & PhoneGap: Apps mobile com HTML, CSS e JS
 - Xamarin parte 1: crie aplicativos mobile com Visual Studio
 - Xamarin parte 2: crie aplicativos mobile com Visual Studio
@@ -165,6 +179,7 @@
 - Ionic 2 parte 2: aplicações híbridas mobile ainda mais poderosas
 
 ### Cursos de SQL
+
 - Modelagem de Banco de Dados Relacional: Índices e Normalização
 - MySQL II: Consultas poderosas
 - PostgreSQL I: Primeiros passos com suas consultas
@@ -183,6 +198,7 @@
 - Certificação Oracle SQL Fundamentals 7: Data definition language
 
 ### Cursos de Análise de Dados
+
 - Data analysis: trabalhando com dados e estatísticas
 - Introdução a Chatbot: conversas inteligentes usando o Watson
 - Chatbot parte 2: Avançando e integrando o bot
@@ -193,6 +209,7 @@
 - Machine Learning: Aprendizado supervisionado
 
 ### Cursos de NoSQL
+
 - Redis I: Armazenando chaves e valores
 - Redis II: Estruturas e recursos na sua base NoSQL
 - MongoDB: Uma alternativa aos bancos relacionais tradicionais
@@ -200,6 +217,7 @@
 - Elasticsearch 5: Pesquisas avançadas
 
 ### Cursos de Linux
+
 - Linux I: Conhecendo e utilizando o terminal
 - Linux II: Programas, processos e pacotes
 - Shell Scripting parte 1: Começando seus scripts de automação de tarefas
@@ -218,19 +236,23 @@
 - Certificação Linux LPI Essentials parte 12: Security and File Permissions
 
 ### Cursos de Build e Versionamento
+
 - Maven: Build do zero a web
 - Ant: Build robusto para projetos Java
 - Ivy: Gerenciamento de dependências flexível
 
 ### Cursos de Entrega Contínua
+
 - Integração Contínua: Maturidade e Produtividade no Desenvolvimento de Software
 - Amazon AWS: Deploy de uma aplicação em Spring MVC
 
 ### Cursos de Windows
+
 - PowerShell parte 1: Começando com a linguagem de scripting moderna
 - PowerShell parte 2: Sessões, Jobs e Administração Remota
 
 ### Cursos de Redes
+
 - Redes parte 1: Introdução, Conceitos e Prática
 - Redes parte 2: Montando um projeto do cliente até o provedor de serviços- Segurança Web: Vulnerabilidades do seu sistema e OWASP
 - Segurança de redes: Conheça as vulnerabilidades de servidores e clientes
@@ -256,6 +278,7 @@
 - Identidade Visual parte 1: Do Briefing a um logo em vetor no Illustrator
 - Identidade Visual parte 2: Criando um sistema visual e aplicações a partir de um logo
 - Identidade Visual parte 3: Elaborando o Conteúdo de um Manual de Marca no Illustrator
+- Identidade Visual parte 4: Criando um manual de marca no InDesgin
 - Photoshop: Composição de peça publicitária
 - Illustrator: criação de ilustração vetorial
 - Colorização Digital: técnicas de colorização e iluminação
@@ -336,6 +359,7 @@
 
 ### Cursos de Governança
 
+- Plataforma e-commerce : Monte a sua loja virtual
 - Certificação ITIL Foundation 1: Introdução ao gerenciamento de TI
 - Certificação ITIL Foundation 2: Estratégias e Desenho de Serviços
 - Certificação ITIL Foundation 3: Transição e Operação de Serviço
