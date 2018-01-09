@@ -157,6 +157,7 @@
 - Android I: Crie sua App fantástica com Android Studio
 - Android II: Integração com apps e recursos do device
 - Android III: Aprimore sua app com Fragments, Google Maps e GPS
+- Layouts Android parte 1: Criando telas com Constraint Layouts
 - Android na prática: um aplicativo de Chat com Retrofit, EventBus e Dagger
 - Android com Web Service parte 1: Sincronize sua app com o servidor
 - Android com Web Service parte 2: mais técnicas de sincronização
