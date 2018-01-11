@@ -85,6 +85,7 @@
 
 - Cocos Creator parte 1: Simplificando o desenvolvimento de jogos para Web
 - Cocos Creator parte 2: Aprimore os conhecimentos com a engine
+- Cocos Creator parte 3: Trabalhando com imagens, sons e eventos
 
 ### Cursos de HTML e CSS
 
