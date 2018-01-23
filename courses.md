@@ -205,10 +205,12 @@
 - Introdução a Chatbot: conversas inteligentes usando o Watson
 - Chatbot parte 2: Avançando e integrando o bot
 - SAS: Manipulando bases de dados
+- SAS parte 2: Interagindo bases de dados
 - Machine Learning: Introdução a classificação
 - Machine Learning II: Avançando com tipos diferentes de classificação
 - Machine Learning: Introdução ao sistemas de recomendações
 - Machine Learning: Aprendizado supervisionado
+- Análise de dados: introdução com R
 
 ### Cursos de NoSQL
 
@@ -285,6 +287,7 @@
 - Illustrator: criação de ilustração vetorial
 - Colorização Digital: técnicas de colorização e iluminação
 - Manipulação Fotográfica: Construa imagens publicitárias
+- Adobe Illustrator e Photoshop: Do vetor a composição
 
 ### Cursos de Web Design
 
