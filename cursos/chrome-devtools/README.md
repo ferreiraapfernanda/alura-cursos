@@ -10,7 +10,7 @@
 2. :ok: O Console
 3. :ok: Debuggando
 4. :ok: Conectividade
-5. Analisando a performance
+5. :ok: Analisando a performance
 6. Persistencia, Cookies e Cache
 7. Device Mode
 
@@ -36,6 +36,12 @@
 - O botão faz uma chamada assíncrona. Toda requisição assíncrona é do tipo xhr, pois elas são feitas usando o objeto XMLHttpRequest no chrome.
 
 ### 5. Analisando a performance
+
+- Aba Timeline/Performance: Cada frame não pode ser maior que 16 ms
+
+- Aba Profiles: grava o processamento da página, em relação as funções e o tempo de processamento. Grava um screenshot do uso da memória, que detalha os objetos salvos na memória.
+
+- Aba Audits: analisa o código e sugere melhorias.
 
 ### 6. Persistencia, Cookies e Cache
 
