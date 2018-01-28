@@ -1,6 +1,6 @@
 # Cursos Alura
 
-## Completos em 2017 (14 de jul de 2017 - 	31 de dez de 2017)
+## Completos em 2017 (14 de jul de 2017 - 31 de dez de 2017)
 
 - :heavy_check_mark: Windows: Introdução ao Prompt
 - :heavy_check_mark: Git: Controle e compartilhe seu código
@@ -20,8 +20,8 @@
 ## Planejamento 2018 :four_leaf_clover: (Renovar em 14 de jul de 2018)
 
 - :heavy_check_mark: HTML5 e CSS3 I: Suas primeiras páginas da Web
-- :small_orange_diamond: Chrome DevTools: analise, inspecione e depure suas páginas Web
-- HTML5 e CSS3 II: Turbinando as suas páginas
+- :heavy_check_mark: Chrome DevTools: analise, inspecione e depure suas páginas Web
+- :small_orange_diamond: HTML5 e CSS3 II: Turbinando as suas páginas
 - JavaScript: Programando na linguagem da web
 - Expressões regulares: Capturando textos de forma mágica
 - jQuery: Domine a biblioteca mais popular do mercado
@@ -61,7 +61,7 @@
 - TypeScript parte 2: Mais técnicas e boas práticas
 - Progressive Web Apps: crie apps offline
 - Acessibilidade web: introdução a design inclusivos
-- Google Chart Tools: Crie Gráficos Memoráveis na Web 
+- Google Chart Tools: Crie Gráficos Memoráveis na Web
 - Flexbox: Posicione elementos na tela
 - WordPress I: hospedagem, administração e widgets
 - WordPress II: páginas, temas e boas práticas

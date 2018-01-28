@@ -2,7 +2,7 @@
 
 - [Link para o curso](https://cursos.alura.com.br/course/chrome-devtools)
 - **Curso iniciado em: 02/01/2018**
-- **Curso concluído em:**
+- **Curso concluído em: 27/01/2018**
 
 ## Aulas
 
@@ -12,7 +12,7 @@
 4. :ok: Conectividade
 5. :ok: Analisando a performance
 6. :ok: Persistencia, Cookies e Cache
-7. Device Mode
+7. :ok: Device Mode
 
 ## Anotações
 
@@ -50,6 +50,12 @@
 - Aba Security: certificados de segurança, 
 
 ### 7. Device Mode
+
+- Simula tipos de telas, além de visualizar a media query.
+
+- Possíbilidade de exibir o frame do sipositivo. Bom para screenshots de como fica o site nas plataformas mobile.
+
+- Simular o hardware mobile, como geolocalização e acelerômetro. (Mais ferramentas > Sensores)
 
 **Legenda:**
 
