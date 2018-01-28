@@ -11,7 +11,7 @@
 3. :ok: Debuggando
 4. :ok: Conectividade
 5. :ok: Analisando a performance
-6. Persistencia, Cookies e Cache
+6. :ok: Persistencia, Cookies e Cache
 7. Device Mode
 
 ## Anotações
@@ -44,6 +44,10 @@
 - Aba Audits: analisa o código e sugere melhorias.
 
 ### 6. Persistencia, Cookies e Cache
+
+- Aba Application: verificar o que está salvo, cookies.
+
+- Aba Security: certificados de segurança, 
 
 ### 7. Device Mode
 
