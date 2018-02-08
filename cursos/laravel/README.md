@@ -48,6 +48,8 @@
     Route::get('/produtos', 'ProdutoController@lista');
     ```
 
+- Erro: sem key para a aplicação. Solução: ``php artisan key:generate`` antes de startar a aplicação. [@stackoverflow](https://stackoverflow.com/questions/44839648/no-application-encryption-key-has-been-specified-new-laravel-app)
+
 ### 3. Trabalhando com a View
 
 ### 4. Prâmetros da request e URL
