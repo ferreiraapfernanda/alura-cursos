@@ -175,6 +175,7 @@
 - Xamarin parte 3: crie aplicativos mobile com Visual Studio
 - Xamarin parte 4: crie aplicativos mobile com Visual Studio
 - React Native parte 1: Criando apps nativas com JavaScript e React
+- React Native parte 2: Aprimorando app com navegação e mais recursos
 - Ionic 1 parte 1: desenvolvimento de aplicações híbridas mobile
 - Ionic 1 parte 2: Plugins e Persistência de dados
 - Ionic 2 parte 1: aplicações híbridas mobile ainda mais poderosas
@@ -211,6 +212,8 @@
 - Machine Learning: Introdução ao sistemas de recomendações
 - Machine Learning: Aprendizado supervisionado
 - Análise de dados: introdução com R
+- Data Visualization: Criando gráficos profissionalmente
+- **Data Science: A pipline do Big Data**
 
 ### Cursos de NoSQL
 
