@@ -1,23 +1,27 @@
 # Cursos Alura
 
-## Completos em 2017 :heavy_check_mark: (14 de jul de 2017 - 31 de dez de 2017)
+## :heavy_check_mark: Completos em 2017
 
-- :ok: Windows: Introdução ao Prompt
-- :ok: Git: Controle e compartilhe seu código
-- :ok: HTTP: Entendendo a web por baixo dos panos
-- :ok: PHP e MySQL I: Fundamentos para criar um sistema na Web
-- :ok: PHP e MySQL II: Cookies, sessões e mais recursos
-- :ok: MySQL I: Iniciando suas consultas
-- :ok: PHP I: Orientação a objetos com sua linguagem preferida
-- :ok: PHP II: Avançando com Orientação a objetos
-- :ok: Java I: Primeiros passos
-- :ok: Java II: Orientação a Objetos
-- :ok: Java III: Principais APIs e bibliotecas
-- :ok: Java: Dominando as Collections
-- :ok: Java 8: Tire proveito dos novos recursos da linguagem
-- :ok: Refatorando na prática
+De 14 de jul de 2017 a 31 de dez de 2017
 
-## Planejamento 2018 :construction: (Renovar em 14 de jul de 2018)
+- Windows: Introdução ao Prompt
+- Git: Controle e compartilhe seu código
+- HTTP: Entendendo a web por baixo dos panos
+- PHP e MySQL I: Fundamentos para criar um sistema na Web
+- PHP e MySQL II: Cookies, sessões e mais recursos
+- MySQL I: Iniciando suas consultas
+- PHP I: Orientação a objetos com sua linguagem preferida
+- PHP II: Avançando com Orientação a objetos
+- Java I: Primeiros passos
+- Java II: Orientação a Objetos
+- Java III: Principais APIs e bibliotecas
+- Java: Dominando as Collections
+- Java 8: Tire proveito dos novos recursos da linguagem
+- Refatorando na prática
+
+## :construction: Planejamento 2018
+
+*Renovar em 14 de jul de 2018*
 
 - :ok: HTML5 e CSS3 I: Suas primeiras páginas da Web
 - :ok: Chrome DevTools: analise, inspecione e depure suas páginas Web
