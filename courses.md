@@ -26,7 +26,7 @@ De 14 de jul de 2017 a 31 de dez de 2017
 - :ok: HTML5 e CSS3 I: Suas primeiras páginas da Web
 - :ok: Chrome DevTools: analise, inspecione e depure suas páginas Web
 - :on: HTML5 e CSS3 II: Turbinando as suas páginas
-- :on: Laravel: facilitando o desenvolvimento PHP
+- :ok: Laravel: facilitando o desenvolvimento PHP
 - Laravel II: Mais técnicas e webapps poderosas
 - JavaScript: Programando na linguagem da web
 - Expressões regulares: Capturando textos de forma mágica

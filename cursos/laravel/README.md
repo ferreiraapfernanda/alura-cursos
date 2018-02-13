@@ -2,7 +2,7 @@
 
 - [Link para o curso](https://cursos.alura.com.br/course/laravel)
 - **Curso iniciado em: 02/02/2018**
-- **Curso concluído em:**
+- **Curso concluído em: 13/02/2018**
 
 ## Aulas
 
@@ -11,8 +11,8 @@
 3. :ok: Trabalhando com a View
 4. :ok: Parâmetros da request e URL
 5. :ok: Views mais flexíveis e poderosas
-6. Request e métodos HTTP
-7. Os diferentes tipos de resposta
+6. :ok: Request e métodos HTTP
+7. :ok: Os diferentes tipos de resposta
 
 ## Anotações
 
@@ -198,6 +198,24 @@ Route::post('/produtos/adiciona', 'ProdutoController@adiciona');
 ```
 
 ### 7. Os diferentes tipos de resposta
+
+- Nessa aula mudamos a forma como exibimos um produto adicionado. Agora a mensagem de sucesso é exibido na tela de listagem inicial da aplicação.
+
+- Mudamos o controller, no método adiciona, para que ele redirecione para uma outra página, no casso ou outro método, mantendo na sessão o nome do produto adicionado
+
+```php
+return redirect()->action('ProdutoController@lista')->withInput(Request::only('nome'));
+```
+
+- Na view de listagem, podemos agora verificar se essa variavel nome está definida na nossa sessão, para então exibir uma mensagem:
+
+```php
+@if (old('nome'))
+    <div class="alert alert-success">
+        Produto {{old('nome')}} adicionado com sucesso!
+    </div>
+@endif
+```
 
 **Legenda:**
 
