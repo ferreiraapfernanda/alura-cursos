@@ -6,10 +6,10 @@
 
 ## Aulas
 
-1. Novo projeto com Laravel
-2. MVC e conexão com banco de dados
-3. Trabalhando com a View
-4. Prâmetros da request e URL
+1. :ok: Novo projeto com Laravel
+2. :ok: MVC e conexão com banco de dados
+3. :ok: Trabalhando com a View
+4. Parâmetros da request e URL
 5. Views mais flexíveis e poderosas
 6. Request e métodos HTTP
 7. Os diferentes tipos de resposta
@@ -51,6 +51,19 @@
 - Erro: sem key para a aplicação. Solução: ``php artisan key:generate`` antes de startar a aplicação. [@stackoverflow](https://stackoverflow.com/questions/44839648/no-application-encryption-key-has-been-specified-new-laravel-app)
 
 ### 3. Trabalhando com a View
+
+- O controller não deve ser responsável por qualquer visualização. Esse, obviamente, é o trabalho para as views. Então, movemos nosso código HTML para um arquivo na **resources/views**.
+
+- No Controller, faremos somente o select no banco, e retornaremos o resultado. Para retornar, utilizamos o **helper method** ``view()``. Esse método indica que deverá ser chamado uma página view. Precisamos passar o resultado do select, assim, utilizamos o método ``with()`` com a chave e valor. Existem diferentes maneiras de retornar esse valor:
+
+```php
+// Sendo listagem.php o nome do arquivo view, produtos o nome da variavel no controller e na view
+view('listagem')->withProdutos($produtos);
+
+view('listagem')->with('produtos', $produtos);
+
+return view('listagem', ['produtos' => $produtos]); // Bom para retornar mais de um valor
+```
 
 ### 4. Prâmetros da request e URL
 
