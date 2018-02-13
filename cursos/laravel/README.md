@@ -9,7 +9,7 @@
 1. :ok: Novo projeto com Laravel
 2. :ok: MVC e conexão com banco de dados
 3. :ok: Trabalhando com a View
-4. Parâmetros da request e URL
+4. :ok: Parâmetros da request e URL
 5. Views mais flexíveis e poderosas
 6. Request e métodos HTTP
 7. Os diferentes tipos de resposta
@@ -66,6 +66,42 @@ return view('listagem', ['produtos' => $produtos]); // Bom para retornar mais de
 ```
 
 ### 4. Prâmetros da request e URL
+
+- Criamos uma página para os detalhes de um produtos. Para isso precisamos fazer uma view, um método no controller e uma nova rota.
+
+- Na página de listagem dos produtos, adicionamos um campo com um link para os detalhes de cada produto:
+
+```php
+<td><a href="/produtos/mostra/<?= $p->id ?>"><i class="material-icons">search</i></a></td>
+```
+
+- A view mostrará todas as informações de um produto, portanto usamos a variável **$p** para exibir as informações. Essa view é a **detalhes.php**
+
+```php
+<h1>Detalhes do produto <?= $p->nome ?></h1>
+```
+
+- O método no controller é o **mostra()**, ele fará o select com o where do id do produto passado. Ele então faz o retorn pra view detalhes:
+
+```php
+// Recebendo o id como parametro, ele já sabe que é pela rota da requisição
+public function mostra($id) {
+        //$id = Request::route('id');
+        $produto = DB::select('select * from produtos where id = ?', [$id]);
+
+        if (empty($produto)) {
+            return "Esse produto não existe";
+        }
+
+        return view('detalhes')->with('p', $produto[0]);
+    }
+```
+
+- A rota será de certa forma dinâmica, ou seja, terá como parte dela o id que especificarmos na listagem dos produtos. Especificamos a chave da rota com a variável {id}, o método no controller, além de restringir, atra´vesl de uma expressão regular, qual o tipo de dado será o id (isso evita a ambiguidade de rotas)
+
+```php
+Route::get('/produtos/mostra/{id}', 'ProdutoController@mostra')->where('id', '[0-9]+');
+```
 
 ### 5. Views mais flexíveis e poderosas
 
