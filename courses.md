@@ -1,27 +1,29 @@
 # Cursos Alura
 
-## Completos em 2017 (14 de jul de 2017 - 31 de dez de 2017)
+## Completos em 2017 :heavy_check_mark: (14 de jul de 2017 - 31 de dez de 2017)
 
-- :heavy_check_mark: Windows: Introdução ao Prompt
-- :heavy_check_mark: Git: Controle e compartilhe seu código
-- :heavy_check_mark: HTTP: Entendendo a web por baixo dos panos
-- :heavy_check_mark: PHP e MySQL I: Fundamentos para criar um sistema na Web
-- :heavy_check_mark: PHP e MySQL II: Cookies, sessões e mais recursos
-- :heavy_check_mark: MySQL I: Iniciando suas consultas
-- :heavy_check_mark: PHP I: Orientação a objetos com sua linguagem preferida
-- :heavy_check_mark: PHP II: Avançando com Orientação a objetos
-- :heavy_check_mark: Java I: Primeiros passos
-- :heavy_check_mark: Java II: Orientação a Objetos
-- :heavy_check_mark: Java III: Principais APIs e bibliotecas
-- :heavy_check_mark: Java: Dominando as Collections
-- :heavy_check_mark: Java 8: Tire proveito dos novos recursos da linguagem
-- :heavy_check_mark: Refatorando na prática
+- :ok: Windows: Introdução ao Prompt
+- :ok: Git: Controle e compartilhe seu código
+- :ok: HTTP: Entendendo a web por baixo dos panos
+- :ok: PHP e MySQL I: Fundamentos para criar um sistema na Web
+- :ok: PHP e MySQL II: Cookies, sessões e mais recursos
+- :ok: MySQL I: Iniciando suas consultas
+- :ok: PHP I: Orientação a objetos com sua linguagem preferida
+- :ok: PHP II: Avançando com Orientação a objetos
+- :ok: Java I: Primeiros passos
+- :ok: Java II: Orientação a Objetos
+- :ok: Java III: Principais APIs e bibliotecas
+- :ok: Java: Dominando as Collections
+- :ok: Java 8: Tire proveito dos novos recursos da linguagem
+- :ok: Refatorando na prática
 
-## Planejamento 2018 :four_leaf_clover: (Renovar em 14 de jul de 2018)
+## Planejamento 2018 :construction: (Renovar em 14 de jul de 2018)
 
-- :heavy_check_mark: HTML5 e CSS3 I: Suas primeiras páginas da Web
-- :heavy_check_mark: Chrome DevTools: analise, inspecione e depure suas páginas Web
-- :small_orange_diamond: HTML5 e CSS3 II: Turbinando as suas páginas
+- :ok: HTML5 e CSS3 I: Suas primeiras páginas da Web
+- :ok: Chrome DevTools: analise, inspecione e depure suas páginas Web
+- :on: HTML5 e CSS3 II: Turbinando as suas páginas
+- :on: Laravel: facilitando o desenvolvimento PHP
+- Laravel II: Mais técnicas e webapps poderosas
 - JavaScript: Programando na linguagem da web
 - Expressões regulares: Capturando textos de forma mágica
 - jQuery: Domine a biblioteca mais popular do mercado
@@ -36,11 +38,6 @@
 - JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
 - JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
 - JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
-- *Testes: TDD com Java*
-- *Mock: Testes de comportamentos automatizados em Java*
-- *Teste de Integração: Testes SQL e DAOs automatizados em java*
-- *Selenium: Sua webapp testada de ponta a ponta em java*
-- *Jasmine: Testes automatizados em JavaScript*
 - Gulp: automação de tarefas front-end
 - Performance Web I: otimizando o front-end
 - Performance Web II: Critical Path, HTTP/2 e Resource Hints
@@ -51,9 +48,6 @@
 
 ## Outros
 
-- Testes: TDD com PHP
-- Laravel: facilitando o desenvolvimento PHP
-- Laravel II: Mais técnicas e webapps poderosas
 - Python 2: Programando com a linguagem
 - CakePHP I: Acelere o desenvolvimento web
 - CakePHP II: Validação, emails e mais recursos
