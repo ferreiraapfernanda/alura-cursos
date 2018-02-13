@@ -10,7 +10,7 @@
 2. :ok: MVC e conexão com banco de dados
 3. :ok: Trabalhando com a View
 4. :ok: Parâmetros da request e URL
-5. Views mais flexíveis e poderosas
+5. :ok: Views mais flexíveis e poderosas
 6. Request e métodos HTTP
 7. Os diferentes tipos de resposta
 
@@ -104,6 +104,56 @@ Route::get('/produtos/mostra/{id}', 'ProdutoController@mostra')->where('id', '[0
 ```
 
 ### 5. Views mais flexíveis e poderosas
+
+- Nessa aula foi explicado o Blade, que é a template engine do Laravel. Ele ajudará na reutilização de partes importantes e repetidas da nossas views. Por exemplo, todo o cabeçalho do html é igual nas diferentes páginas que montamos até agora, e seria interessante ter somente uma "versão" desse código no nosso projeto
+
+- Para isso, na área de views, criamos um arquivo **principal.blade.php**. Nele colocamos o html repetitido das nossas páginas. Porém, no meio da nossa página terão informações pertinentes a cada uma delas, e marcamos usse espaço com a tag **yield**: ``@yield('conteudo');``
+
+- Depois disso, precisamos renomear as nossas views para essa mesma extensão do **blade.php**. Cada uma terá que importar a view principal, e fazemos isso com ``@extends('principal')``
+
+- Em cada página precisamos definir onde começa e termina o conteudo especificado na view principal.Para isso utilizamos a tag **section**: ``@section('conteudo')``. Para terminar essa sessão, utilizamos o ```@stop``
+
+- O blade também nos dá uma nova maneira de exibir as váriaveis php que estamos manipulando, e é através de duas chaves **{{ }}**. Assim, na listagem por exemplo, podemos exibir o nome do produto dessa maneira: ``<td>{{$p->nome}}</td>``
+
+- Outra tag do blade é o @foreach, que utilizamos na listagem. O nova listagem fica dessa maneira:
+
+```php
+@foreach ($produtos as $p)
+    <tr class="table-{{ $p->quantidade <=1 ? 'danger' : ''}}"> 
+        <td>{{$p->nome}}</td>
+        <td>{{$p->valor}}</td>
+        <td>{{$p->descricao}}</td>
+        <td>{{$p->quantidade}}</td>
+        <td><a href="/produtos/mostra/{{$p->id}}"><i class="material-icons">search</i></a></td>
+    </tr>
+@endforeach
+```
+
+- Outros loops:
+
+```php
+@for ($i = 0; $i < 10; $i++)
+    O indice atual é {{ $i }}
+@endfor
+
+@while (true)
+    Entrando em looping infinito!
+@endwhile
+
+@forelse($produtos as $p)
+    <li>{{ $p->nome }}</li>
+@empty
+    <p>Não tem nenhum produto!</p>
+@endforelse
+```
+
+- Outras condições:
+
+```php
+@unless (1 == 2)
+      Esse texto sempre será exibido! 
+@endunless
+    ```
 
 ### 6. Request e métodos HTTP
 
