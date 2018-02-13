@@ -119,7 +119,7 @@ Route::get('/produtos/mostra/{id}', 'ProdutoController@mostra')->where('id', '[0
 
 ```php
 @foreach ($produtos as $p)
-    <tr class="table-{{ $p->quantidade <=1 ? 'danger' : ''}}"> 
+    <tr class="table-{{ $p->quantidade <=1 ? 'danger' : ''}}">
         <td>{{$p->nome}}</td>
         <td>{{$p->valor}}</td>
         <td>{{$p->descricao}}</td>
@@ -151,11 +151,51 @@ Route::get('/produtos/mostra/{id}', 'ProdutoController@mostra')->where('id', '[0
 
 ```php
 @unless (1 == 2)
-      Esse texto sempre será exibido! 
+      Esse texto sempre será exibido!
 @endunless
-    ```
+```
 
 ### 6. Request e métodos HTTP
+
+- Precisamos agora fazer um método para adicionarmos produtos no nosso estoque. Faremos a rota (``Route::get('/produtos/novo', 'ProdutoController@novo');``) e o método no controller.
+
+- O método retornará uma view de um formulário para os campos do novo produto ``return view('produto.formulario');``
+
+- Faremos o cadastro pelo método post, que é mais discreto e um pouco mais seguro que o get. Nesse fomulário, o laravel precisa que haja um token de segurança, que será um campo no nosso formulário. Esse token precisa ter o nome **_token** por padrão no Laravel:
+
+```php
+<form action="/produtos/adiciona" method="post">
+
+    <input type="hidden" name="_token" value="{{csrf_token()}}" />
+```
+
+- A rota/método **adiciona** cuidará da inserção do produto no banco:
+
+```php
+$nome = Request::input('nome');
+$valor = Request::input('valor');
+$quantidade = Request::input('quantidade');
+$descricao = Request::input('descricao');
+
+DB::insert('insert into produtos (nome, valor, quantidade, descricao) values (?,?,?,?)',
+            array($nome, $valor, $quantidade, $descricao));
+
+return view('produto.adicionado')->with('nome', $nome);
+```
+
+- A rota do adiciona será um pouco diferente, pois utilizamos o método **POST**
+
+```php
+Route::post('/produtos/adiciona', 'ProdutoController@adiciona');
+```
+
+- A view **adicionado** exibe uma mensagem de sucesso da inserção:
+
+```php
+<div class="alert alert-success">
+    Produto {{$nome}} adicionado com sucesso!
+</div>
+```
 
 ### 7. Os diferentes tipos de resposta
 
