@@ -5,8 +5,8 @@
 
 ## Aulas
 
-1. Eloquent ORM
-2. Trabalhando com Migrations
+1. :ok: Eloquent ORM
+2. :ok: Trabalhando com Migrations
 3. Validando os dados de entrada
 4. Autenticação e segurança
 5. Relacionamentos com Eloquent
@@ -23,9 +23,8 @@ Para começar, é preciso ter uma classe Model de uma tabela do banco de dados. 
 O Eloquent também assume por padrão que sua tabela tem essas duas colunas **updated_at** e **created_at**. Mas, para customizar esse padrão, é só definir ``public $timestamps = false;``.
 
 - Métodos herdados de Model
-
-    - all() -> **select *** -> ``$produtos = Produto::all();``
-    - find() -> **select * from where id = [id]** -> ``$produto = Produto::find($id);``
+  - all() -> **select *** -> ``$produtos = Produto::all();``
+  - find() -> **select * from where id = [id]** -> ``$produto = Produto::find($id);``
 
 - Inserção
 
@@ -58,6 +57,34 @@ A remoção será bem mais fácil com as possibilidades do Eloquent:
 ```
 
 ### 2. Trabalhando com Migrations
+
+É comum trabalharmos com um projeto que já possui um banco criado, e nesse processo de mudança para um framework é comum criamos um campo novo em uma tabela existente, ou até uma tabela nova. Com as migrations ensinam o Laravel como criar, atualizar ou recuperar o estado anterior do esquema de seu banco de dados, como um controle de versão.
+
+A migration sempre possui dois métodos **up** e **down**, um para quando criamos um atualizarmos uma tabela e outro para quando quisermos desfazer essa alteração.
+
+Para criar uma migração, podemos executar: ``php artisan make:migration adiciona_tamanho_no_produto``
+No arquivo criado em **database/migrations**, no método up, utilizaremos o método table do Schema. No caso, iremos criar uma coluna na table de produtos, do tipo text/string, com no máximo 100 caracteres:
+
+```php
+Schema::table('produtos', function($table) {
+        $table->string('tamanho', 100);
+    });
+```
+
+No método down, faremos o drop dessa coluna:
+
+```php
+Schema::table('produtos', function($table) {
+        $table->dropColumn('tamanho');
+    });
+```
+
+- Para executar a migração: ``php artisan migrate``
+- Para reverter a última migração: ``php artisan migrate:rollback``
+
+**Atenção:**
+
+- Quando criar um campo, lembre-se de alterar todas as utilizações que esse campo terá, como por exemplo, na propriedade fillable, precisamos adicionar tamanho como um campo para se popular
 
 ### 3. Validando os dados de entrada
 
