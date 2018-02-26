@@ -49,6 +49,10 @@ De 14 de jul de 2017 a 31 de dez de 2017
 - Bootstrap: criação de uma single-page responsiva
 - PHP com PDO parte 1: Persistindo os bancos de dados
 - PHP PDO parte 2: Mais segurança e organização na sua app
+- Testes: TDD com Java
+- Mock: Testes de comportamentos automatizados em Java
+- Teste de Integração: Testes SQL e DAOs automatizados em java
+- Selenium: Sua webapp testada de ponta a ponta em java
 
 ## Outros
 
