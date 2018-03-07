@@ -11,7 +11,7 @@
 4. :ok: Autenticação e segurança
 5. :ok: Relacionamentos com Eloquent
 6. :ok: Preenchendo dados com Seeds
-7. Mais produtividade com Artisan
+7. :ok: Mais produtividade com Artisan
 
 ## Anotações
 
@@ -152,6 +152,9 @@ Podemos definir diversos creates, mas no nosso caso, somente precisamos do campo
 Para rodar esse seeder: **php artisan db:seed**
 
 ### 7. Mais produtividade com Artisan
+
+O artisan é uma ferramenta com várias funcionalidades que auxiliam o nosso desenvolvimento. Alguns foram utilizados no curso, porém, existem muitos mais comandos nessa ferramenta. Podemos listar todos com **php artisan list**, ou exibir uma definição de cada comando com **php artisan help <nome-do-comando>**. 
+Uma funcionalidade interessante é o **tinker**. Ele possibilita executar códigos do Eloquent, onde podemos testar alguns selects do banco, por exemplo. 
 
 **Legenda:**
 
