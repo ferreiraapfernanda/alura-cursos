@@ -7,7 +7,7 @@
 
 1. :ok: Eloquent ORM
 2. :ok: Trabalhando com Migrations
-3. Validando os dados de entrada
+3. :ok: Validando os dados de entrada
 4. Autenticação e segurança
 5. Relacionamentos com Eloquent
 6. Preenchendo dados com Seeds
@@ -106,10 +106,17 @@ public function messages(){
     'nome.required' => 'O nome é obrigatório!'
   ];
 }
-
 ```
 
 ### 4. Autenticação e segurança
+
+Na nossa aplicação, é importante se somente usuário válidos possam cadastrar produtos. Para isso, precisamos criar uma lógica de usuário, com login e cadastro. Por padrão, o laravel já possui uma lógica de login implementada, que está sobre **app/Http/Controllers/Auth/**. Podemos também criar o nosso próprio controller de Login (**php artisan make:controller LoginController**) que é o que faremos. Mas temos um problema: o laravel criou vários métodos para essa classe. Para criar um controller "limpo" basta definir o parâmetro **--plain**  na criação do Controller.
+
+Depois da criação, precisamos criar uma rota para o nosso login, uma página de formulário e um método no controller para "ligar" essas duas ações. Precisamos também de um método de tentativa de login, onde iremos validar se o usuário digitado já existe. Basta criar um método **login()**, onde pegaremos as credenciais pelo Request (no caso, utilizamos **Request::onyl('email', 'password');**) e através da utilização do método estático ``Auth::attempt($credenciais)``, faremos a tentativa de login.
+
+Agora que definimos um usuário para nossa aplicação, precisamos ter certeza que, a cada ação na aplicação, o usuário esteja logado, ou então, que a cada rota o usuário esteja logado. Para isso, não precisamos definir uma lógica em cada método do nosso ProdutoController por exemplo, podemos criar um **Middleware**. Um Middleware executará uma lógica a cada ação da nossa aplicação. Para criá-lo, basta digitar **php artisan make:middleware Autorizador**. A classe já possui um método, que fará o gerenciamento das ações. Caso esteja tudo certo, ele executa o método **$next()** com o seu **$request** como parâmetro. 
+
+Nossa classe Autorizador terá uma simples verificação ``if (\Auth::guest()) { return redirect('/login');}``, ou seja, caso o usuário não esteja logado/seja um visitante, ele será redirecionado para a página de login. Após definirmos a nossa lógica, precisamos registrar esse middleware no arquivo **Kernel.php**. Um **routeMiddleware** somente será executado quando indicarmos no código, um **middleware** normal SEMPRE será executado.
 
 ### 5. Relacionamentos com Eloquent
 
