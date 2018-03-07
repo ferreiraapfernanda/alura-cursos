@@ -88,6 +88,27 @@ Schema::table('produtos', function($table) {
 
 ### 3. Validando os dados de entrada
 
+Existe uma classe para as validações. No caso do nosso formulário, e interessante que alguns campos sejam obrigatórios. Para isso, utilizamos a classe **Validador**. Essa classe permite definir alguns padrões para os campos (no nosso caso, campos do Request).
+Ao criar uma variável Validator, definimos sua origem (O Request input), e padrões como **required**, **min: 3**, entre outros.
+
+Depois de definidas as validações, é importante definir também qual o comportamento do validator caso ocorra alguma falha. Assim chama-se o método **fails()** do validator, que caso retorne verdadeiro, podemos redirecionar para a página de formulário, sem cadastrar o produto. Outro método interessante é o **messages()**, que armazena as mensagens do validator.
+
+Uma maneira melhor de validar alguns campos, é criar um Form Request. Ele fará as mesmas validações, porém, ficarão isoladas em sua própria classe. Para isso, no terminal, é só digitar **php artisan make:request ProdutoRequest**. Ele criará um arquivo sobre a pasta **app/http/requests/**. Ele já é criado com dois métodos, vamos utilizar primeiro o **rules()**, onde iramos definir as mesmas validações que defininmos anteriormente (required, min, max, etc).
+
+Após definir as regras, iremos modificar o método **adiciona()**, onde ele terá como parâmetro uma instancia dessa classe **ProdutoRequest**, o metodo create agora utiliza **$request->all()** e pronto, todas as validações estão sendo feitas, e caso ocorra algum erro, a própria aplicação redireciona para a página de origem (formulário).
+
+Uma maneira de utilizar as mensagens de erro de uma forma visual, é adicionar ao topo do formulário uma div com uma lista das mensagens de erros do request. No formulario, iremos fazer um **foreach ($erros->all() as $error)** e exibr-los na tela. Uma maneira de personalizar as mensagens é reescrevendo o método **messages()** do ProdutoRequest. Ele simplesmente precisa retornar um array com cada mensagem para cada validação. Por exemplo:
+
+```php
+public function messages(){
+  return [
+    'required' => 'O campo :attribute é obrigatório!',
+    'nome.required' => 'O nome é obrigatório!'
+  ];
+}
+
+```
+
 ### 4. Autenticação e segurança
 
 ### 5. Relacionamentos com Eloquent
