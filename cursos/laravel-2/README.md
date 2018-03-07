@@ -10,7 +10,7 @@
 3. :ok: Validando os dados de entrada
 4. :ok: Autenticação e segurança
 5. :ok: Relacionamentos com Eloquent
-6. Preenchendo dados com Seeds
+6. :ok: Preenchendo dados com Seeds
 7. Mais produtividade com Artisan
 
 ## Anotações
@@ -140,6 +140,16 @@ No modelo da tabela produto, também precisamos definir essa nova coluna de **ca
 Agora, na própria view de listagem do produtos, podemos chamar o seu atributo de uma forma relacionada: **$produto->categoria->nome**.
 
 ### 6. Preenchendo dados com Seeds
+
+Uma função interessante que o Laravel oferece são os Seeders, classes que farão a inserção de alguns dados no nosso banco de dados. 
+A classe padrão é o **DatabaseSeeder**. Podemos criar o nosso próprio seeder, para isso, iremos definir uma classe abaixo (no caso CategoriaTableSeeder), e indicar na classe principal que queremos que ela chame esse Seeder no seu run.
+
+Nossa classe **CategoriaTableSeeder** terá o método run, que definiremos seus creates:
+```php
+Categoria::create(['nome' => 'ELETRODOMESTICO']);
+```
+Podemos definir diversos creates, mas no nosso caso, somente precisamos do campo nome da nossa tabela Categorias.
+Para rodar esse seeder: **php artisan db:seed**
 
 ### 7. Mais produtividade com Artisan
 
