@@ -8,8 +8,8 @@
 1. :ok: Eloquent ORM
 2. :ok: Trabalhando com Migrations
 3. :ok: Validando os dados de entrada
-4. Autenticação e segurança
-5. Relacionamentos com Eloquent
+4. :ok: Autenticação e segurança
+5. :ok: Relacionamentos com Eloquent
 6. Preenchendo dados com Seeds
 7. Mais produtividade com Artisan
 
@@ -119,6 +119,25 @@ Agora que definimos um usuário para nossa aplicação, precisamos ter certeza q
 Nossa classe Autorizador terá uma simples verificação ``if (\Auth::guest()) { return redirect('/login');}``, ou seja, caso o usuário não esteja logado/seja um visitante, ele será redirecionado para a página de login. Após definirmos a nossa lógica, precisamos registrar esse middleware no arquivo **Kernel.php**. Um **routeMiddleware** somente será executado quando indicarmos no código, um **middleware** normal SEMPRE será executado.
 
 ### 5. Relacionamentos com Eloquent
+
+Na nossa aplicação, podemos criar agora uma tabela só de categoria dos produtos. Para isso, basta criarmos um model Categoria e definirmos os campos dessa tabela no migrations.
+Agora que já definimos a tabela, podemos alterar o formulário de cadastro, para que possamos selecionar a categoria daquele produto.
+
+No controller de formulário de um novo produto, precisamos enviar todas as categorias para a página de formulário. Na chamada do método view(), adicionaremos  **->with('categorias', Categoria::all())**. Agora, no formulário, criaremos um select, onde cada option será uma categoria do nosso banco. Para isso, basta iterar com um foreach.
+
+Agora que exibimos essas categorias, precisamos relacionar um produto com sua categoria. Para isso, na classe **Produto** iremos criar um método **categoria** que retorna a relação do produto com sua categoria, ou seja, ``return $this->belongsTo('estoque\Categoria')``
+Na classe de Categoria precisamos fazer um método parecido, onde definiremos que uma categoria possui produtos: ``return $this->hasMany('estoque\Produto);``
+
+Como iremos alterar a nossa tabela de produtos, é interessante criar uma migration (**php artisan make:migration adiciona_relacionamento_produto_categoria**). Nessa migration, faremos a alteração no esquema da tabela produtos:
+
+```php
+Schema::table('produtos', function(Blueprint $rable) {
+  $table->integer('categoria_id')->default(1);
+});
+```
+
+No modelo da tabela produto, também precisamos definir essa nova coluna de **categoria_id**. 
+Agora, na própria view de listagem do produtos, podemos chamar o seu atributo de uma forma relacionada: **$produto->categoria->nome**.
 
 ### 6. Preenchendo dados com Seeds
 
