@@ -137,3 +137,5 @@ Cria uma branch local design que se atrela a branch remota design, e faz o check
 
 ## git fetch origin
 Verificar todas as atualizações que foram realizadas no repositório referente ao origin
+
+teste de git vscode
