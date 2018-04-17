@@ -7,11 +7,11 @@
 
 1. :ok: Eloquent ORM
 2. :ok: Trabalhando com Migrations
-3. Validando os dados de entrada
-4. Autenticação e segurança
-5. Relacionamentos com Eloquent
-6. Preenchendo dados com Seeds
-7. Mais produtividade com Artisan
+3. :ok: Validando os dados de entrada
+4. :ok: Autenticação e segurança
+5. :ok: Relacionamentos com Eloquent
+6. :ok: Preenchendo dados com Seeds
+7. :ok: Mais produtividade com Artisan
 
 ## Anotações
 
@@ -88,13 +88,73 @@ Schema::table('produtos', function($table) {
 
 ### 3. Validando os dados de entrada
 
+Existe uma classe para as validações. No caso do nosso formulário, e interessante que alguns campos sejam obrigatórios. Para isso, utilizamos a classe **Validador**. Essa classe permite definir alguns padrões para os campos (no nosso caso, campos do Request).
+Ao criar uma variável Validator, definimos sua origem (O Request input), e padrões como **required**, **min: 3**, entre outros.
+
+Depois de definidas as validações, é importante definir também qual o comportamento do validator caso ocorra alguma falha. Assim chama-se o método **fails()** do validator, que caso retorne verdadeiro, podemos redirecionar para a página de formulário, sem cadastrar o produto. Outro método interessante é o **messages()**, que armazena as mensagens do validator.
+
+Uma maneira melhor de validar alguns campos, é criar um Form Request. Ele fará as mesmas validações, porém, ficarão isoladas em sua própria classe. Para isso, no terminal, é só digitar **php artisan make:request ProdutoRequest**. Ele criará um arquivo sobre a pasta **app/http/requests/**. Ele já é criado com dois métodos, vamos utilizar primeiro o **rules()**, onde iramos definir as mesmas validações que defininmos anteriormente (required, min, max, etc).
+
+Após definir as regras, iremos modificar o método **adiciona()**, onde ele terá como parâmetro uma instancia dessa classe **ProdutoRequest**, o metodo create agora utiliza **$request->all()** e pronto, todas as validações estão sendo feitas, e caso ocorra algum erro, a própria aplicação redireciona para a página de origem (formulário).
+
+Uma maneira de utilizar as mensagens de erro de uma forma visual, é adicionar ao topo do formulário uma div com uma lista das mensagens de erros do request. No formulario, iremos fazer um **foreach ($erros->all() as $error)** e exibr-los na tela. Uma maneira de personalizar as mensagens é reescrevendo o método **messages()** do ProdutoRequest. Ele simplesmente precisa retornar um array com cada mensagem para cada validação. Por exemplo:
+
+```php
+public function messages(){
+  return [
+    'required' => 'O campo :attribute é obrigatório!',
+    'nome.required' => 'O nome é obrigatório!'
+  ];
+}
+```
+
 ### 4. Autenticação e segurança
+
+Na nossa aplicação, é importante se somente usuário válidos possam cadastrar produtos. Para isso, precisamos criar uma lógica de usuário, com login e cadastro. Por padrão, o laravel já possui uma lógica de login implementada, que está sobre **app/Http/Controllers/Auth/**. Podemos também criar o nosso próprio controller de Login (**php artisan make:controller LoginController**) que é o que faremos. Mas temos um problema: o laravel criou vários métodos para essa classe. Para criar um controller "limpo" basta definir o parâmetro **--plain**  na criação do Controller.
+
+Depois da criação, precisamos criar uma rota para o nosso login, uma página de formulário e um método no controller para "ligar" essas duas ações. Precisamos também de um método de tentativa de login, onde iremos validar se o usuário digitado já existe. Basta criar um método **login()**, onde pegaremos as credenciais pelo Request (no caso, utilizamos **Request::onyl('email', 'password');**) e através da utilização do método estático ``Auth::attempt($credenciais)``, faremos a tentativa de login.
+
+Agora que definimos um usuário para nossa aplicação, precisamos ter certeza que, a cada ação na aplicação, o usuário esteja logado, ou então, que a cada rota o usuário esteja logado. Para isso, não precisamos definir uma lógica em cada método do nosso ProdutoController por exemplo, podemos criar um **Middleware**. Um Middleware executará uma lógica a cada ação da nossa aplicação. Para criá-lo, basta digitar **php artisan make:middleware Autorizador**. A classe já possui um método, que fará o gerenciamento das ações. Caso esteja tudo certo, ele executa o método **$next()** com o seu **$request** como parâmetro. 
+
+Nossa classe Autorizador terá uma simples verificação ``if (\Auth::guest()) { return redirect('/login');}``, ou seja, caso o usuário não esteja logado/seja um visitante, ele será redirecionado para a página de login. Após definirmos a nossa lógica, precisamos registrar esse middleware no arquivo **Kernel.php**. Um **routeMiddleware** somente será executado quando indicarmos no código, um **middleware** normal SEMPRE será executado.
 
 ### 5. Relacionamentos com Eloquent
 
+Na nossa aplicação, podemos criar agora uma tabela só de categoria dos produtos. Para isso, basta criarmos um model Categoria e definirmos os campos dessa tabela no migrations.
+Agora que já definimos a tabela, podemos alterar o formulário de cadastro, para que possamos selecionar a categoria daquele produto.
+
+No controller de formulário de um novo produto, precisamos enviar todas as categorias para a página de formulário. Na chamada do método view(), adicionaremos  **->with('categorias', Categoria::all())**. Agora, no formulário, criaremos um select, onde cada option será uma categoria do nosso banco. Para isso, basta iterar com um foreach.
+
+Agora que exibimos essas categorias, precisamos relacionar um produto com sua categoria. Para isso, na classe **Produto** iremos criar um método **categoria** que retorna a relação do produto com sua categoria, ou seja, ``return $this->belongsTo('estoque\Categoria')``
+Na classe de Categoria precisamos fazer um método parecido, onde definiremos que uma categoria possui produtos: ``return $this->hasMany('estoque\Produto);``
+
+Como iremos alterar a nossa tabela de produtos, é interessante criar uma migration (**php artisan make:migration adiciona_relacionamento_produto_categoria**). Nessa migration, faremos a alteração no esquema da tabela produtos:
+
+```php
+Schema::table('produtos', function(Blueprint $rable) {
+  $table->integer('categoria_id')->default(1);
+});
+```
+
+No modelo da tabela produto, também precisamos definir essa nova coluna de **categoria_id**. 
+Agora, na própria view de listagem do produtos, podemos chamar o seu atributo de uma forma relacionada: **$produto->categoria->nome**.
+
 ### 6. Preenchendo dados com Seeds
 
+Uma função interessante que o Laravel oferece são os Seeders, classes que farão a inserção de alguns dados no nosso banco de dados. 
+A classe padrão é o **DatabaseSeeder**. Podemos criar o nosso próprio seeder, para isso, iremos definir uma classe abaixo (no caso CategoriaTableSeeder), e indicar na classe principal que queremos que ela chame esse Seeder no seu run.
+
+Nossa classe **CategoriaTableSeeder** terá o método run, que definiremos seus creates:
+```php
+Categoria::create(['nome' => 'ELETRODOMESTICO']);
+```
+Podemos definir diversos creates, mas no nosso caso, somente precisamos do campo nome da nossa tabela Categorias.
+Para rodar esse seeder: **php artisan db:seed**
+
 ### 7. Mais produtividade com Artisan
+
+O artisan é uma ferramenta com várias funcionalidades que auxiliam o nosso desenvolvimento. Alguns foram utilizados no curso, porém, existem muitos mais comandos nessa ferramenta. Podemos listar todos com **php artisan list**, ou exibir uma definição de cada comando com **php artisan help <nome-do-comando>**. 
+Uma funcionalidade interessante é o **tinker**. Ele possibilita executar códigos do Eloquent, onde podemos testar alguns selects do banco, por exemplo. 
 
 **Legenda:**
 
