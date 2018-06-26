@@ -1,4 +1,4 @@
-# Comando Docker
+# Comandos Docker
 
 ## Comandos relacionados à informações
 `docker version` - exibe a versão do docker que está instalada.
@@ -41,7 +41,7 @@
 
 `docker build -f Dockerfile -t NOME_USUARIO/NOME_IMAGEM`  - constrói e nomeia uma imagem não-oficial.
 
-`docker build -f Dockerfile -t NOME_USUARIO/NOME_IMAGEM` CAMINHO_DOCKERFILE  - constrói e nomeia uma imagem não-oficial informando o caminho para o Dockerfile.
+`docker build -f Dockerfile -t NOME_USUARIO/NOME_IMAGEM CAMINHO_DOCKERFILE`  - constrói e nomeia uma imagem não-oficial informando o caminho para o Dockerfile.
 
 ## Comandos relacionados ao Docker Hub
 `docker login`  - inicia o processo de login no Docker Hub.
