@@ -2,7 +2,7 @@
 
 Status: em andamento.
 
-## Aulas 
+## Aulas
 
 ### Aula 01: Utilizando o Docker
 
@@ -15,14 +15,15 @@ Status: em andamento.
 - após a criação do dockerfile, é preciso executar sua criação, definindo uma tag para essa imagem, e indicar onde está o arquivo de dockerfile (no caso, o arquivo está na pasta de execução do comando, e só indicamos como um ponto)`docker build -t "aplicacao-loja:v1" .`
 
 - agora que já temos uma imagem de um servidor web para nossos serviços, precisamos continuar nosso docker-compose, pois iremos configurá-lo também. Vamos mapear a porta local da nossa máquina, à porta do servidor (definida/exposta como 80)
-        ```yml
-        web:
-         image: aplicacao-web:v1
-         ports:
-          - 8080:80
-        depends_on:
-         - db
-        ```
+
+```yaml
+web:
+ image: aplicacao-web:v1
+ ports:
+  - 8080:80
+ depends_on:
+  - db
+```
 
 - `docker-compose up -d`
 
@@ -33,3 +34,23 @@ Status: em andamento.
 - O kubernetes fará o gerenciamento dos conteiners web, a partir do arquivo YAML. Esse aquivo será passado a máquina principal do sistema (MESTER), que delegará a implementação destes containers em outros servidores (NODES), que de fato formarão a aplicação. O conjunto de MASTER e NODES é chamado CLUSTER, administrado pelo Kubernetes, que fará ua verificação constante do estado do cluster.
 
 - O Kubernetes é uma plataforma open-source desenvolvida pela Google com o objetivo de gerenciar containers que formam uma aplicação, automatizando assim processos de implementação, monitoramento e escalonamento
+
+### Aula 02: Trabalhando com o minikube
+
+- Utilizamos o minikube para criar uma virtualização de um cluster em nossa máquina local
+
+- No Kubernetes, precisamos abstrair esses containers em um objeto Pod. Ou seja, é uma abstraçã dos containers da nossa aplicação.
+
+- O Pod suporta um ou mais containers. Porém, os containers terão um alto acoplamento, pois dividirão memória e volume. O ideia seria um Pod para cada serviço.
+
+- Utilizamos o kubectl para se comunicar com o cluster criado pelo minikube.
+
+- Comandos:
+
+  - `kubectl create -f aplicacao.yaml` - cria um pod com base na configuração descrita no arquivo
+  - `kubectl get pods` - exibe os pods ativos
+  - `kubectl delete pods aplicacao` - deleta os pods do cluster aplicacao
+
+- Como o Pod é a menor parte do Kubernetes, iremos precisar de uma abstração do Pod, em um objeto chamado de **Deployment**.
+
+- Com o objeto deployment teremos mais recursos, ou seja, podemos dizer ao kubernetes que ele deve gerenciar nossos pods, a fim de mantê-los rodando sempre.
