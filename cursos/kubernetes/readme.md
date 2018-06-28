@@ -29,3 +29,7 @@ Status: em andamento.
 - portanto, foram criados 2 containeres: um para o banco, e outro para o servidor web
 
 - `docker exec -it projeto_db_1 sh` para executar o shell do servidor web. A parti daí, vamos fazer a conexão com o mysql, pelo terminal da imagem do servidor
+
+- O kubernetes fará o gerenciamento dos conteiners web, a partir do arquivo YAML. Esse aquivo será passado a máquina principal do sistema (MESTER), que delegará a implementação destes containers em outros servidores (NODES), que de fato formarão a aplicação. O conjunto de MASTER e NODES é chamado CLUSTER, administrado pelo Kubernetes, que fará ua verificação constante do estado do cluster.
+
+- O Kubernetes é uma plataforma open-source desenvolvida pela Google com o objetivo de gerenciar containers que formam uma aplicação, automatizando assim processos de implementação, monitoramento e escalonamento
