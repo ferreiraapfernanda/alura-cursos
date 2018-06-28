@@ -72,3 +72,11 @@ web:
   - `kubectl describe pods aplicacao-deployment-57584f9b74-pzp9h | grep IP` - fará a descrição do cluster. Utilizamos o grep para buscar somente a parte que possui o "IP" que queremos
   - `minikube dashboard` - acessar, no navegador, o painel administrativo do kubernetes
   - `minikube service servico-aplicacao --url` - devolve qual o URL que foi criado pelo service
+
+### Aula 04: Configurando o banco de dados
+
+- Para o pod do banco, precisamos definir algumas variáveis de ambiente, sobre a tag ENV do nosso arquivo .YAML. Essas variáveis são sobre a CRIAÇÃO do banco que será utilizado pela aplicação, CRIAÇÃO do usuário, e possibilitar uma senha vazia para esse usuário.
+
+- Para que o Kubernetes tenha uma camada de estado dessa aplicação de banco de dados, precisamos definir que queremos que esse Pod sempre esteja rodando no cluster. Porém, em nossa aplicação de banco de dados, precisamos que todas as informações sejam mantidas, ou seja, não só queremos que o Kubernetes lide com a criação de um novo Pod em caso de erros. Também precisamos que ele não destrua todas as informações desse Pod, ou então perderiamos todas os registros do nosso bando de dados!
+
+- Por isso, precisamos abstraí-lo em um **Stateful Set**.  Ele fará uma espécie de mapemanento de volumes.
