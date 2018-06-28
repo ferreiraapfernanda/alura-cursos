@@ -54,3 +54,21 @@ web:
 - Como o Pod é a menor parte do Kubernetes, iremos precisar de uma abstração do Pod, em um objeto chamado de **Deployment**.
 
 - Com o objeto deployment teremos mais recursos, ou seja, podemos dizer ao kubernetes que ele deve gerenciar nossos pods, a fim de mantê-los rodando sempre.
+
+### Aula 03: Utilizando os serviços
+
+- O Minikube disponibiliza uma página de dashboard, para fazer o gerenciamento dos clusters
+
+- Como cada pod terá um IP na rede do cluster, não podemos acessá-los diretamente (pois os pods sã instáveis). Precisamos de uma maneira mais estável para acessarmos a aplicação que está rodando, ou seja, um outro objeto do Kubernetes, chamado de **Service**.
+
+        "A ideia é que ele faça a abstração do acesso para os objetos Pod. Podemos configurá-lo para que ele atue como se fosse um **balanceador de cargas**, dividindo a quantidade de acessos e requisições que nossa aplicação terá, por estes pods que criamos."
+
+- A chave SELECTOR especifica quais os nomes dos pods que serão abstraidos pelo Service. Ou seja, na configuração do *label > name*.
+
+- Um Service fará a interface entre os usuários da aplicação e o Deployment. O Deployment faz o gerenciamento dos Pods, mantendo eles sempre rodando, por exemplo. Os Pods, por sua vez, são as abstrações dos containers, que aplicam as configurações das imagens docker definidas.
+
+- Comandos:
+
+  - `kubectl describe pods aplicacao-deployment-57584f9b74-pzp9h | grep IP` - fará a descrição do cluster. Utilizamos o grep para buscar somente a parte que possui o "IP" que queremos
+  - `minikube dashboard` - acessar, no navegador, o painel administrativo do kubernetes
+  - `minikube service servico-aplicacao --url` - devolve qual o URL que foi criado pelo service
