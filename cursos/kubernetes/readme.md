@@ -37,7 +37,7 @@ web:
 
 ### Aula 02: Trabalhando com o minikube
 
-- Utilizamos o minikube para criar uma virtualização de um cluster em nossa máquina local
+- Utilizamos o minikube para criar uma virtualização de um cluster em nossa máquina local `minikube start`
 
 - No Kubernetes, precisamos abstrair esses containers em um objeto Pod. Ou seja, é uma abstraçã dos containers da nossa aplicação.
 
@@ -80,3 +80,17 @@ web:
 - Para que o Kubernetes tenha uma camada de estado dessa aplicação de banco de dados, precisamos definir que queremos que esse Pod sempre esteja rodando no cluster. Porém, em nossa aplicação de banco de dados, precisamos que todas as informações sejam mantidas, ou seja, não só queremos que o Kubernetes lide com a criação de um novo Pod em caso de erros. Também precisamos que ele não destrua todas as informações desse Pod, ou então perderiamos todas os registros do nosso bando de dados!
 
 - Por isso, precisamos abstraí-lo em um **Stateful Set**.  Ele fará uma espécie de mapemanento de volumes.
+
+- No Stateful Set é preciso definir um volume, porém, nele, somente um dos Pods poderão ter permissão de escrita e leitura. Para isso, definimos um **arquivo YAML separado, definindo as permissões**. Essa permissão será sobre o volume do banco, e quanto podemos usufruir.
+
+- Na criação do Stateful Set vamos definir um volume. Em cada container, esse volume deverá ser montado no container do Stateful Set
+
+- O PersistentVolumeClaim é o objeto que configura os pedidos de requisição de recursos de um volume persistente criado pelo administrador do cluster.
+
+- Precisamos agora criar um Service para fazer o balanceamento das requisições ao banco de dados. Para isso, será criado um Serviço do tipo ClusterIP, pois essas requisições serão feitas pelos Pods de dentro do cluster, ou seja, esse serviço só deve atender aos IPs de dentro.
+
+- Nesse Service do banco, iremos manter o mesmo nome do StatefulSet, ou seja, com indicar que essa ligação entre o Pod do banco e o Serviço banco.  Também precisamos indicar que esse StatefulSet pertence a um serviço, por isso, indicamos em seu spec que o nome do serviço é db.
+
+- Primeiro fazermos a criação do statefulset, com o pod do banco. Depois indicamos o seu serviço, ou seja, criamos o servico-banco. E finalmente indicamos as permissões que devem ser seguidas, criando o permissoes.
+
+
